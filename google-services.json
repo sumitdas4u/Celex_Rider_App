@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "217764539557",
+    "firebase_url": "https://celex-mobile.firebaseio.com",
+    "project_id": "celex-mobile",
+    "storage_bucket": "celex-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217764539557:android:4ae426ac078cff9090b14c",
+        "android_client_info": {
+          "package_name": "com.celex.rider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217764539557-3rfv6r1ksmsr8lpjb8rqk52toveb2il9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.celex.rider",
+            "certificate_hash": "92c8ffc974da00f1b637b9e1f61819d0ee1410d3"
+          }
+        },
+        {
+          "client_id": "217764539557-78f14hfi7s1b97hn31rn9745dogme9qo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtSMJZBWFEGfdwURtqoMYE20fc4wK5N3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "217764539557-78f14hfi7s1b97hn31rn9745dogme9qo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/manageVehicle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="48dp">
+
+            <ImageView
+                android:id="@+id/iv_menu"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/menu_button_start"
+                android:padding="@dimen/menu_btn_padding"
+                android:src="@drawable/ic_menu"
+                android:tint="@color/textColor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:gravity="center"
+                android:text="@string/manage_vehicle"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/heading_text" />
+
+        </RelativeLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_below="@+id/toolbar"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/vehical_type_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="15dp"
+                    android:clickable="false"
+                    android:orientation="vertical"
+                    android:paddingStart="@dimen/margin_start"
+                    android:paddingEnd="@dimen/margin_start">
+
+                    <TextView
+                        android:id="@+id/tv_Vehicale_Type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:includeFontPadding="false"
+                        android:paddingLeft="0dp"
+                        android:text="@string/vehicle_type"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size_sub_heading" />
+
+
+                    <RelativeLayout
+                        android:id="@+id/vehicle_type_rlt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/tv_Vehicale_Type"
+                        android:background="@color/transparent"
+                        android:backgroundTint="@color/transparent">
+
+                        <TextView
+                            android:id="@+id/vehical_type_et"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="20dp"
+                            android:backgroundTint="@color/transparent"
+                            android:clickable="false"
+                            android:editable="false"
+                            android:focusable="false"
+                            android:fontFamily="@font/poppins"
+                            android:gravity="center_vertical"
+                            android:hint="@string/select_vehicle"
+                            android:includeFontPadding="false"
+                            android:textAlignment="viewStart"
+
+                            android:textColor="@color/text_color_gray"
+                            android:textColorHint="@color/text_color_gray"
+                            android:textSize="@dimen/text_size" />
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:paddingStart="@dimen/margin_start"
+                    android:paddingEnd="@dimen/margin_start">
+
+                    <TextView
+                        android:id="@+id/tv_Manufacturer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_medium"
+                        android:gravity="center_vertical"
+                        android:includeFontPadding="false"
+                        android:paddingLeft="0dp"
+                        android:text="@string/manufacture"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size_sub_heading" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/et_Manufacturer"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:background="@color/transparent"
+                            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                            android:fontFamily="@font/poppins"
+                            android:hint="@string/enter_manufacture_company"
+                            android:includeFontPadding="false"
+                            android:inputType="textCapSentences"
+                            android:paddingLeft="0dp"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/text_color_gray"
+                            android:textColorHint="@color/text_color_gray"
+                            android:textSize="@dimen/text_size" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/image_rlt"
+                    android:background="@drawable/lite_gray_line" />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingStart="@dimen/margin_start"
+                    android:paddingEnd="@dimen/margin_start">
+
+                    <TextView
+                        android:id="@+id/tv_Model"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_medium"
+                        android:gravity="center_vertical"
+                        android:includeFontPadding="false"
+                        android:paddingLeft="0dp"
+                        android:text="@string/model"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size_sub_heading" />
+
+                    <TextView
+                        android:id="@+id/et_Model"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_below="@+id/tv_Model"
+                        android:background="@color/transparent"
+                        android:fontFamily="@font/poppins"
+                        android:hint="@string/enter_model_number"
+                        android:includeFontPadding="false"
+                        android:inputType="textCapSentences"
+                        android:paddingLeft="0dp"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/text_color_gray"
+                        android:textColorHint="@color/text_color_gray"
+                        android:textSize="@dimen/text_size" />
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/image_rlt"
+                    android:background="@drawable/lite_gray_line" />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingStart="@dimen/margin_start"
+                    android:paddingEnd="@dimen/margin_start">
+
+                    <TextView
+                        android:id="@+id/tv_Year"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_medium"
+                        android:gravity="center_vertical"
+                        android:includeFontPadding="false"
+                        android:paddingLeft="0dp"
+                        android:text="@string/year"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size_sub_heading" />
+
+                    <TextView
+                        android:id="@+id/et_Year"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_below="@+id/tv_Year"
+                        android:background="@color/transparent"
+                        android:fontFamily="@font/poppins"
+                        android:hint="@string/enter_year_of_manufacture"
+                        android:includeFontPadding="false"
+                        android:inputType="number"
+                        android:paddingLeft="0dp"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/text_color_gray"
+                        android:textColorHint="@color/text_color_gray"
+                        android:textSize="@dimen/text_size" />
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/image_rlt"
+                    android:background="@drawable/lite_gray_line" />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingStart="@dimen/margin_start"
+                    android:paddingEnd="@dimen/margin_start">
+
+                    <TextView
+                        android:id="@+id/tv_LicensePlate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_medium"
+                        android:gravity="center_vertical"
+                        android:includeFontPadding="false"
+                        android:paddingLeft="0dp"
+                        android:text="@string/license_plate"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size_sub_heading" />
+
+
+                    <TextView
+                        android:id="@+id/et_LicensePlate"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_below="@+id/tv_LicensePlate"
+                        android:background="@color/transparent"
+                        android:fontFamily="@font/poppins"
+                        android:hint="@string/enter_license_plate"
+                        android:includeFontPadding="false"
+                        android:inputType="textCapSentences"
+                        android:paddingLeft="0dp"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/text_color_gray"
+                        android:textColorHint="@color/text_color_gray"
+                        android:textSize="@dimen/text_size" />
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/image_rlt"
+                    android:background="@drawable/lite_gray_line" />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingStart="@dimen/margin_start"
+                    android:paddingEnd="@dimen/margin_start">
+
+                    <TextView
+                        android:id="@+id/tv_Color"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_medium"
+                        android:gravity="center_vertical"
+                        android:includeFontPadding="false"
+                        android:paddingLeft="0dp"
+                        android:text="@string/color"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size_sub_heading" />
+
+
+                    <TextView
+                        android:id="@+id/et_Color"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_below="@+id/tv_Color"
+                        android:background="@color/transparent"
+                        android:fontFamily="@font/poppins"
+                        android:hint="@string/enter_vehical_color"
+                        android:includeFontPadding="false"
+                        android:inputType="textCapSentences"
+                        android:paddingLeft="0dp"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/text_color_gray"
+                        android:textColorHint="@color/text_color_gray"
+                        android:textSize="@dimen/text_size" />
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/image_rlt"
+                    android:background="@drawable/lite_gray_line" />
+
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>

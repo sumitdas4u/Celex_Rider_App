@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#252531</color>
+
+    <color name="textColor">#ffffff</color>
+
+    <color name="background_color">#252531</color>
+    <color name="tab_color">#ffffff</color>
+    <color name="text_color_gray">#808080</color>
+    <color name="bg_inner_recycler_screen">#2a2d36</color>
+
+    <color name="black">#000000</color>
+    <color name="gray">#A8A8A8</color>
+    <color name="green">#32CD32</color>
+    <color name="gray0">#EFEFF1</color>
+    <color name="gray1">#DFDFE1</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="red">#F54D6E</color>
+
+
+    <color name="orange">#f17501</color>
+    <color name="megenta">#2cb0bd</color>
+
+    <integer-array name="tags">
+        <item>@drawable/blue_back</item>
+        <item>@drawable/green_back</item>
+        <item>@drawable/undelivered_back</item>
+    </integer-array>
+    //this is for HighLighted dates
+</resources>

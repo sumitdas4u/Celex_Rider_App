@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    tools:context=".AllFragments.History_F">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp">
+
+            <ImageView
+                android:id="@+id/iv_menu"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/menu_button_start"
+                android:padding="@dimen/menu_btn_padding"
+                android:src="@drawable/ic_menu"
+                android:tint="@color/textColor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:text="@string/history"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/heading_text" />
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8.3dp">
+
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
+                android:id="@+id/cordinator"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                app:elevation="0dp">
+
+
+                <com.google.android.material.appbar.AppBarLayout
+                    android:id="@+id/appbarlayout_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@color/transparent"
+                    android:orientation="vertical"
+                    app:elevation="0dp">
+
+
+                    <androidx.appcompat.widget.Toolbar
+                        android:id="@+id/toolbar1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        app:contentInsetStart="0dp"
+                        app:layout_scrollFlags="scroll|enterAlways">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/transparent"
+                            android:orientation="horizontal">
+
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="176.1dp"
+                                android:layout_weight="1"
+                                android:background="@color/transparent"
+                                android:orientation="vertical"
+                                app:cardBackgroundColor="@color/megenta"
+                                app:cardCornerRadius="4dp"
+                                app:cardElevation="0dp"
+                                app:elevation="0dp">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <RelativeLayout
+                                        android:id="@+id/rl_doc"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_marginTop="9.5dp">
+
+                                        <ImageView
+                                            android:layout_width="40dp"
+                                            android:layout_height="40dp"
+                                            android:layout_centerInParent="true"
+                                            android:layout_centerVertical="true"
+                                            android:src="@drawable/ic_order_history_icon" />
+
+
+                                    </RelativeLayout>
+
+
+                                    <TextView
+                                        android:id="@+id/tv_total"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@+id/rl_doc"
+                                        android:layout_gravity="center_vertical"
+                                        android:layout_marginTop="5dp"
+                                        android:maxLines="1"
+                                        android:paddingStart="10dp"
+                                        android:text="@string/compeleted_order"
+                                        android:textAllCaps="true"
+                                        android:textColor="@color/white"
+                                        android:textSize="@dimen/change_button_text" />
+
+
+                                    <TextView
+                                        android:id="@+id/total_order"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@+id/tv_total"
+                                        android:layout_gravity="center_vertical"
+                                        android:layout_marginTop="19.3dp"
+                                        android:paddingStart="10dp"
+                                        android:text=""
+                                        android:textAllCaps="true"
+                                        android:textColor="@color/white"
+                                        android:textSize="@dimen/text_order_size" />
+
+                                    <TextView
+                                        android:id="@+id/tv_person_name"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_above="@+id/tv_last_date_div"
+                                        android:paddingStart="10dp"
+                                        android:text="@string/latest_delivery"
+                                        android:layout_marginTop="2dp"
+                                        android:textColor="@color/white"
+                                        android:textSize="@dimen/_11dp" />
+
+                                    <RelativeLayout
+                                        android:id="@+id/tv_last_date_div"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="38dp"
+                                        android:layout_alignParentBottom="true"
+                                        android:layout_centerHorizontal="true"
+                                        android:paddingStart="10dp">
+
+                                        <TextView
+                                            android:id="@+id/tv_last_date"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="2dp"
+                                            android:text=""
+                                            android:textAlignment="viewStart"
+                                            android:textColor="@color/white"
+                                            android:textSize="@dimen/accept_btn_txt_size" />
+
+                                    </RelativeLayout>
+
+
+                                </RelativeLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+                        </LinearLayout>
+
+                    </androidx.appcompat.widget.Toolbar>
+
+
+                </com.google.android.material.appbar.AppBarLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fitsSystemWindows="true"
+                    android:layout_marginTop="13.5dp"
+                    android:orientation="vertical"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:text="@string/recent_orders"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/heading_text_order_history" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rc_history"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                        <ProgressBar
+                            android:id="@+id/load_more_progress"
+                            style="?android:attr/progressBarStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_above="@+id/bannerad"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="15dp"
+                            android:visibility="gone" />
+
+
+                        <TextView
+                            android:id="@+id/no_data_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="200dp"
+                            android:text="@string/you_don_t_history"
+                            android:textSize="18dp"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

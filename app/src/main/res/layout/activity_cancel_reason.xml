@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical"
+    tools:context=".AllActivitys.GetSignature_A">
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <RelativeLayout
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/arrow_left"
+                android:padding="@dimen/back_button_padding"
+                android:src="@drawable/ic_arrow_back"
+                android:tint="@color/textColor" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:paddingTop="2dp"
+            android:text="Cancel Reason"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/heading_text" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/signed_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/line_below_text"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginStart="@dimen/margin_start"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="@dimen/margin_end"
+        android:orientation="vertical">
+        <Spinner
+            android:id="@+id/spinner_reason"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"/>
+        <EditText
+            android:id="@+id/signed_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/transparent"
+            android:fontFamily="@font/poppins"
+            android:gravity="start"
+            android:hint="Why its not delivered "
+            android:layout_marginTop="@dimen/_10sdp"
+            android:lines="5"
+            android:paddingStart="0dp"
+            android:textAlignment="viewStart"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/text_color_gray"
+            android:textSize="@dimen/text_size" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lite_gray_line" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/line_below_text"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/buttons_bottom"
+        android:layout_marginStart="@dimen/margin_start"
+        android:layout_marginEnd="@dimen/margin_end"
+        android:background="@color/gray0" />
+
+
+    <LinearLayout
+        android:id="@+id/buttons_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="@dimen/margin_start"
+        android:layout_marginEnd="@dimen/margin_end"
+        android:layout_marginBottom="25dp"
+        android:weightSum="3">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.1">
+
+            <TextView
+                android:id="@+id/tv_reset"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/d_round_corner_red_border_bkg"
+                android:gravity="center"
+                android:text="Cancel"
+                android:textColor="@color/App_color"
+                android:textSize="@dimen/text_size" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="6dp"
+            android:layout_weight="2"
+            android:background="@drawable/d_round_corner_red__bkg">
+
+            <LinearLayout
+                android:id="@+id/tv_submit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/submit"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size" />
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@+id/tv_submit"
+                    android:src="@drawable/right_arrow" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

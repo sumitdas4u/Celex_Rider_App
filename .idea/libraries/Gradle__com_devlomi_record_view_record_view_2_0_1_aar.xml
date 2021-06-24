@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.devlomi.record-view:record-view:2.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3e4613762afad17b2b0a5c7c94487bdd/jetified-record-view-2.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3e4613762afad17b2b0a5c7c94487bdd/jetified-record-view-2.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3e4613762afad17b2b0a5c7c94487bdd/jetified-record-view-2.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/42ec763032c1b0713dcda63cfe9f2e36/jetified-record-view-2.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/42ec763032c1b0713dcda63cfe9f2e36/jetified-record-view-2.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/42ec763032c1b0713dcda63cfe9f2e36/jetified-record-view-2.0.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.devlomi.record-view/record-view/2.0.1/10d190698bfb0d4d2d117d0c921820e51bfc8659/record-view-2.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.devlomi.record-view/record-view/2.0.1/c6fabfed7cb818047a9a5e0c9790852bd588cf11/record-view-2.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color">
+
+
+    <LinearLayout
+        android:id="@+id/main_div"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_height="55dp">
+
+
+        <TextView
+            android:id="@+id/tv_name_document"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/margin_start"
+            android:textAlignment="viewStart"
+            android:layout_marginEnd="@dimen/margin_end"
+            android:layout_toEndOf="@+id/document_img"
+            android:text="Jhon Passport"
+            android:gravity="center_vertical"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/text_size_sub_heading" />
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name_document"
+            android:layout_marginStart="@dimen/margin_start"
+            android:layout_marginEnd="@dimen/margin_end"
+            android:gravity="center_vertical"
+            android:text="Pending"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/text_color_gray"
+            android:textSize="@dimen/text_size" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_status"
+            android:layout_marginTop="2.5dp"
+            android:id="@+id/drawable_rlt"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

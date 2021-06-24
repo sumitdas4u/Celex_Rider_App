@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="heading_text">15.5dp</dimen>
+    <dimen name="heading_text_order_history">15dp</dimen>
+    <dimen name="normal_text">13dp</dimen>
+    <dimen name="text_size">14dp</dimen>
+    <dimen name="heading_label">15dp</dimen>
+    <dimen name="drawer_txt">14dp</dimen>
+    <dimen name="order_detail_address">14dp</dimen>
+    <dimen name="order_detail_adapter">12dp</dimen>
+    <dimen name="text_order_size">15dp</dimen>
+    <dimen name="text_size_sub_heading">12dp</dimen>
+    <dimen name="change_button_text">12dp</dimen>
+    <dimen name="_11dp">10dp</dimen>
+    <dimen name="accept_btn_txt_size">13sp</dimen>
+    <dimen name="back_button_padding">12dp</dimen>
+    <dimen name="margin_start">17dp</dimen>
+    <dimen name="margin_end">17dp</dimen>
+    <dimen name="arrow_left">0dp</dimen>
+    <dimen name="box_height">64dp</dimen>
+    <dimen name="menu_btn_padding">7dp</dimen>
+    <dimen name="menu_button_start">10dp</dimen>
+</resources>

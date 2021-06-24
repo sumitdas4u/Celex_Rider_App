@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Freshly Rider</string>
+
+
+    <string name="get_started">البدء</string>
+
+    <string name="type_your_message_here">اكتب رسالتك هنا...</string>
+
+
+    <string name="date">تاريخ</string>
+    <string name="your_message">رسالتك</string>
+    <string name="fastest_way_to_deliver_at_your_own_convenience">أسرع طريقة للتسليم بالشكل الذي يناسبك.</string>
+
+    <string name="login_details">تفاصيل تسجيل الدخول</string>
+
+
+    <string name="pickup_information">معلومات الالتقاط</string>
+    <string name="map_it">إبحث عنها في الخريطه</string>
+    <string name="delivery_information">معلومات التوصيل</string>
+    <string name="items">اسم العنصر</string>
+    <string name="note">ملحوظة</string>
+    <string name="payment_type">نوع الدفع</string>
+    <string name="job_total">المبلغ الإجمالي</string>
+    <string name="documents">مستندات</string>
+    <string name="add_signature">أضف التوقيع</string>
+    <string name="who_signed_for_the_delivery">من وقع للتسليم؟</string>
+    <string name="reset">إعادة تعيين</string>
+    <string name="submit">إرسال</string>
+    <string name="history">التاريخ</string>
+    <string name="recent_orders">الطلبيات الأخيرة</string>
+    <string name="total_earning">مجموع الأرباح</string>
+
+    <string name="latest_delivery">آخر تسليم</string>
+    <string name="manage_vehicle">إدارة السيارة</string>
+    <string name="vehicle_type">نوع السيارة</string>
+    <string name="manufacture">صناعة</string>
+    <string name="model">نموذج</string>
+    <string name="year">عام</string>
+    <string name="license_plate">لوحة الترخيص</string>
+    <string name="color">اللون</string>
+    <string name="online_status">الموجودين</string>
+    <string name="online">عبر الانترنت</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="country">بلد</string>
+    <string name="my_profile">ملفي</string>
+    <string name="my_home">الصفحة الرئيسية</string>
+    <string name="setting">ضبط</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="log_in">تسجيل الدخول</string>
+    <string name="password">كلمه السر</string>
+    <string name="select_country">حدد الدولة</string>
+    <string name="theme">الوضع المظلم</string>
+    <string name="upload_documents">تحميل المستندات</string>
+    <string name="we_need_to_see_your_name_clearly_printed_n_on_an_official_documented">نحتاج أن نرى اسمك مطبوعًا بوضوح\n على مسؤول موثق.</string>
+    <string name="driving_licence">رخصة قيادة</string>
+    <string name="vehicle_insurence">تأمين المركبات</string>
+    <string name="veicle_registration">تسجيل المركبات</string>
+    <string name="nation_id_passport">معرف الأمة/جواز سفر</string>
+    <string name="follow_the_instructions">اتبع التعليمات التي تلقيتها في البريد الإلكتروني وقم بتحميله بأمان من هنا.</string>
+    <string name="add_a_file">أضف ملفًا</string>
+    <string name="submit_for_review">تقديم للمراجعة</string>
+    <string name="delivered">تم التوصيل</string>
+    <string name="name">اسم:</string>
+    <string name="name_profile">اسم</string>
+    <string name="delivery_time">موعد التسليم:</string>
+    <string name="pickup_location">اختر موقعا:</string>
+    <string name="accept">قبول</string>
+    <string name="transfer">قبول</string>
+    <string name="reject">رفض</string>
+    <string name="details">تفاصيل</string>
+    <string name="completed_orders">الطلبات المكتملة</string>
+    <string name="ok">حسنا</string>
+    <string name="search_vehicle">البحث عن مركبة</string>
+    <string name="change_language">تغيير اللغة</string>
+    <string name="select_language">اختار اللغة</string>
+    <string name="english">English</string>
+    <string name="arabic">عربى</string>
+    <string name="my_orders">طلباتي</string>
+    <string name="new_order">جديد</string>
+    <string name="processing">معالجة</string>
+    <string name="order">طلب #</string>
+    <string name="no_email">لم يتم العثور على بريد إلكتروني</string>
+    <string name="no_number">لم يتم العثور على رقم</string>
+    <string name="quantity">كمية : </string>
+    <string name="size">بحجم : </string>
+    <string name="order_delivered">تم تسليم الطلب بنجاح</string>
+    <string name="on_the_way">على طريق النزول</string>
+    <string name="order_picked">ترتيب منتقى</string>
+    <string name="on_the_way_pick">على الطريق لبيك اب</string>
+    <string name="enter_your_number">أدخل رقمك</string>
+    <string name="cancel">إلغاء</string>
+    <string name="enter_vehical_color">أدخل لون المركبات</string>
+    <string name="enter_license_plate">أدخل لوحة الترخيص</string>
+    <string name="enter_year_of_manufacture">أدخل سنة الصنع</string>
+    <string name="enter_model_number">أدخل رقم الموديل</string>
+    <string name="enter_manufacture_company">أدخل شركة التصنيع</string>
+    <string name="select_vehicle">اختر السيارة</string>
+    <string name="you_don_t">ليس لديك أي طلب.</string>
+    <string name="you_don_t_document">ليس لديك أي مستند موجود.</string>
+    <string name="you_don_t_history">ليس لديك أي تاريخ موجود.</string>
+    <string name="less_txt">أقل</string>
+    <string name="more_txt">أكثر</string>
+    <string name="are_you_sure">هل أنت متأكد أنك تريد تسجيل الخروج؟</string>
+    <string name="memeber_since">عضو منذ</string>
+    <string name="change">يتغيرون</string>
+    <string name="enter_your_email">أدخل بريدك الإلكتروني</string>
+    <string name="dropoff_location">موقع الإنزال:</string>
+    <string name="approved">وافق</string>
+    <string name="pending">قيد الانتظار</string>
+    <string name="rejected">مرفوض</string>
+    <string name="change_password">غير كلمة السر</string>
+    <string name="privacy_policy">سياسة خاصة</string>
+    <string name="terms_condition">الشروط والأحكام</string>
+    <string name="contact_us">اتصل بنا</string>
+
+
+    <string name="what_is_your_email">أدخل عنوان بريدك الالكتروني</string>
+    <string name="what_is_your_phone_number">ما هو رقم هاتفك</string>
+    <string name="please_confirm_your_country_code_and_enter_your_phone_number">يرجى تأكيد رمز بلدك وإدخال رقم هاتفك</string>
+    <string name="country_code">الرقم الدولي</string>
+    <string name="mobile_number">رقم الهاتف المحمول</string>
+    <string name="change_number">تغيير رقم</string>
+    <string name="str_continue">استمر</string>
+
+    <string name="verification_code">شيفرة التأكيد</string>
+    <string name="verify_phone_number">تحقق من رقم الهاتف</string>
+    <string name="check_your_sms_message_we_ve">تحقق من رسالة SMS التي أرسلناها إليك عبر رمز التحقق</string>
+    <string name="check_your_sms_message_we_have">تحقق من رسالة SMS الخاصة بك ، لقد أرسلنا لك رمز التحقق على</string>
+    <string name="check_your_email_message_we_have">تحقق من بريدك الإلكتروني الذي أرسلنا لك رمز التحقق على</string>
+    <string name="verify_code">التحقق من كود</string>
+
+    <string name="compeleted_order">الطلبات المنجزة</string>
+
+    <string name="enter_verification_code">أدخل رمز التحقق</string>
+    <string name="change_email">تغيير البريد الالكتروني</string>
+    <string name="send_you_code_email">سوف نرسل لك رمز التحقق</string>
+    <string name="dummy_email">john@gmail.com</string>
+    <string name="no_internet_warning">تأكد من تمكين Wifi أو البيانات الخاصة بك ، قم بتشغيل بيانات الجوال أو Wifi</string>
+    <string name="no_internet_connection">لا يوجد اتصال بالإنترنت</string>
+
+    <string name="enable_location">تمكين موقعك</string>
+    <string name="you_ll_need_to_enable_your_location_n_in_order_to_use_binder">اختر موقعك لبدء البحث عن الطلب من حولك</string>
+    <string name="allow_location">تمكن موقع</string>
+
+    <string name="alert">إنذار !!!</string>
+    <string name="offline_txt">غير متصل على الانترنت</string>
+    <string name="please_enter_number">الرجاء إدخال الرقم</string>
+    <string name="please_enter_name">الرجاء إدخال اسم الشخص الموقّع</string>
+    <string name="please_enter_correct_number">الرجاء إدخال الرقم الصحيح</string>
+    <string name="verify_email_address">أدخل رمز التحقق</string>
+    <string name="online_offline_status">متصل غير متصل</string>
+    <string name="change_your_password">غير كلمة المرور الخاصة بك</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="old_password">كلمة المرور القديمة</string>
+    <string name="change_pass_label">يمكنك تغيير كلمة المرور</string>
+    <string name="new_password">كلمة سر جديدة</string>
+
+    <string name="old_cant_empty">كلمة المرور القديمة لا يمكن أن تكون فارغة!</string>
+    <string name="new_cant_empty">كلمة المرور الجديدة لا يمكن أن تكون فارغة!</string>
+    <string name="confirm_cant_empty">التأكيد لا يمكن أن فارغ!</string>
+
+    <string name="invalid_password">يجب أن تتكون كلمة المرور من 6 أرقام!</string>
+    <string name="password_must_match">يجب أن يكون تأكيد كلمة المرور متطابقًا</string>
+    <string name="old_new_pass">يجب ألا تكون كلمة المرور الجديدة مماثلة لكلمة المرور القديمة</string>
+    <string name="please_enter_correct_email">الرجاء إدخال بريد إلكتروني صحيح</string>
+    <string name="vehicle_type_empty">لا يمكن أن يكون نوع السيارة فارغًا</string>
+    <string name="Manufacture_empty">تصنيع لا يمكن أن يكون فارغا</string>
+    <string name="model_empty">لا يمكن أن يكون النموذج فارغًا</string>
+    <string name="year_empty">لا يمكن أن يكون العام فارغًا</string>
+    <string name="license_plate_empty">لا يمكن أن يكون نوع لوحة الترخيص فارغًا</string>
+    <string name="color_empty">لا يمكن أن يكون نوع اللون فارغًا</string>
+    <string name="please_select_image">الرجاء تحديد الصورة</string>
+    <string name="report_a_problem">الإبلاغ عن مشكلة</string>
+    <string name="take_photo">تصوير</string>
+    <string name="chose_from_gallery">اختر صورة من المعرض</string>
+    <string name="cancel_txt">إلغاء</string>
+    <string name="deleted_message">تم حذف هذه الرسالة</string>
+    <string name="old_number_error">لقد قمت بإدخال الرقم الحالي</string>
+    <string name="old_email_error">لقد قمت بإدخال البريد الإلكتروني الحالي</string>
+    <string name="pass_is_weak">كلمة المرور ضعيفة جدا !</string>
+    <string name="year_above">لا يمكن أن تكون السنة أعلى من العام الحالي</string>
+    <string name="already_img_selected">لقد قمت بالفعل بتحديد الصورة</string>
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:textDirection="locale">
+
+
+    <RelativeLayout
+        android:id="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+
+        <RelativeLayout
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="1.2dp"
+                android:padding="@dimen/back_button_padding"
+                android:src="@drawable/ic_arrow_back"
+                android:tint="@color/textColor" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:text="@string/select_language"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/heading_text" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:paddingStart="17dp"
+        android:paddingEnd="17dp">
+
+        <TextView
+            android:id="@+id/english_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins"
+            android:gravity="center_vertical"
+            android:text="@string/english"
+            android:textAlignment="viewStart"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/normal_text" />
+
+        <ImageView
+            android:id="@+id/iv_tick"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_tick_done"
+            android:tint="@color/textColor"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/lite_gray_line" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:paddingStart="17dp"
+        android:paddingEnd="17dp">
+
+        <TextView
+            android:id="@+id/arabic_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins"
+            android:gravity="center_vertical"
+            android:text="@string/arabic"
+            android:textAlignment="viewStart"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/normal_text" />
+
+
+        <ImageView
+            android:id="@+id/iv_tick_arabic"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_tick_done"
+            android:tint="@color/textColor"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/lite_gray_line" />
+
+
+</LinearLayout>

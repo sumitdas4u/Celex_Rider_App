@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_document"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical"
+    tools:context=".AllFragments.Document.Documents_F">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp">
+
+                <ImageView
+                    android:id="@+id/iv_menu"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/menu_button_start"
+                    android:padding="@dimen/menu_btn_padding"
+                    android:src="@drawable/ic_menu"
+                    android:tint="@color/textColor" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="10dp"
+                    android:text="Meter Readings"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/heading_text" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@color/background_color">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/tv_date"
+                        android:layout_width="90dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="8dp"
+                        android:paddingLeft="8dp"
+
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="Date"
+
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/banana"
+                        android:textSize="@dimen/normal_text" />
+                    <ImageView
+
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_centerVertical="true"
+                        />
+
+
+                    <TextView
+
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:paddingRight="8dp"
+                        android:paddingLeft="8dp"
+                        android:maxLines="1"
+                        android:text="Start"
+                        android:textAlignment="viewStart"
+
+                        android:textColor="@color/basil"
+                        android:textSize="@dimen/normal_text"
+
+                        />
+
+                    <ImageView
+                        android:id="@+id/img_end"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+
+                        />
+
+
+                    <TextView
+
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:paddingRight="8dp"
+                        android:paddingLeft="8dp"
+                        android:maxLines="1"
+                        android:text="End"
+
+                        android:textColor="@color/red"
+                        android:textSize="@dimen/normal_text"
+
+                        />
+                    <TextView
+                        android:id="@+id/tv_total_km"
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:paddingRight="8dp"
+                        android:paddingLeft="8dp"
+                        android:maxLines="1"
+                        android:text="Total"
+
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/normal_text"
+
+                        />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+            <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+                android:id="@+id/swipreferesh_layout"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="match_parent">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/meter_documents"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+
+        </LinearLayout>
+
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+
+        <TextView
+            android:id="@+id/no_data_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/you_don_t_document"
+            android:textSize="18dp"
+            android:visibility="gone" />
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background_color"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_start"
+                android:layout_width="160dp"
+                android:layout_height="42dp"
+                android:layout_gravity="center"
+                android:background="@drawable/d_rounded_greeen"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:stateListAnimator="@null"
+                android:text="Start Day"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_end"
+                android:layout_width="160dp"
+                android:layout_height="42dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/undelivered_back"
+                android:stateListAnimator="@null"
+                android:text="End Day"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                 />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</FrameLayout>

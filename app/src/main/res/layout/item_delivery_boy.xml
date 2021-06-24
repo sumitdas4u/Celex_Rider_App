@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/rl_holder"
+        >
+        <RelativeLayout
+            android:id="@+id/image_layout"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_profile"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/ic_user_icon"
+            app:civ_border_color="@color/textColor"
+            app:civ_border_overlay="true"
+            app:civ_border_width="0.8dp" />
+
+
+
+        <ImageView
+            android:id="@+id/img_status"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1.5dp"
+            android:scaleType="fitXY" />
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_marginStart="@dimen/_50sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:orientation="vertical"
+            >
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sumit Das"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/_14sdp"
+            />
+            <TextView
+                android:id="@+id/tv_mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9804735837"
+                android:textColor="@color/text_color_gray"
+                android:textSize="@dimen/normal_text"
+                />
+
+        </LinearLayout>
+
+
+
+        <ImageView
+            android:id="@+id/img_tick"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_tick"
+
+     />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="3dp"
+        android:background="@color/gray0" />
+</RelativeLayout>

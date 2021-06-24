@@ -1,0 +1,193 @@
+<resources>
+    <string name="app_name">Celex Rider</string>
+
+    <string name="get_started">Get started</string>
+
+    <string name="type_your_message_here">Type Your Message Here...</string>
+
+
+    <string name="date">date</string>
+    <string name="your_message">Your Message</string>
+    <string name="fastest_way_to_deliver_at_your_own_convenience">Fastest way to deliver at  your \n own convenience.</string>
+
+    <string name="login_details">Login Details</string>
+    <string name="alert">Alert !!!</string>
+
+    <string name="pickup_information">Pickup information</string>
+    <string name="map_it">Map it</string>
+    <string name="delivery_information">Delivery information</string>
+    <string name="items">Item Name</string>
+    <string name="note">Note</string>
+    <string name="payment_type">Payment Type</string>
+    <string name="job_total">Total Amount</string>
+    <string name="documents">Documents</string>
+    <string name="add_signature">Add Signature</string>
+    <string name="who_signed_for_the_delivery">Who signed for the delivery?</string>
+    <string name="reset">Reset</string>
+    <string name="submit">Submit</string>
+    <string name="history">History</string>
+    <string name="recent_orders">Recent Orders</string>
+    <string name="total_earning">Total Earnings</string>
+    <string name="compeleted_order">Completed Orders</string>
+    <string name="latest_delivery">Latest Delivery</string>
+    <string name="vehicle_type">Vehicle Type</string>
+    <string name="manufacture">Manufacture</string>
+    <string name="model">Model</string>
+    <string name="year">Year</string>
+    <string name="license_plate">License Plate</string>
+    <string name="color">Color</string>
+    <string name="online_status">Online Status</string>
+    <string name="online">Online</string>
+    <string name="profile">Profile</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">User ID</string>
+    <string name="country">Country</string>
+    <string name="my_profile">My Profile</string>
+    <string name="my_home">Home</string>
+    <string name="manage_vehicle">Vehicle Details</string>
+    <string name="logout">Logout</string>
+    <string name="log_in">Log in</string>
+    <string name="password">Password</string>
+    <string name="select_country">Select Country</string>
+    <string name="theme">Dark Mode</string>
+    <string name="setting">Setting</string>
+    <string name="we_need_to_see_your_name_clearly_printed_n_on_an_official_documented">We need to see your name clearly printed\non an official document.</string>
+    <string name="driving_licence">Driving License</string>
+    <string name="vehicle_insurence">Vehicle Insurance</string>
+    <string name="veicle_registration">Vehicle Registration</string>
+    <string name="nation_id_passport">Nation ID/Passport</string>
+    <string name="upload_documents">Upload Meter Reading</string>
+    <string name="follow_the_instructions">Upload clean and clear photo of your meter.</string>
+    <string name="add_a_file">Add Meter Photo</string>
+    <string name="submit_for_review">Submit Meter Reading</string>
+    <string name="delivered">Delivered</string>
+    <string name="name">Name: </string>
+    <string name="name_profile">Name</string>
+    <string name="delivery_time">Delivery Time:</string>
+    <string name="pickup_location">Pickup Location:</string>
+    <string name="qty" translatable="false">Qty :</string>
+    <string name="weight" translatable="false">W: -</string>
+    <string name="accept">Pick Up</string>
+    <string name="transfer">Transfer</string>
+    <string name="reject">Cancel Pickup</string>
+    <string name="details">Details</string>
+    <string name="completed_orders">Completed Orders</string>
+    <string name="ok">Ok</string>
+    <string name="search_vehicle">Search Vehicle</string>
+    <string name="change_language">Change Language</string>
+    <string name="select_language">Select Language</string>
+    <string name="english">English</string>
+    <string name="arabic">عربى</string>
+    <string name="my_orders">My Orders</string>
+    <string name="new_order">New </string>
+    <string name="processing">Picked Up</string>
+    <string name="order">#</string>
+    <string name="no_email">no email found</string>
+    <string name="no_number">No number found</string>
+    <string name="quantity">Quantity : </string>
+    <string name="size">Size : </string>
+    <string name="order_delivered">Order Delivered Successfully</string>
+    <string name="on_the_way">On The Way To Dropoff</string>
+    <string name="order_picked">Order Picked</string>
+    <string name="order_return_to_station" translatable="false">Return to Station</string>
+    <string name="on_the_way_pick">On The Way To Pickup</string>
+    <string name="enter_your_number">Enter Your Number</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="cancel">Cancel</string>
+    <string name="enter_vehical_color">Enter Vehical Color</string>
+    <string name="enter_license_plate">Enter License Plate</string>
+    <string name="enter_year_of_manufacture">Enter Year of Manufacture</string>
+    <string name="enter_model_number">Enter Model Number</string>
+    <string name="enter_manufacture_company">Enter Manufacture Company</string>
+    <string name="select_vehicle">Select Vehicle</string>
+    <string name="you_don_t">You don\'t have any Order sofar.</string>
+    <string name="you_don_t_history">You don\'t have any History sofar.</string>
+    <string name="you_don_t_document">You don\'t have any Document sofar.</string>
+    <string name="less_txt">less</string>
+    <string name="more_txt">more</string>
+    <string name="are_you_sure">Are you sure you want to logout?</string>
+    <string name="device">android</string>
+    <string name="version">1.2</string>
+    <string name="memeber_since">Member Since</string>
+    <string name="change">Change</string>
+    <string name="dropoff_location">Dropoff Location:</string>
+    <string name="approved">Approved</string>
+    <string name="pending">Pending</string>
+    <string name="rejected">Rejected</string>
+    <string name="change_password">Change Password</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_condition">Terms &amp; Condition</string>
+    <string name="contact_us">Contact Us</string>
+
+    <string name="what_is_your_phone_number">What is your phone Number</string>
+    <string name="please_confirm_your_country_code_and_enter_your_phone_number">Please Confirm your country code and \nenter your phone number</string>
+    <string name="country_code">Country Code</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="change_number">Change Number</string>
+    <string name="str_continue">Continue</string>
+
+    <string name="verification_code">Verification Code</string>
+    <string name="verify_phone_number">Verify phone number</string>
+    <string name="verify_email_address">Enter Verification Code</string>
+    <string name="check_your_sms_message_we_ve">Check your sms message we\'ve sent you verification code at</string>
+    <string name="check_your_sms_message_we_have">Check your sms message we\'ve sent you verification code at</string>
+    <string name="check_your_email_message_we_have">Check your inbox we\'ve sent you \nverification code at</string>
+    <string name="verify_code">Verify Code</string>
+
+    <string name="enter_verification_code">Enter Verification Code</string>
+    <string name="change_email">Change Email</string>
+    <string name="what_is_your_email">Enter Your Email Address</string>
+    <string name="send_you_code_email">We\'ll send you verification code</string>
+    <string name="dummy_email">john@gmail.com</string>
+    <string name="no_internet_warning">Make sure your Wifi or data is enable Turn on mobile data or Wifi</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+
+    <string name="enable_location">Enable Your Location</string>
+    <string name="you_ll_need_to_enable_your_location_n_in_order_to_use_binder">Choose your location to start find the \n request around you</string>
+    <string name="allow_location">Enable Location</string>
+
+    <string name="offline_txt">Offline</string>
+    <string name="please_enter_number">Please Enter Number</string>
+    <string name="please_enter_name">Please Enter Signed Person Name</string>
+    <string name="please_enter_reason" translatable="false">Please Enter Reason</string>
+    <string name="please_enter_correct_number">Please Enter Correct Number</string>
+    <string name="please_enter_correct_email">Please Enter User ID</string>
+    <string name="wrong_login" translatable="false">Check User Id / Password</string>
+    <string name="online_offline_status">Online/Offline</string>
+    <string name="change_your_password">Change your password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="new_password">New Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="change_pass_label">You can change password</string>
+
+    <string name="old_cant_empty">Old Password can\'t empty !</string>
+    <string name="new_cant_empty">New Password can\'t empty !</string>
+    <string name="confirm_cant_empty">Confirm can\'t empty !</string>
+    <string name="invalid_password">Password must be 6 digit !</string>
+    <string name="password_must_match">Confirm password must be match</string>
+    <string name="old_new_pass">New Password should not be same as old password</string>
+    <string name="vehicle_type_empty">Vehicle type can\'t be empty</string>
+    <string name="Manufacture_empty">Manufacture can\'t be empty</string>
+    <string name="model_empty">Model can\'t be empty</string>
+    <string name="year_empty">Year can\'t be empty</string>
+    <string name="license_plate_empty">License Plate type can\'t be empty</string>
+    <string name="color_empty">Color type can\'t be empty</string>
+    <string name="please_select_image">Please select image and KM</string>
+    <string name="report_a_problem">Report a Problem</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="chose_from_gallery">Choose Photo from Gallery</string>
+    <string name="cancel_txt">Cancel</string>
+    <string name="deleted_message">This message was deleted</string>
+    <string name="old_number_error">You have enter current number</string>
+    <string name="old_email_error">You have enter current email</string>
+    <string name="pass_is_weak">Password is too Weak !</string>
+    <string name="year_above">Year can\'t be above current year</string>
+    <string name="already_img_selected">You have already selected the image</string>
+    <string name="_call" translatable="false">Call</string>
+    <string name="direction">Direction</string>
+    <string name="item">Items</string>
+    <string name="_weight">Weight</string>
+    <string name="resent_otp_text" translatable="false">Resend OTP</string>
+
+
+</resources>
