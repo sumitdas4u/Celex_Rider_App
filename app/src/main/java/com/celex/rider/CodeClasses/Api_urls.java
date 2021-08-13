@@ -74,5 +74,7 @@ public class Api_urls {
 
     public static final String CHANGE_PASSWORD = DOMAIN+"user/change-password";
 
-
+//trips v3
+public static final String URL_CREATE_TRIP = DOMAIN +"driver/createtrip";
+public static final String URL_STOP_TRIP = DOMAIN +"driver/stoptrip";
 }

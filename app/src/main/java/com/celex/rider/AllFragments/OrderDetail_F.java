@@ -1,6 +1,7 @@
 package com.celex.rider.AllFragments;
 
 import android.Manifest;
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -25,6 +26,10 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.activity.result.ActivityResult;
+import androidx.activity.result.ActivityResultCallback;
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -59,10 +64,13 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.Objects;
 
 import static android.app.Activity.RESULT_OK;
+import static com.celex.rider.CodeClasses.Functions.roam_update_meta_data_with_location;
 import static com.celex.rider.CodeClasses.Variables.name;
 
 
@@ -105,7 +113,7 @@ public class OrderDetail_F extends RootFragment implements View.OnClickListener 
    // private DatabaseReference databaseReference;
     private PopupWindow mDropdown = null;
     LayoutInflater mInflater;
-    private final int requestCodeForOTP = 444;
+
     private int FRAGMENT_CODE = 900;
    private My_Orders_Model my_orders_model_ = null;
     public OrderDetail_F(Callback callback) {
@@ -446,10 +454,18 @@ public class OrderDetail_F extends RootFragment implements View.OnClickListener 
 
             sendobj.put(st_order_id, id);
 
+            sendobj.put("reason", "");
+            sendobj.put("status", status);
 
         } catch (JSONException e) {
             e.printStackTrace();
         }
+
+
+        roam_update_meta_data_with_location(sendobj);
+
+
+
 
         Functions.show_loader(getActivity(), false, false);
         ApiRequest.Call_Api(getActivity(), Api_urls.URL_RETURN_TO_STATION_ORDER, sendobj, resp -> {
@@ -502,9 +518,13 @@ public class OrderDetail_F extends RootFragment implements View.OnClickListener 
             e.printStackTrace();
         }
 
+
+
+
         Functions.show_loader(getActivity(), false, false);
         ApiRequest.Call_Api(getActivity(), Api_urls.URL_UPDATE_RIDER_ORDER_STATUS, sendobj, resp -> {
-
+            Log.d(Variables.TAG, "Bearer " +Variables.userDetails_pref.getString(Variables.login_token,""));
+            Log.d(Variables.TAG, "json " +sendobj.toString());
             Functions.cancel_loader();
 
             if (resp != null) {
@@ -517,6 +537,10 @@ public class OrderDetail_F extends RootFragment implements View.OnClickListener 
                         // JSONObject user = respobj.getJSONObject("msg");
 
                         JSONObject RiderOrder = respobj.getJSONObject("data");
+
+
+
+
 
                         My_Orders_Model my_orders_model_ = new My_Orders_Model();
 
@@ -560,6 +584,30 @@ public class OrderDetail_F extends RootFragment implements View.OnClickListener 
 
                         }
 
+                        JSONObject roamSendobj = new JSONObject();
+                        SimpleDateFormat s = new SimpleDateFormat("dd-MM-yyyy hh:mm:ss");
+                        String format = s.format(new Date());
+                        try {
+
+/*            String time = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss").format(Calendar.getInstance().getTime());
+
+            String newString = time.replaceAll("\\/", "-");*/
+
+                            roamSendobj.put("shipment id", shipment_id);
+                            roamSendobj.put("reason", reason);
+                            roamSendobj.put("status", status);
+                            roamSendobj.put("time", format);
+                            roamSendobj.put("address", my_orders_model_.delievery_address);
+                            roamSendobj.put("receiver name", my_orders_model_.receiver_name);
+
+
+                            //     roamSendobj.put("response", RiderOrder.toString());
+
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                        roam_update_meta_data_with_location(roamSendobj);
+
                     }
 
                 } catch (JSONException e) {
@@ -570,8 +618,112 @@ public class OrderDetail_F extends RootFragment implements View.OnClickListener 
 
         });
     }
+    ActivityResultLauncher<Intent> launchCodeForOTPActivity = registerForActivityResult(
+            new ActivityResultContracts.StartActivityForResult(),
+            new ActivityResultCallback<ActivityResult>() {
+                @Override
+                public void onActivityResult(ActivityResult result) {
+                    if (result.getResultCode() == Activity.RESULT_OK) {
+                        Intent data = result.getData();
+                        btn_Open_otp.setVisibility(View.GONE);
+                        btn_Open_photo_upload.setVisibility(View.VISIBLE);
+                    }
+                }
+            });
+
+    ActivityResultLauncher<Intent> launchDeliveredBarCodeActivity = registerForActivityResult(
+            new ActivityResultContracts.StartActivityForResult(),
+            new ActivityResultCallback<ActivityResult>() {
+                @Override
+                public void onActivityResult(ActivityResult result) {
+                    if (result.getResultCode() == Activity.RESULT_OK) {
+                        Intent data = result.getData();
+                        btn_cancel.setVisibility(View.GONE);
+                        //btn_hold.setVisibility(View.GONE);
+                        btn_Rider_status.setVisibility(View.GONE);
+
+                        if(otp_required.equals("1") && !otp_verified.equals("1")){
+                            btn_Open_otp.setVisibility(View.VISIBLE);
+                        }else{
+                            btn_Open_photo_upload.setVisibility(View.VISIBLE);
+                        }
+
+                    }
+                }
+            });
+
+    ActivityResultLauncher<Intent> launchReturnToStationBarCodeActivity = registerForActivityResult(
+            new ActivityResultContracts.StartActivityForResult(),
+            new ActivityResultCallback<ActivityResult>() {
+                @Override
+                public void onActivityResult(ActivityResult result) {
+                    if (result.getResultCode() == Activity.RESULT_OK) {
+                        Intent data = result.getData();
+                        status = "return_to_station";
+                        CallApi_returnOrderStatus();
+                    }
+                }
+            });
+
+    ActivityResultLauncher<Intent> launchOpenSignatureDeliveryActivity = registerForActivityResult(
+            new ActivityResultContracts.StartActivityForResult(),
+            new ActivityResultCallback<ActivityResult>() {
+                @Override
+                public void onActivityResult(ActivityResult result) {
+                    if (result.getResultCode() == Activity.RESULT_OK) {
+                        Intent data = result.getData();
+                        String user_Id = data.getStringExtra("result");
+                        if (user_Id.equals("ok")) {
+                            // btn_Open_signature.setVisibility(View.GONE);
+
+                            status = "delivered";
+                            CallApi_updateRiderOrderStatus(status);
+
+                        }
+                    }
+                }
+            });
+
+    ActivityResultLauncher<Intent> launchHoldActivity = registerForActivityResult(
+            new ActivityResultContracts.StartActivityForResult(),
+            new ActivityResultCallback<ActivityResult>() {
+                @Override
+                public void onActivityResult(ActivityResult result) {
+                    if (result.getResultCode() == Activity.RESULT_OK) {
+                        Intent data = result.getData();
+                        assert data != null;
+                        reason = data.getStringExtra("reason");
+                        assert reason != null;
+                        if (!reason.equals("")) {
+                            status = "hold";
+                            CallApi_updateRiderOrderStatus(status);
+                            assert getFragmentManager() != null;
+                            getFragmentManager().popBackStack();
 
 
+                        }
+                    }
+                }
+            });
+    ActivityResultLauncher<Intent> launchReturnActivity = registerForActivityResult(
+            new ActivityResultContracts.StartActivityForResult(),
+            new ActivityResultCallback<ActivityResult>() {
+                @Override
+                public void onActivityResult(ActivityResult result) {
+                    if (result.getResultCode() == Activity.RESULT_OK) {
+                        Intent data = result.getData();
+                        reason = data.getStringExtra("reason");
+                        assert reason != null;
+                        if (!reason.equals("")) {
+                            status = "return";
+                            CallApi_updateRiderOrderStatus(status);
+                            assert getFragmentManager() != null;
+                            getFragmentManager().popBackStack();
+                            Toast.makeText(getActivity(), Order_return_to_station_Successfully, Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                }
+            });
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
@@ -593,8 +745,8 @@ public class OrderDetail_F extends RootFragment implements View.OnClickListener 
                 dataBundle_otp.putString(st_order_id, id);
                 dataBundle_otp.putString("otp", otp);
                 intent_otp.putExtras(dataBundle_otp);
-                startActivityForResult(intent_otp, requestCodeForOTP);
 
+                launchCodeForOTPActivity.launch(intent_otp);
                 break;
 
             case R.id.btn_Open_photo_upload:
@@ -603,6 +755,7 @@ public class OrderDetail_F extends RootFragment implements View.OnClickListener 
                 });
                 FragmentTransaction ft = getFragmentManager().beginTransaction();
                 f.setTargetFragment(this, FRAGMENT_CODE);
+
 
                 ft.setCustomAnimations(R.anim.in_from_right, R.anim.out_to_left, R.anim.in_from_left, R.anim.out_to_right);
                 ft.replace(R.id.li_acticvityDetail, f).addToBackStack(null).commit();
@@ -634,8 +787,10 @@ public class OrderDetail_F extends RootFragment implements View.OnClickListener 
                         dataBundle4.putString("shipment_id", shipment_id);
                         dataBundle4.putString("id", id);
                         intent4.putExtras(dataBundle4);
-                        startActivityForResult(intent4, 566);
+
+                        launchDeliveredBarCodeActivity.launch(intent4);
                         status = "delivered";
+
 
                     } else if (btn_status.equals(getString(R.string.order_return_to_station))) {
                         Intent intent4 = new Intent(getActivity(), Barcode_scaner_A.class);
@@ -643,7 +798,8 @@ public class OrderDetail_F extends RootFragment implements View.OnClickListener 
                         dataBundle4.putString("shipment_id", shipment_id);
                         dataBundle4.putString("id", id);
                         intent4.putExtras(dataBundle4);
-                        startActivityForResult(intent4, 561);
+                        launchReturnToStationBarCodeActivity.launch(intent4);
+
                         status = "return_to_station";
 
                     }
@@ -663,8 +819,8 @@ public class OrderDetail_F extends RootFragment implements View.OnClickListener 
                 Bundle dataBundle4 = new Bundle();
                 dataBundle4.putString(st_order_id, id);
                 intent4.putExtras(dataBundle4);
-                startActivityForResult(intent4, 567);
 
+                launchOpenSignatureDeliveryActivity.launch(intent4);
 
                 break;
             case R.id.btn_hold:
@@ -673,8 +829,8 @@ public class OrderDetail_F extends RootFragment implements View.OnClickListener 
                 Bundle dataBundle2 = new Bundle();
                 dataBundle2.putString(st_order_id, id);
                 intent.putExtras(dataBundle2);
-                startActivityForResult(intent, 560);
 
+                launchHoldActivity.launch(intent);
 
                 break;
             case R.id.btn_undelivered:
@@ -696,7 +852,8 @@ public class OrderDetail_F extends RootFragment implements View.OnClickListener 
                 Bundle dataBundle3 = new Bundle();
                 dataBundle3.putString(st_order_id, id);
                 intent2.putExtras(dataBundle3);
-                startActivityForResult(intent2, 562);
+                launchReturnActivity.launch(intent2);
+
                 break;
             /*case R.id.tv_pickup_mapit:
 
@@ -801,70 +958,9 @@ public class OrderDetail_F extends RootFragment implements View.OnClickListener 
                 btn_Open_signature.setVisibility(View.VISIBLE);
             }
         }
-        if (requestCode == requestCodeForOTP) {
-            if (resultCode == RESULT_OK) {
-
-                btn_Open_otp.setVisibility(View.GONE);
-                    btn_Open_photo_upload.setVisibility(View.VISIBLE);
-
-                ///
-            }
-        }
-        if (requestCode == 566) {
-            if (resultCode == RESULT_OK) {
-                btn_cancel.setVisibility(View.GONE);
-                //btn_hold.setVisibility(View.GONE);
-                btn_Rider_status.setVisibility(View.GONE);
-
-                if(otp_required.equals("1") && !otp_verified.equals("1")){
-                    btn_Open_otp.setVisibility(View.VISIBLE);
-                }else{
-                    btn_Open_photo_upload.setVisibility(View.VISIBLE);
-                }
-
-              ///
-            }
-        }
-        if (requestCode == 562 && data != null) {
-            reason = data.getStringExtra("reason");
-            assert reason != null;
-            if (!reason.equals("")) {
-                status = "return";
-                CallApi_updateRiderOrderStatus(status);
-                assert getFragmentManager() != null;
-                getFragmentManager().popBackStack();
-                Toast.makeText(getActivity(), Order_return_to_station_Successfully, Toast.LENGTH_SHORT).show();
-            }
-        }
-        if (requestCode == 560 && data != null) {
-            reason = data.getStringExtra("reason");
-            assert reason != null;
-            if (!reason.equals("")) {
-                status = "hold";
-                CallApi_updateRiderOrderStatus(status);
-                assert getFragmentManager() != null;
-                getFragmentManager().popBackStack();
 
 
-            }
-        }
-        if (requestCode == 567 && data != null) {
-            String user_Id = data.getStringExtra("result");
-            if (user_Id.equals("ok")) {
-                // btn_Open_signature.setVisibility(View.GONE);
 
-                status = "delivered";
-                CallApi_updateRiderOrderStatus(status);
-
-            }
-        }
-        if (requestCode == 561 && data != null) {
-
-
-            status = "return_to_station";
-            CallApi_returnOrderStatus();
-
-        }
 
     }
 

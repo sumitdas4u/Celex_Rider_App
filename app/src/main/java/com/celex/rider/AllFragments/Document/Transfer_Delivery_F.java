@@ -42,7 +42,9 @@ import org.json.JSONObject;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.Objects;
 
 import androidx.annotation.NonNull;
@@ -52,6 +54,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import static android.app.Activity.RESULT_OK;
+import static com.celex.rider.CodeClasses.Functions.roam_update_meta_data_with_location;
 
 public class Transfer_Delivery_F extends RootFragment implements View.OnClickListener {
 
@@ -365,6 +368,25 @@ public class Transfer_Delivery_F extends RootFragment implements View.OnClickLis
                 JSONObject respobj = new JSONObject(resp);
 
                 if (respobj.getString("status").equals("1")) {
+
+                    JSONObject roamSendobj = new JSONObject();
+                    SimpleDateFormat s = new SimpleDateFormat("dd-MM-yyyy hh:mm:ss");
+                    String format = s.format(new Date());
+                    try {
+
+
+
+                        roamSendobj.put("status", "Transferred Order");
+                        roamSendobj.put("order_id", id);
+                        roamSendobj.put("Transferred to Driver id:", selected_driver_id);
+                        roamSendobj.put("comments", ed_comments.getText());
+                        roamSendobj.put("time", format);
+                        //     roamSendobj.put("response", RiderOrder.toString());
+
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                    roam_update_meta_data_with_location(roamSendobj);
 
                     btn_submit_doc.setClickable(false);
                     btn_submit_doc.setFocusable(false);

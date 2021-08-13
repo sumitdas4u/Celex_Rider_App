@@ -34,8 +34,12 @@ import com.celex.rider.DataModels.My_Orders_Model;
 import com.celex.rider.R;
 import com.celex.rider.interfaces.API_CallBack;
 import com.celex.rider.interfaces.CallBack_internet;
+import com.roam.sdk.Roam;
+import com.roam.sdk.RoamPublish;
+import com.roam.sdk.RoamTrackingMode;
 
 import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
@@ -58,6 +62,19 @@ import static android.content.Context.DOWNLOAD_SERVICE;
 
 public class Functions {
 
+
+
+    public static void roam_update_meta_data_with_location(JSONObject metaDataJosn) {
+        // update current location without meta-data
+//        Roam.updateCurrentLocation(RoamTrackingMode.DesiredAccuracy.HIGH,50, null);
+// update current location with meta-data
+// Declare meta-data
+        RoamPublish roamPublish1 = new RoamPublish.Builder().build();
+
+
+        roamPublish1.metaData = metaDataJosn;
+        Roam.updateCurrentLocation(RoamTrackingMode.DesiredAccuracy.HIGH,50, roamPublish1);
+    }
 
     public static void Order_Parse_Data(JSONArray jsonArray, String senerio, API_CallBack api_callBack) {
 

@@ -78,6 +78,9 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".AllActivitys.TripActivity"
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".AllActivitys.MainActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />
@@ -110,9 +113,8 @@
             </intent-filter>
         </service>
         <service
-            android:name=".Location_Services.GetLocation_Service"
-            android:enabled="true"
-            android:exported="true"
+            android:name=".service.ForegroundService"
+            android:exported="false"
             android:foregroundServiceType="location" />
 
         <uses-library

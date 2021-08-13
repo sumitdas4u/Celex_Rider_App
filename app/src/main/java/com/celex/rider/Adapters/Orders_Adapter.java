@@ -121,7 +121,7 @@ public class Orders_Adapter extends RecyclerView.Adapter<Orders_Adapter.FilterVi
         return dataList.size();
     }
 
-    class FilterViewHolder extends RecyclerView.ViewHolder {
+    static class FilterViewHolder extends RecyclerView.ViewHolder {
 
         TextView tvOrderNo, tvQty, tvWeight, tvperson_name, tvDate, tv_actual_drop_off, tvActualPickupLocation, tvOrderStatus, order_create_date;
         RelativeLayout btn_yes, btn_no, btn_transfer, btn_details_p;

@@ -84,7 +84,7 @@ public class Splashscreen_A extends AppCompatActivity {
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
-                ApiRequest.Call_Api(this, Api_urls.VALID_TOKEN, params, resp -> {
+                ApiRequest.Call_Api(this, Api_urls.VALID_TOKEN, params, resp ->     {
                   /*  Toast.makeText(this,  resp,
                             Toast.LENGTH_LONG).show();*/
                     if (resp != null) {

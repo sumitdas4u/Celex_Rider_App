@@ -192,6 +192,8 @@ public class Login_F extends Fragment implements View.OnClickListener {
         String phone = "" + userobj.optString("mobile");
         String login_token = "" + userobj.optString("token");
 
+//todo:user_id of roam need to be asign
+   //     Log.d("user", userobj.toString());
 
         //   String member_since = "" + userobj.optString("created");
        // String memeber_date = Functions.convert_datetime(member_since, "member_since");
@@ -208,6 +210,12 @@ public class Login_F extends Fragment implements View.OnClickListener {
         }catch (Exception e){
             e.printStackTrace();
         }
+        try {
+            String roam_uid = "" +  userobj.getJSONObject("driver_details").optString("roam_uid");
+            editor.putString(Variables.geospark_user, roam_uid);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
 
         editor.putString(Variables.token, devicetoken);
         editor.putString(Variables.login_token, login_token);
@@ -215,7 +223,7 @@ public class Login_F extends Fragment implements View.OnClickListener {
 
         editor.putBoolean(Variables.is_login, true);
         editor.putString(Variables.setlocale, "en");
-        editor.commit();
+        editor.apply();
         startActivity(new Intent(getActivity(), MainActivity.class));
 
         getActivity().overridePendingTransition(R.anim.in_from_right, R.anim.out_to_left);
