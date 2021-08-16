@@ -628,6 +628,10 @@
         "source": "C:\\Users\\sumit\\Documents\\projects\\celex_rider\\app\\src\\main\\res\\anim\\in_from_left.xml"
     },
     {
+        "merged": "C:\\Users\\sumit\\Documents\\projects\\celex_rider\\app\\build\\intermediates\\res\\merged\\release\\layout_item_trip.xml.flat",
+        "source": "C:\\Users\\sumit\\Documents\\projects\\celex_rider\\app\\src\\main\\res\\layout\\item_trip.xml"
+    },
+    {
         "merged": "C:\\Users\\sumit\\Documents\\projects\\celex_rider\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi_ic_arrow_back.png.flat",
         "source": "C:\\Users\\sumit\\Documents\\projects\\celex_rider\\app\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\ic_arrow_back.png"
     },
@@ -1478,6 +1482,10 @@
     {
         "merged": "C:\\Users\\sumit\\Documents\\projects\\celex_rider\\app\\build\\intermediates\\res\\merged\\release\\layout_my_order_layout.xml.flat",
         "source": "C:\\Users\\sumit\\Documents\\projects\\celex_rider\\app\\src\\main\\res\\layout\\my_order_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\sumit\\Documents\\projects\\celex_rider\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_trip.xml.flat",
+        "source": "C:\\Users\\sumit\\Documents\\projects\\celex_rider\\app\\src\\main\\res\\layout\\activity_trip.xml"
     },
     {
         "merged": "C:\\Users\\sumit\\Documents\\projects\\celex_rider\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_order_history_icon.png.flat",

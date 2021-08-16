@@ -1,12 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.gmail.samehadar:iosdialog:1.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f8933bd196a23a263086e4465bf0b8da/jetified-iosdialog-1.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f8933bd196a23a263086e4465bf0b8da/jetified-iosdialog-1.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f8933bd196a23a263086e4465bf0b8da/jetified-iosdialog-1.0/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/56b3dbae48a5234ca06e2c8a68639e37/jetified-iosdialog-1.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/56b3dbae48a5234ca06e2c8a68639e37/jetified-iosdialog-1.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/56b3dbae48a5234ca06e2c8a68639e37/jetified-iosdialog-1.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4ccce17a18ec73e8379e9d0f51048cdf/jetified-iosdialog-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4ccce17a18ec73e8379e9d0f51048cdf/jetified-iosdialog-1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4ccce17a18ec73e8379e9d0f51048cdf/jetified-iosdialog-1.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gmail.samehadar/iosdialog/1.0/1dbe3285972aa869819fdaa13b91ee1fd94e48e3/iosdialog-1.0-javadoc.jar!/" />

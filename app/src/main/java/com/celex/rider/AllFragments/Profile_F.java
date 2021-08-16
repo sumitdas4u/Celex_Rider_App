@@ -11,10 +11,12 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.location.Location;
 import android.net.Uri;
 import android.os.Bundle;
 import android.text.InputType;
 import android.util.Base64;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,6 +34,12 @@ import com.celex.rider.CodeClasses.ApiRequest;
 import com.celex.rider.CodeClasses.Api_urls;
 import com.celex.rider.CodeClasses.Variables;
 import com.celex.rider.interfaces.oncallback;
+import com.celex.rider.service.ForegroundService;
+import com.roam.sdk.Roam;
+import com.roam.sdk.RoamPublish;
+import com.roam.sdk.RoamTrackingMode;
+import com.roam.sdk.callback.RoamLocationCallback;
+import com.roam.sdk.models.RoamError;
 import com.squareup.picasso.Picasso;
 import com.theartofdev.edmodo.cropper.CropImage;
 import com.ybs.countrypicker.Country;
@@ -449,6 +457,25 @@ public class Profile_F extends Fragment implements View.OnClickListener {
                         editor.putString(Variables.RIDER_ONLINE_STATUS, "1");
                         editor.commit();
                         isChecked = true;
+                        RoamTrackingMode roamTrackingMode = new RoamTrackingMode.Builder(20, 60)
+                                .setDesiredAccuracy(RoamTrackingMode.DesiredAccuracy.HIGH)
+                                .build();
+                        Roam.startTracking(roamTrackingMode);
+
+                        RoamPublish RoamPublish = new RoamPublish.Builder()
+                                .build();
+                        Roam.publishAndSave(RoamPublish);
+
+                        Roam.enableAccuracyEngine();
+                        if (Roam.isLocationTracking()) {
+                            getActivity().startService(new Intent(getActivity(), ForegroundService.class));
+                            Log.d("Geo", "Start stoped");
+                        } else {
+                            getActivity().stopService(new Intent(getActivity(), ForegroundService.class));
+                            Log.d("Geo", "service stoped");
+                        }
+
+
 
                     } else {
                         text_offline.setText(getResources().getString(R.string.offline_txt));
@@ -456,6 +483,7 @@ public class Profile_F extends Fragment implements View.OnClickListener {
                         editor.putString(Variables.RIDER_ONLINE_STATUS, "0");
                         editor.commit();
                         isChecked = false;
+                        Roam.stopTracking();
                     }
                     bundle = new Bundle();
                     bundle.putString("fromWhere", "status");

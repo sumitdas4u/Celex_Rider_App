@@ -3530,6 +3530,9 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btnCreateTrip
+id btnTrip
+id btnTripStop
 id btn_Open_otp
 id btn_Open_photo_upload
 id btn_Open_signature
@@ -3545,6 +3548,7 @@ id btn_return
 id btn_start
 id btn_submit_doc
 id btn_submit_transfer
+id btn_test
 id btn_transfer
 id btn_undelivered
 id btn_verify_code
@@ -3761,6 +3765,7 @@ id image_login_status
 id image_rlt
 id image_root
 id image_view
+id img_back
 id img_end
 id img_no_job
 id img_profile
@@ -3951,6 +3956,7 @@ id primary_button
 id privacy_layout
 id profile_btn
 id profileimage
+id progressBar
 id progress_bar
 id progress_circular
 id progress_horizontal
@@ -3967,6 +3973,7 @@ id reciver_name
 id record_view
 id rectangle
 id rectangles
+id recyclerView
 id recylerview
 id recylerview_transfer_images
 id refresh_layout
@@ -3985,6 +3992,7 @@ id rl_document
 id rl_driving_licence
 id rl_hand
 id rl_holder
+id rl_trip
 id rl_upload_doc
 id rl_upload_photos
 id rl_vehicle_insurence
@@ -4043,6 +4051,7 @@ id skipCollapsed
 id slide
 id slide_to_cancel
 id smallLabel
+id snackBar
 id snackbar_action
 id snackbar_text
 id snap
@@ -4202,8 +4211,22 @@ id tv_username_profile
 id tv_weigh
 id tv_weight_label
 id txt_app_version
+id txt_date
+id txt_delete
+id txt_force_stop
 id txt_order_count
+id txt_pause
+id txt_resume
+id txt_start
 id txt_status
+id txt_stop
+id txt_sync
+id txt_sync_status
+id txt_trip_distance
+id txt_trip_duration
+id txt_trip_id
+id txt_trip_pase
+id txt_trip_speed
 id typeindicator
 id unchecked
 id uniform
@@ -4216,6 +4239,7 @@ id vehical_type_et
 id vehical_type_layout
 id vehicle_type_rlt
 id verification_title_tv
+id view
 id view_offset_helper
 id view_pager
 id view_store_name
@@ -4315,6 +4339,7 @@ layout activity_otp_verification
 layout activity_profile
 layout activity_return
 layout activity_splashscreen
+layout activity_trip
 layout activity_wifi
 layout amu_info_window
 layout amu_text_bubble
@@ -4392,6 +4417,7 @@ layout item_my_orders_layout
 layout item_order_detail_layout
 layout item_order_tabs_layout
 layout item_transfer_image_my
+layout item_trip
 layout item_upload_document_layout
 layout material_chip_input_combo
 layout material_clock_display

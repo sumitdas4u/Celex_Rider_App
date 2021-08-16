@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: org.xdty.preference:color-picker:0.0.4@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1d426a153a242ccae437f6e5501b6892/jetified-color-picker-0.0.4/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1d426a153a242ccae437f6e5501b6892/jetified-color-picker-0.0.4/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1d426a153a242ccae437f6e5501b6892/jetified-color-picker-0.0.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4cfe66eacc9f1a4b600b99c7bb1e3aa3/jetified-color-picker-0.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4cfe66eacc9f1a4b600b99c7bb1e3aa3/jetified-color-picker-0.0.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4cfe66eacc9f1a4b600b99c7bb1e3aa3/jetified-color-picker-0.0.4/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.xdty.preference/color-picker/0.0.4/92e3f6cf5a7d2f946ca7a9cbfa5d1ff5490459af/color-picker-0.0.4-javadoc.jar!/" />

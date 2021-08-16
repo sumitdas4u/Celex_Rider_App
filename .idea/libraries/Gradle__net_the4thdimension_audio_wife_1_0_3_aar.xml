@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: net.the4thdimension:audio-wife:1.0.3@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a0a02dbdc9a58808e112d95206fe5b38/jetified-audio-wife-1.0.3/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a0a02dbdc9a58808e112d95206fe5b38/jetified-audio-wife-1.0.3/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a0a02dbdc9a58808e112d95206fe5b38/jetified-audio-wife-1.0.3/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e19155b2a52f752b964bb1aa58b36105/jetified-audio-wife-1.0.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e19155b2a52f752b964bb1aa58b36105/jetified-audio-wife-1.0.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e19155b2a52f752b964bb1aa58b36105/jetified-audio-wife-1.0.3/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.the4thdimension/audio-wife/1.0.3/5b9414fc7ea6f2fa5c70d17fdf0a58ecdb629346/audio-wife-1.0.3-javadoc.jar!/" />

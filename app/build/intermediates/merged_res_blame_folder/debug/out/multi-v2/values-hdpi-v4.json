@@ -4,7 +4,17 @@
             "outputFile": "C:\\Users\\sumit\\Documents\\projects\\celex_rider\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sumit\\.gradle\\caches\\transforms-2\\files-2.1\\4c6eb553f3e8de9c5545629003d47829\\appcompat-1.3.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "C:\\Users\\sumit\\.gradle\\caches\\transforms-2\\files-2.1\\fc734c620ac00c71c4874e0eb767342b\\jetified-core-1.9.13\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,55",
+                        "endOffsets": "108,164"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\sumit\\.gradle\\caches\\transforms-2\\files-2.1\\8806ea530cdd3cdc81dac22bb3f44975\\appcompat-1.3.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "8",
                         "endColumns": "13",
                         "endOffsets": "441"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\sumit\\.gradle\\caches\\transforms-2\\files-2.1\\9158ccca94ef9744c226e42f5f5939ca\\jetified-core-1.9.13\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,113",
-                        "endColumns": "57,55",
-                        "endOffsets": "108,164"
                     }
                 }
             ]

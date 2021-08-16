@@ -27,13 +27,19 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
+import com.celex.rider.AllActivitys.MainActivity;
+import com.celex.rider.BuildConfig;
 import com.gmail.samehadar.iosdialog.CamomileSpinner;
 import com.celex.rider.DataModels.My_Orders_Model;
 import com.celex.rider.R;
 import com.celex.rider.interfaces.API_CallBack;
 import com.celex.rider.interfaces.CallBack_internet;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.messaging.FirebaseMessaging;
 import com.roam.sdk.Roam;
 import com.roam.sdk.RoamPublish;
 import com.roam.sdk.RoamTrackingMode;
@@ -61,9 +67,79 @@ import static android.content.Context.CONNECTIVITY_SERVICE;
 import static android.content.Context.DOWNLOAD_SERVICE;
 
 public class Functions {
+    public static String getDeviceName() {
+        String manufacturer = Build.MANUFACTURER;
+        String model = Build.MODEL;
+        if (model.startsWith(manufacturer)) {
+            return capitalize(model);
+        }
+        return capitalize(manufacturer) + " " + model;
+    }
+    private static String capitalize(String str) {
+        if (TextUtils.isEmpty(str)) {
+            return str;
+        }
+        char[] arr = str.toCharArray();
+        boolean capitalizeNext = true;
+
+        StringBuilder phrase = new StringBuilder();
+        for (char c : arr) {
+            if (capitalizeNext && Character.isLetter(c)) {
+                phrase.append(Character.toUpperCase(c));
+                capitalizeNext = false;
+                continue;
+            } else if (Character.isWhitespace(c)) {
+                capitalizeNext = true;
+            }
+            phrase.append(c);
+        }
+
+        return phrase.toString();
+    }
+
+    public static void Add_Device_Data(double lat, double lng,Context mContext) {
+
+        FirebaseMessaging.getInstance().getToken()
+                .addOnCompleteListener(new OnCompleteListener<String>() {
+                    @Override
+                    public void onComplete(@NonNull Task<String> task) {
+                        if (!task.isSuccessful()) {
+                            Log.w("TAG", "Fetching FCM registration token failed", task.getException());
+                            return;
+                        }
+
+                        // Get new FCM registration token
+                        String token = task.getResult();
+                        Variables.userDetails_pref.edit().putString(Variables.token, token).apply();
 
 
+                        Log.d("TAG", token);
+                        //   Toast.makeText(MainActivity.this, msg, Toast.LENGTH_SHORT).show();
+                    }
+                });
 
+
+        JSONObject params = new JSONObject();
+        try {
+            //  params.put("user_id", Variables.userDetails_pref.getString(Variables.id, ""));
+
+            params.put("device", getDeviceName());
+            params.put("version", BuildConfig.VERSION_CODE);
+            params.put("uid",Variables.userDetails_pref.getString(Variables.uid, ""));
+            params.put("roam_user_id",Variables.userDetails_pref.getString(Variables.geospark_user, ""));
+            params.put("device_token", Variables.userDetails_pref.getString(Variables.token, ""));
+            params.put("device_lat", lat);
+            params.put("device_long", lng);
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+
+        ApiRequest.Call_Api(mContext, Api_urls.ADD_DEVICE_DATA, params, null);
+
+
+    }
     public static void roam_update_meta_data_with_location(JSONObject metaDataJosn) {
         // update current location without meta-data
 //        Roam.updateCurrentLocation(RoamTrackingMode.DesiredAccuracy.HIGH,50, null);
