@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\sumit\\Documents\\projects\\celex_rider\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xhdpi-v4\\values-xhdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sumit\\.gradle\\caches\\transforms-2\\files-2.1\\fc734c620ac00c71c4874e0eb767342b\\jetified-core-1.9.13\\res\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+                    "source": "C:\\Users\\sumit\\.gradle\\caches\\transforms-2\\files-2.1\\69472ae600b6998c4c587d2ad4423585\\jetified-core-1.9.13\\res\\values-xhdpi-v4\\values-xhdpi-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

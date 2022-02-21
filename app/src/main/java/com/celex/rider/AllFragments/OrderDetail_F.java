@@ -735,7 +735,14 @@ public class OrderDetail_F extends RootFragment implements View.OnClickListener 
                 break;*/
 
             case R.id.iv_menu:
+                Upload_Photos_F f = new Upload_Photos_F(id,"delivery", resp -> {
+                });
+                FragmentTransaction ft = getFragmentManager().beginTransaction();
+                f.setTargetFragment(this, FRAGMENT_CODE);
 
+
+                ft.setCustomAnimations(R.anim.in_from_right, R.anim.out_to_left, R.anim.in_from_left, R.anim.out_to_right);
+                ft.replace(R.id.li_acticvityDetail, f).addToBackStack(null).commit();
                 MainActivity.Open_drawer();
                 break;
 
@@ -751,18 +758,23 @@ public class OrderDetail_F extends RootFragment implements View.OnClickListener 
 
             case R.id.btn_Open_photo_upload:
 
-                Upload_Photos_F f = new Upload_Photos_F(id,"delivery", resp -> {
+                Upload_Photos_F f1 = new Upload_Photos_F(id,"delivery", resp -> {
                 });
-                FragmentTransaction ft = getFragmentManager().beginTransaction();
-                f.setTargetFragment(this, FRAGMENT_CODE);
+                FragmentTransaction ft1 = getFragmentManager().beginTransaction();
+                f1.setTargetFragment(this, FRAGMENT_CODE);
 
 
-                ft.setCustomAnimations(R.anim.in_from_right, R.anim.out_to_left, R.anim.in_from_left, R.anim.out_to_right);
-                ft.replace(R.id.li_acticvityDetail, f).addToBackStack(null).commit();
+                ft1.setCustomAnimations(R.anim.in_from_right, R.anim.out_to_left, R.anim.in_from_left, R.anim.out_to_right);
+                ft1.replace(R.id.li_acticvityDetail, f1).addToBackStack(null).commit();
                 break;
 
 
             case R.id.btn_Rider_status:
+                if( Variables.userDetails_pref.getString(Variables.trip_roam_current_id, null)==null){
+                    Toast.makeText(getContext(), "Please start the trip. before any activity", Toast.LENGTH_SHORT).show();
+                    break;
+                }
+
                 String btn_status = btn_Rider_status.getText().toString();
                 if (btn_Rider_status.getText().equals(Order_return_to_station_Successfully)) {
                     Toast.makeText(getActivity(), Order_return_to_station_Successfully, Toast.LENGTH_SHORT).show();

@@ -1,6 +1,5 @@
 package com.celex.rider.service;
 
-
 import android.app.Service;
 import android.content.Intent;
 import android.content.IntentFilter;
@@ -25,6 +24,7 @@ public class ForegroundService extends Service {
             startForeground(NotificationHelper.NOTIFICATION_ID, NotificationHelper.showNotification(this));
         }
         register();
+
     }
 
     @Override
@@ -40,10 +40,12 @@ public class ForegroundService extends Service {
     }
 
     private void register() {
+
         mLocationReceiver = new LocationReceiver();
         IntentFilter intentFilter = new IntentFilter();
-        intentFilter.addAction("com.geospark.android.RECEIVED");
+        intentFilter.addAction("com.roam.android.RECEIVED");
         registerReceiver(mLocationReceiver, intentFilter);
+
     }
 
     private void unRegister() {

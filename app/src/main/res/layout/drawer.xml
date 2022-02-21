@@ -312,7 +312,37 @@
                 android:textSize="@dimen/drawer_txt" />
 
         </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/image_rlt"
+            android:background="@drawable/lite_gray_line" />
+        <LinearLayout
+            android:id="@+id/trip_btn"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:orientation="horizontal"
+            android:paddingStart="21dp">
 
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_location"
+                app:tint="@color/textColor" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/poppins"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:text="Trip Summary [beta]"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/drawer_txt" />
+
+        </LinearLayout>
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

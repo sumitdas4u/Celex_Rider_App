@@ -1,9 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: com.booking:rtlviewpager:1.0.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/13378f0676c4c703566fa43d3aa62663/jetified-rtlviewpager-1.0.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/13378f0676c4c703566fa43d3aa62663/jetified-rtlviewpager-1.0.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/13378f0676c4c703566fa43d3aa62663/jetified-rtlviewpager-1.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bb44edad8eb975fc2a7e7accdea4455b/jetified-rtlviewpager-1.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bb44edad8eb975fc2a7e7accdea4455b/jetified-rtlviewpager-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bb44edad8eb975fc2a7e7accdea4455b/jetified-rtlviewpager-1.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ea2cedf0b4c2e357d266047a3307f904/jetified-rtlviewpager-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ea2cedf0b4c2e357d266047a3307f904/jetified-rtlviewpager-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ea2cedf0b4c2e357d266047a3307f904/jetified-rtlviewpager-1.0.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.booking/rtlviewpager/1.0.1/4d32f101f0782d22883c85576d348303d6b4beab/rtlviewpager-1.0.1-javadoc.jar!/" />

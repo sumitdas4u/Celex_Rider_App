@@ -22,6 +22,7 @@ public class Variables  {
 
     public static String my_current_lat = "my_current_lat_freshly";
     public static String my_current_lng = "my_current_lng_freshly";
+    public static String trip_roam_current_id = "trip_current_id";
     public static String id = "Id";
     public static String name = "First_name__freshly";
     public static String geospark_user = "geo_spark_user";

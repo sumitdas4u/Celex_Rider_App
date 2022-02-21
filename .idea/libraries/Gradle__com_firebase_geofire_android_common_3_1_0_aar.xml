@@ -1,9 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: com.firebase:geofire-android-common:3.1.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/46e04ddee7c46ca7bc57f370fd08eee4/jetified-geofire-android-common-3.1.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/46e04ddee7c46ca7bc57f370fd08eee4/jetified-geofire-android-common-3.1.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/46e04ddee7c46ca7bc57f370fd08eee4/jetified-geofire-android-common-3.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/409aa330a30630dda31a97d987fc0e91/jetified-geofire-android-common-3.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/409aa330a30630dda31a97d987fc0e91/jetified-geofire-android-common-3.1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/409aa330a30630dda31a97d987fc0e91/jetified-geofire-android-common-3.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/95bfff76ce8320690f51857e0682c0d7/jetified-geofire-android-common-3.1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/95bfff76ce8320690f51857e0682c0d7/jetified-geofire-android-common-3.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/95bfff76ce8320690f51857e0682c0d7/jetified-geofire-android-common-3.1.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.firebase/geofire-android-common/3.1.0/6e1cea83d540c9b5a1083f2491cc5740256b4a63/geofire-android-common-3.1.0-javadoc.jar!/" />

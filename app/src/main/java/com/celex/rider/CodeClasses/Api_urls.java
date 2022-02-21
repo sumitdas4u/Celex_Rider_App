@@ -22,6 +22,8 @@ public class Api_urls {
 
     public  static final  String URL_RIDER_ORDER_RESPONSE = DOMAIN +"driver/order/status";
 
+    public  static final  String URL_ROAM_TRIP_DESTINATION_ADD = DOMAIN +"driver/update_trip_destination";
+
     public static final  String URL_ADD_SIGNATURE = DOMAIN +"driver/order/addsignature";
     public static final  String URL_SEND_DELIVERY_SMS = DOMAIN +"driver/order/send-delivery-sms";
     public static final  String URL_VERIFY_OTP = DOMAIN +"driver/order/verify-otp";
@@ -38,6 +40,7 @@ public class Api_urls {
         public static final String URL_GET_SIMILAR_DELIVERY_BOY = DOMAIN +"driver/similarboy";
 
     public static final String URL_GET_METER_READING = DOMAIN +"driver/meter";
+    public static final String URL_GET_TRIP_SUMMARY = DOMAIN +"driver/trips";
 
    // public static final String URL_ADD_VEHICLE = DOMAIN +"driver/vehicle";
 

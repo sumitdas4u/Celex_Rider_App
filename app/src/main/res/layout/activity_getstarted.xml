@@ -31,7 +31,7 @@
             android:layout_marginRight="20dp"
             android:layout_marginBottom="20dp"
             android:gravity="center"
-            android:text="@string/fastest_way_to_deliver_at_your_own_convenience"
+            android:text="@string/you_ll_need_to_enable_your_location_n_in_order_to_use_binder"
             android:textColor="@color/App_color"
             android:textSize="18dp" />
 

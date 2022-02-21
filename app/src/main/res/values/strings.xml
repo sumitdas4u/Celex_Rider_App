@@ -143,7 +143,7 @@
     <string name="no_internet_connection">No Internet Connection</string>
 
     <string name="enable_location">Enable Your Location</string>
-    <string name="you_ll_need_to_enable_your_location_n_in_order_to_use_binder">Choose your location to start find the \n request around you</string>
+    <string name="you_ll_need_to_enable_your_location_n_in_order_to_use_binder">We collects location data to identify your position realtime,even when the app is closed or not in used.  \n  This data is not used for any support ads</string>
     <string name="allow_location">Enable Location</string>
 
     <string name="offline_txt">Offline</string>

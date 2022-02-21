@@ -8,6 +8,10 @@ com/celex/rider/AllActivitys/TripActivity.java
  com.celex.rider.AllActivitys.TripActivity
  com.celex.rider.AllActivitys.TripActivity$1
  com.celex.rider.AllActivitys.TripActivity$2
+com/celex/rider/AllFragments/Trip_Summary_F.java
+ com.celex.rider.AllFragments.Trip_Summary_F
+ com.celex.rider.AllFragments.Trip_Summary_F$1
+ com.celex.rider.AllFragments.Trip_Summary_F$1$1
 com/celex/rider/DataModels/My_Orders_Model.java
  com.celex.rider.DataModels.My_Orders_Model
 com/celex/rider/AllFragments/Web_View.java
@@ -18,9 +22,9 @@ com/celex/rider/AllFragments/Web_View.java
 com/celex/rider/AllFragments/Change_Password_F.java
  com.celex.rider.AllFragments.Change_Password_F
  com.celex.rider.AllFragments.Change_Password_F$1
-com/celex/rider/AllFragments/ManageVehicle_F.java
- com.celex.rider.AllFragments.ManageVehicle_F
- com.celex.rider.AllFragments.ManageVehicle_F$1
+com/celex/rider/AllFragments/History_F.java
+ com.celex.rider.AllFragments.History_F
+ com.celex.rider.AllFragments.History_F$1
 com/celex/rider/AllActivitys/DriverActivity.java
  com.celex.rider.AllActivitys.DriverActivity
  com.celex.rider.AllActivitys.DriverActivity$1
@@ -40,11 +44,34 @@ com/celex/rider/AllFragments/Select_Language_F.java
 com/celex/rider/Adapters/OrderDetail_Adapter.java
  com.celex.rider.Adapters.OrderDetail_Adapter
  com.celex.rider.Adapters.OrderDetail_Adapter$CustomViewHolder
+com/celex/rider/Adapters/roamTripAdaptor.java
+ com.celex.rider.Adapters.roamTripAdaptor
+ com.celex.rider.Adapters.roamTripAdaptor$1
+ com.celex.rider.Adapters.roamTripAdaptor$2
+ com.celex.rider.Adapters.roamTripAdaptor$2$1
+ com.celex.rider.Adapters.roamTripAdaptor$3
+ com.celex.rider.Adapters.roamTripAdaptor$3$1
+ com.celex.rider.Adapters.roamTripAdaptor$4
+ com.celex.rider.Adapters.roamTripAdaptor$4$1
+ com.celex.rider.Adapters.roamTripAdaptor$5
+ com.celex.rider.Adapters.roamTripAdaptor$5$1
+ com.celex.rider.Adapters.roamTripAdaptor$6
+ com.celex.rider.Adapters.roamTripAdaptor$6$1
+ com.celex.rider.Adapters.roamTripAdaptor$7
+ com.celex.rider.Adapters.roamTripAdaptor$7$1
+ com.celex.rider.Adapters.roamTripAdaptor$8
+ com.celex.rider.Adapters.roamTripAdaptor$8$1
+ com.celex.rider.Adapters.roamTripAdaptor$ItemHolder
 com/celex/rider/AllActivitys/Wifi_Activity.java
  com.celex.rider.AllActivitys.Wifi_Activity
  com.celex.rider.AllActivitys.Wifi_Activity$1
-com/celex/rider/interfaces/Callback.java
- com.celex.rider.interfaces.Callback
+com/celex/rider/AllFragments/HomeFragments/Home_F.java
+ com.celex.rider.AllFragments.HomeFragments.Home_F
+ com.celex.rider.AllFragments.HomeFragments.Home_F$1
+ com.celex.rider.AllFragments.HomeFragments.Home_F$2
+ com.celex.rider.AllFragments.HomeFragments.Home_F$3
+ com.celex.rider.AllFragments.HomeFragments.Home_F$3$1
+ com.celex.rider.AllFragments.HomeFragments.Home_F$NewBroadCast
 com/celex/rider/Adapters/VehicleAdapter.java
  com.celex.rider.Adapters.VehicleAdapter
  com.celex.rider.Adapters.VehicleAdapter$1
@@ -59,6 +86,7 @@ com/celex/rider/AllActivitys/MainActivity.java
  com.celex.rider.AllActivitys.MainActivity$1
  com.celex.rider.AllActivitys.MainActivity$1$1
  com.celex.rider.AllActivitys.MainActivity$10
+ com.celex.rider.AllActivitys.MainActivity$10$1
  com.celex.rider.AllActivitys.MainActivity$11
  com.celex.rider.AllActivitys.MainActivity$2
  com.celex.rider.AllActivitys.MainActivity$3
@@ -124,6 +152,7 @@ com/celex/rider/CodeClasses/Functions.java
  com.celex.rider.CodeClasses.Functions
  com.celex.rider.CodeClasses.Functions$1
  com.celex.rider.CodeClasses.Functions$2
+ com.celex.rider.CodeClasses.Functions$3
 com/celex/rider/interfaces/CallBack_internet.java
  com.celex.rider.interfaces.CallBack_internet
 com/celex/rider/AllFragments/Document/Upload_Photos_F.java
@@ -173,22 +202,7 @@ com/celex/rider/Location_Services/GetLocation_Service.java
  com.celex.rider.Location_Services.GetLocation_Service$Mythreadclass
 com/celex/rider/Adapters/TripAdapter.java
  com.celex.rider.Adapters.TripAdapter
- com.celex.rider.Adapters.TripAdapter$1
- com.celex.rider.Adapters.TripAdapter$2
- com.celex.rider.Adapters.TripAdapter$2$1
- com.celex.rider.Adapters.TripAdapter$3
- com.celex.rider.Adapters.TripAdapter$3$1
- com.celex.rider.Adapters.TripAdapter$4
- com.celex.rider.Adapters.TripAdapter$4$1
- com.celex.rider.Adapters.TripAdapter$5
- com.celex.rider.Adapters.TripAdapter$5$1
- com.celex.rider.Adapters.TripAdapter$6
- com.celex.rider.Adapters.TripAdapter$6$1
- com.celex.rider.Adapters.TripAdapter$7
- com.celex.rider.Adapters.TripAdapter$7$1
- com.celex.rider.Adapters.TripAdapter$8
- com.celex.rider.Adapters.TripAdapter$8$1
- com.celex.rider.Adapters.TripAdapter$ItemHolder
+ com.celex.rider.Adapters.TripAdapter$ChildViewHolder
 com/celex/rider/AllActivitys/Enable_location_A.java
  com.celex.rider.AllActivitys.Enable_location_A
  com.celex.rider.AllActivitys.Enable_location_A$1
@@ -224,8 +238,13 @@ com/celex/rider/AllFragments/Change_phone_no.java
  com.celex.rider.AllFragments.Change_phone_no
  com.celex.rider.AllFragments.Change_phone_no$1
  com.celex.rider.AllFragments.Change_phone_no$2
-com/celex/rider/DataModels/DriverModel.java
- com.celex.rider.DataModels.DriverModel
+com/celex/rider/AllFragments/HomeFragments/Delivered_Order.java
+ com.celex.rider.AllFragments.HomeFragments.Delivered_Order
+ com.celex.rider.AllFragments.HomeFragments.Delivered_Order$1
+ com.celex.rider.AllFragments.HomeFragments.Delivered_Order$2
+ com.celex.rider.AllFragments.HomeFragments.Delivered_Order$3
+ com.celex.rider.AllFragments.HomeFragments.Delivered_Order$3$1
+ com.celex.rider.AllFragments.HomeFragments.Delivered_Order$4
 com/celex/rider/DataModels/SelectVehicleModel.java
  com.celex.rider.DataModels.SelectVehicleModel
 com/celex/rider/AllActivitys/GetStarted_A.java
@@ -236,15 +255,27 @@ com/celex/rider/AllActivitys/Splashscreen_A.java
  com.celex.rider.AllActivitys.Splashscreen_A$1
 com/celex/rider/Users_Chat/Chat_GetSet.java
  com.celex.rider.Users_Chat.Chat_GetSet
-com/celex/rider/Users_Chat/Audio/SendAudio.java
- com.celex.rider.Users_Chat.Audio.SendAudio
- com.celex.rider.Users_Chat.Audio.SendAudio$1
- com.celex.rider.Users_Chat.Audio.SendAudio$1$1
- com.celex.rider.Users_Chat.Audio.SendAudio$1$1$1
+com/celex/rider/AllFragments/OrderDetail_F.java
+ com.celex.rider.AllFragments.OrderDetail_F
+ com.celex.rider.AllFragments.OrderDetail_F$1
+ com.celex.rider.AllFragments.OrderDetail_F$2
+ com.celex.rider.AllFragments.OrderDetail_F$3
+ com.celex.rider.AllFragments.OrderDetail_F$4
+ com.celex.rider.AllFragments.OrderDetail_F$5
+ com.celex.rider.AllFragments.OrderDetail_F$6
+ com.celex.rider.AllFragments.OrderDetail_F$7
 com/celex/rider/BuildConfig.java
  com.celex.rider.BuildConfig
-com/celex/rider/interfaces/Adapter_ClickListener.java
- com.celex.rider.interfaces.Adapter_ClickListener
+com/celex/rider/AllFragments/HomeFragments/Processing_Order.java
+ com.celex.rider.AllFragments.HomeFragments.Processing_Order
+ com.celex.rider.AllFragments.HomeFragments.Processing_Order$1
+ com.celex.rider.AllFragments.HomeFragments.Processing_Order$2
+ com.celex.rider.AllFragments.HomeFragments.Processing_Order$2$1
+ com.celex.rider.AllFragments.HomeFragments.Processing_Order$3
+ com.celex.rider.AllFragments.HomeFragments.Processing_Order$3$1
+ com.celex.rider.AllFragments.HomeFragments.Processing_Order$4
+ com.celex.rider.AllFragments.HomeFragments.Processing_Order$5
+ com.celex.rider.AllFragments.HomeFragments.Processing_Order$6
 com/celex/rider/AllFragments/Document/Transfer_Delivery_F.java
  com.celex.rider.AllFragments.Document.Transfer_Delivery_F
  com.celex.rider.AllFragments.Document.Transfer_Delivery_F$1
@@ -271,6 +302,12 @@ com/celex/rider/AllFragments/Login_F.java
  com.celex.rider.AllFragments.Login_F
 com/celex/rider/service/LocationReceiver.java
  com.celex.rider.service.LocationReceiver
+ com.celex.rider.service.LocationReceiver$1
+ com.celex.rider.service.LocationReceiver$1$1
+ com.celex.rider.service.LocationReceiver$2
+ com.celex.rider.service.LocationReceiver$2$1
+com/celex/rider/DataModels/TripModel.java
+ com.celex.rider.DataModels.TripModel
 com/celex/rider/Adapters/HistoryAdapter.java
  com.celex.rider.Adapters.HistoryAdapter
  com.celex.rider.Adapters.HistoryAdapter$ChildViewHolder
@@ -280,42 +317,20 @@ com/celex/rider/Users_Chat/ViewHolders/Chatimageviewholder.java
 com/celex/rider/Adapters/DeliveryBoyAdapter.java
  com.celex.rider.Adapters.DeliveryBoyAdapter
  com.celex.rider.Adapters.DeliveryBoyAdapter$ChildViewHolder
-com/celex/rider/AllFragments/OrderDetail_F.java
- com.celex.rider.AllFragments.OrderDetail_F
- com.celex.rider.AllFragments.OrderDetail_F$1
- com.celex.rider.AllFragments.OrderDetail_F$2
- com.celex.rider.AllFragments.OrderDetail_F$3
- com.celex.rider.AllFragments.OrderDetail_F$4
- com.celex.rider.AllFragments.OrderDetail_F$5
- com.celex.rider.AllFragments.OrderDetail_F$6
- com.celex.rider.AllFragments.OrderDetail_F$7
 com/celex/rider/AllFragments/Return_F.java
  com.celex.rider.AllFragments.Return_F
  com.celex.rider.AllFragments.Return_F$1
-com/celex/rider/AllFragments/HomeFragments/Processing_Order.java
- com.celex.rider.AllFragments.HomeFragments.Processing_Order
- com.celex.rider.AllFragments.HomeFragments.Processing_Order$1
- com.celex.rider.AllFragments.HomeFragments.Processing_Order$2
- com.celex.rider.AllFragments.HomeFragments.Processing_Order$2$1
- com.celex.rider.AllFragments.HomeFragments.Processing_Order$3
- com.celex.rider.AllFragments.HomeFragments.Processing_Order$3$1
- com.celex.rider.AllFragments.HomeFragments.Processing_Order$4
- com.celex.rider.AllFragments.HomeFragments.Processing_Order$5
- com.celex.rider.AllFragments.HomeFragments.Processing_Order$6
-com/celex/rider/AllFragments/HomeFragments/Delivered_Order.java
- com.celex.rider.AllFragments.HomeFragments.Delivered_Order
- com.celex.rider.AllFragments.HomeFragments.Delivered_Order$1
- com.celex.rider.AllFragments.HomeFragments.Delivered_Order$2
- com.celex.rider.AllFragments.HomeFragments.Delivered_Order$3
- com.celex.rider.AllFragments.HomeFragments.Delivered_Order$3$1
- com.celex.rider.AllFragments.HomeFragments.Delivered_Order$4
-com/celex/rider/AllFragments/HomeFragments/Home_F.java
- com.celex.rider.AllFragments.HomeFragments.Home_F
- com.celex.rider.AllFragments.HomeFragments.Home_F$1
- com.celex.rider.AllFragments.HomeFragments.Home_F$2
- com.celex.rider.AllFragments.HomeFragments.Home_F$3
- com.celex.rider.AllFragments.HomeFragments.Home_F$3$1
- com.celex.rider.AllFragments.HomeFragments.Home_F$NewBroadCast
-com/celex/rider/AllFragments/History_F.java
- com.celex.rider.AllFragments.History_F
- com.celex.rider.AllFragments.History_F$1
+com/celex/rider/interfaces/Callback.java
+ com.celex.rider.interfaces.Callback
+com/celex/rider/DataModels/DriverModel.java
+ com.celex.rider.DataModels.DriverModel
+com/celex/rider/interfaces/Adapter_ClickListener.java
+ com.celex.rider.interfaces.Adapter_ClickListener
+com/celex/rider/AllFragments/ManageVehicle_F.java
+ com.celex.rider.AllFragments.ManageVehicle_F
+ com.celex.rider.AllFragments.ManageVehicle_F$1
+com/celex/rider/Users_Chat/Audio/SendAudio.java
+ com.celex.rider.Users_Chat.Audio.SendAudio
+ com.celex.rider.Users_Chat.Audio.SendAudio$1
+ com.celex.rider.Users_Chat.Audio.SendAudio$1$1
+ com.celex.rider.Users_Chat.Audio.SendAudio$1$1$1

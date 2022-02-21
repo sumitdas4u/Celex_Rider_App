@@ -280,7 +280,9 @@ public class Upload_Doc_Second_F extends RootFragment implements View.OnClickLis
         if (callback != null) {
             callback.Responce("done");
         }
-        getFragmentManager().popBackStack();
+        if ( getActivity().getSupportFragmentManager() != null && ! getActivity().getSupportFragmentManager().isStateSaved()) {
+            getActivity().getSupportFragmentManager().popBackStack();
+        }
     }
 
 }

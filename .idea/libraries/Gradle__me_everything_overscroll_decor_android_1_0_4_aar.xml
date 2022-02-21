@@ -1,9 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: me.everything:overscroll-decor-android:1.0.4@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/93e12644a223daf7d3092a0bb615f3a8/jetified-overscroll-decor-android-1.0.4/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/93e12644a223daf7d3092a0bb615f3a8/jetified-overscroll-decor-android-1.0.4/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/93e12644a223daf7d3092a0bb615f3a8/jetified-overscroll-decor-android-1.0.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/934a2c402d48a29558b9951702968e66/jetified-overscroll-decor-android-1.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/934a2c402d48a29558b9951702968e66/jetified-overscroll-decor-android-1.0.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/934a2c402d48a29558b9951702968e66/jetified-overscroll-decor-android-1.0.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ae30fdd401d1e23c8ba8a6720c1469d9/jetified-overscroll-decor-android-1.0.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ae30fdd401d1e23c8ba8a6720c1469d9/jetified-overscroll-decor-android-1.0.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ae30fdd401d1e23c8ba8a6720c1469d9/jetified-overscroll-decor-android-1.0.4/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.everything/overscroll-decor-android/1.0.4/69e91eaff6c75d3a2359f325bddfc10bfacfdc44/overscroll-decor-android-1.0.4-javadoc.jar!/" />

@@ -67,6 +67,9 @@ import static android.content.Context.CONNECTIVITY_SERVICE;
 import static android.content.Context.DOWNLOAD_SERVICE;
 
 public class Functions {
+
+
+
     public static String getDeviceName() {
         String manufacturer = Build.MANUFACTURER;
         String model = Build.MODEL;
@@ -336,14 +339,16 @@ public class Functions {
     }
 
 
-    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
+
     public static void create_file(File path, Context mcoContext, String sFileName, String sBody, String time, String apllication_name) throws IOException {
 
 
         File file = new File(path, sFileName + ".txt");
 
         if (file.exists()) {
-            String data = getContentFile("" + file, sBody, time, apllication_name);
+            if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.KITKAT) {
+                String data = getContentFile("" + file, sBody, time, apllication_name);
+            }
 
         } else {
 
@@ -413,9 +418,7 @@ public class Functions {
         byte[] byteArray = byteArrayOutputStream.toByteArray();
         bitmap.recycle();
 
-        String encoded = Base64.encodeToString(byteArray, Base64.DEFAULT);
-
-        return encoded;
+        return Base64.encodeToString(byteArray, Base64.DEFAULT);
     }
 
 

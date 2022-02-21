@@ -125,6 +125,7 @@ public class GetSignature_A extends AppCompatActivity implements View.OnClickLis
                             @Override
                             public void run() {
                                 try {
+
                                     CallApi_addSignature(GetSignature_A.this, Functions.Convert_Bitmap_to_base64(mDrawingViewUtils.getBitmap()), order_id);
                                 } catch (IOException e) {
                                     e.printStackTrace();
@@ -151,6 +152,7 @@ public class GetSignature_A extends AppCompatActivity implements View.OnClickLis
         mDrawingViewUtils.setBackgroundColor(mCurrentBackgroundColor);
         mDrawingViewUtils.setPaintColor(mCurrentColor);
         mDrawingViewUtils.setPaintStrokeWidth(mCurrentStroke);
+
     }
 
 

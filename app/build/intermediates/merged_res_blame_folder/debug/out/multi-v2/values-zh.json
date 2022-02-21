@@ -4,7 +4,24 @@
             "outputFile": "C:\\Users\\sumit\\Documents\\projects\\celex_rider\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sumit\\.gradle\\caches\\transforms-2\\files-2.1\\acf20fc7a7aa121fe1af4465a0e7fe00\\jetified-android-image-cropper-2.8.0\\res\\values-zh\\values-zh.xml",
+                    "source": "C:\\Users\\sumit\\.gradle\\caches\\transforms-2\\files-2.1\\10e2624e7040ef6dbdf649cdc9e96fe2\\jetified-ucrop-2.2.7\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,109,163",
+                        "endColumns": "53,53,46",
+                        "endOffsets": "104,158,205"
+                    },
+                    "to": {
+                        "startLines": "11,12,13",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "605,659,713",
+                        "endColumns": "53,53,46",
+                        "endOffsets": "654,708,755"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\sumit\\.gradle\\caches\\transforms-2\\files-2.1\\f03ac7c99b2ff9dfc4b36f7aab0f6695\\jetified-android-image-cropper-2.8.0\\res\\values-zh\\values-zh.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

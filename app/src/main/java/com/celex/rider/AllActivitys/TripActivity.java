@@ -17,6 +17,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 
 import com.celex.rider.Adapters.TripAdapter;
+import com.celex.rider.Adapters.roamTripAdaptor;
 import com.celex.rider.R;
  
 import com.google.android.material.snackbar.Snackbar;
@@ -31,7 +32,7 @@ import java.util.List;
 
 public class TripActivity extends AppCompatActivity {
     private ProgressBar progressbar;
-    private TripAdapter adapter;
+    private roamTripAdaptor adapter;
     private TextView snackBar;
     private boolean offline;
 
@@ -40,7 +41,7 @@ public class TripActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_trip);
         offline = getIntent().getBooleanExtra("OFFLINE", false);
-        adapter = new TripAdapter(this);
+        adapter = new roamTripAdaptor(this);
         progressbar = findViewById(R.id.progressbar);
         snackBar = findViewById(R.id.snackBar);
         ImageView txtBack = findViewById(R.id.img_back);

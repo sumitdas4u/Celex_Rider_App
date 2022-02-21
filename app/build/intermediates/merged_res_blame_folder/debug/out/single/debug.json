@@ -184,6 +184,10 @@
         "source": "C:\\Users\\sumit\\Documents\\projects\\celex_rider\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_email.png"
     },
     {
+        "merged": "C:\\Users\\sumit\\Documents\\projects\\celex_rider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_trip_summary.xml.flat",
+        "source": "C:\\Users\\sumit\\Documents\\projects\\celex_rider\\app\\src\\main\\res\\layout\\activity_trip_summary.xml"
+    },
+    {
         "merged": "C:\\Users\\sumit\\Documents\\projects\\celex_rider\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_documents_layout.xml.flat",
         "source": "C:\\Users\\sumit\\Documents\\projects\\celex_rider\\app\\src\\main\\res\\layout\\item_documents_layout.xml"
     },
@@ -598,6 +602,10 @@
     {
         "merged": "C:\\Users\\sumit\\Documents\\projects\\celex_rider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\sumit\\Documents\\projects\\celex_rider\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\sumit\\Documents\\projects\\celex_rider\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_trip_summary.xml.flat",
+        "source": "C:\\Users\\sumit\\Documents\\projects\\celex_rider\\app\\src\\main\\res\\layout\\item_trip_summary.xml"
     },
     {
         "merged": "C:\\Users\\sumit\\Documents\\projects\\celex_rider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile.xml.flat",
@@ -1456,12 +1464,12 @@
         "source": "C:\\Users\\sumit\\Documents\\projects\\celex_rider\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_upload.png"
     },
     {
-        "merged": "C:\\Users\\sumit\\Documents\\projects\\celex_rider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dotted.xml.flat",
-        "source": "C:\\Users\\sumit\\Documents\\projects\\celex_rider\\app\\src\\main\\res\\drawable\\dotted.xml"
-    },
-    {
         "merged": "C:\\Users\\sumit\\Documents\\projects\\celex_rider\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_history.xml.flat",
         "source": "C:\\Users\\sumit\\Documents\\projects\\celex_rider\\app\\src\\main\\res\\layout\\activity_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\sumit\\Documents\\projects\\celex_rider\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dotted.xml.flat",
+        "source": "C:\\Users\\sumit\\Documents\\projects\\celex_rider\\app\\src\\main\\res\\drawable\\dotted.xml"
     },
     {
         "merged": "C:\\Users\\sumit\\Documents\\projects\\celex_rider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_user_icon.png.flat",

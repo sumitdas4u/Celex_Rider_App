@@ -1,7 +1,6 @@
 package com.celex.rider.service;
 
 import android.content.Context;
-import android.content.Intent;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -23,35 +22,31 @@ import com.roam.sdk.service.RoamReceiver;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
-import java.util.function.Function;
+import java.util.Locale;
+import java.util.TimeZone;
 
 
 public class LocationReceiver extends RoamReceiver {
 
-
-    private Context mContext;
-
     @Override
-    public void onReceive(Context context, Intent intent) {
-
-        mContext = context;
-    }
-    @Override
-    public void onLocationUpdated(Context context, RoamLocation geoSparkLocation) {
-        super.onLocationUpdated(context, geoSparkLocation);
-        Log.e("Location", "Lat " + geoSparkLocation.getLocation().getLatitude() + " Lng " + geoSparkLocation.getLocation().getLongitude());
-       Functions.Add_Device_Data(geoSparkLocation.getLocation().getLatitude(),geoSparkLocation.getLocation().getLongitude(),mContext);
-        stopTrip();
+    public void onLocationUpdated(Context context, RoamLocation roamLocation) {
+        super.onLocationUpdated(context, roamLocation);
+        Log.e("Location", "Lat " + roamLocation.getLocation().getLatitude() + " Lng " + roamLocation.getLocation().getLongitude());
+        stopTrip(context);
     }
 
     @Override
-    public void onError(Context context, RoamError geoSparkError) {
-        Log.e("Location", geoSparkError.getMessage());
+    public void onError(Context context, RoamError roamError) {
+        Log.e("onLocationUpdated", roamError.getMessage());
     }
 
-
-    private void stopTrip() {
+    private void stopTrip(Context mContext) {
 
 
 
@@ -66,18 +61,48 @@ public class LocationReceiver extends RoamReceiver {
                     String trip_id = activeTrips.get(0).getTripId();
                     //    Toast.makeText(getBaseContext(), trip_id, Toast.LENGTH_SHORT).show();
 
-                    Roam.startTrip(trip_id, "Trip was not started", new RoamTripCallback() {
-                        @Override
-                        public void onSuccess(String message) {
-                            stopTripAndSummary(trip_id);
-                            //  Toast.makeText(getBaseContext(),"fail"+trip_id, Toast.LENGTH_SHORT).show();
+
+                    String dtStart = activeTrips.get(0).getCreatedAt();
+                    SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
+                    try {
+                        format.setTimeZone(TimeZone.getTimeZone("UTC"));
+
+                        Date date = format.parse(dtStart);
+
+                        System.out.println(date);
+
+
+                        Calendar c1 = Calendar.getInstance(); // today
+                        c1.add(Calendar.DAY_OF_YEAR, -1); // yesterday
+
+                        Calendar c2 = Calendar.getInstance();
+                        c2.setTime(date); // your date
+                        Log.e("Location", "c1 " +  c1.get(Calendar.DAY_OF_YEAR) + " c2 " + c2.get(Calendar.DAY_OF_YEAR));
+
+                        if (c1.get(Calendar.YEAR) == c2.get(Calendar.YEAR)
+                                && c1.get(Calendar.DAY_OF_YEAR) == c2.get(Calendar.DAY_OF_YEAR)) {
+
+
+
+                            Roam.startTrip(trip_id, "Trip was not started", new RoamTripCallback() {
+                                @Override
+                                public void onSuccess(String message) {
+                                    stopTripAndSummary(trip_id, mContext);
+                                    //  Toast.makeText(getBaseContext(),"fail"+trip_id, Toast.LENGTH_SHORT).show();
+                                }
+                                @Override
+                                public void onFailure(RoamError RoamError) {
+                                    //     Toast.makeText(getBaseContext(),"fail"+trip_id, Toast.LENGTH_SHORT).show();
+                                    stopTripAndSummary(trip_id, mContext);
+                                }
+                            });
                         }
-                        @Override
-                        public void onFailure(RoamError RoamError) {
-                            //     Toast.makeText(getBaseContext(),"fail"+trip_id, Toast.LENGTH_SHORT).show();
-                            stopTripAndSummary(trip_id);
-                        }
-                    });
+
+                    } catch (ParseException e) {
+                        e.printStackTrace();
+                    }
+
+
 
 
                 }
@@ -94,7 +119,7 @@ public class LocationReceiver extends RoamReceiver {
 
 
     }
-    private void stopTripAndSummary(String trip_id){
+    private void stopTripAndSummary(String trip_id, Context mContext){
 
         Log.d("geo","trip_id"+ trip_id);
         // Log.d("geo",uid+ trip_id);
@@ -154,4 +179,34 @@ public class LocationReceiver extends RoamReceiver {
 
         });
     }
+
 }
+
+/*
+
+public class LocationReceiver extends RoamReceiver {
+
+
+    private Context mContext;
+
+    @Override
+    public void onReceive(Context context, Intent intent) {
+
+        mContext = context;
+    }
+    @Override
+    public void onLocationUpdated(Context context, RoamLocation geoSparkLocation) {
+        super.onLocationUpdated(context, geoSparkLocation);
+        Log.e("Location", "Lat " + geoSparkLocation.getLocation().getLatitude() + " Lng " + geoSparkLocation.getLocation().getLongitude());
+       Functions.Add_Device_Data(geoSparkLocation.getLocation().getLatitude(),geoSparkLocation.getLocation().getLongitude(),mContext);
+        stopTrip();
+    }
+
+    @Override
+    public void onError(Context context, RoamError geoSparkError) {
+        Log.e("Location", geoSparkError.getMessage());
+    }
+
+
+
+}*/
