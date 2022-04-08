@@ -1126,13 +1126,19 @@ private void stopTripAndSummary(String trip_id){
         }else{
             // active tracking
 
-
+            Roam.disableBatteryOptimization();
 
           // Roam.allowMockLocation(true);
             RoamTrackingMode roamTrackingMode = new RoamTrackingMode.Builder(20, 60)
                     .setDesiredAccuracy(RoamTrackingMode.DesiredAccuracy.HIGH)
                     .build();
             Roam.startTracking(roamTrackingMode);
+
+            Roam.setForegroundNotification(true
+                    , "Celex Rider"
+                    , "Celex Rider is running in background"
+                    , R.drawable.ic_location
+                    , "com.celex.rider.AllActivitys.MainActivity");
 
             RoamPublish RoamPublish = new RoamPublish.Builder()
                     .build();

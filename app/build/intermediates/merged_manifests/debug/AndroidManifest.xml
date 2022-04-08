@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="19"
-        android:targetSdkVersion="30" />
+        android:targetSdkVersion="31" />
 
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
@@ -348,7 +348,8 @@
             android:foregroundServiceType="location" /> <!-- RECEIVER -->
         <receiver
             android:name="com.roam.sdk.core.event.BootEventReceiver"
-            android:enabled="true" >
+            android:enabled="true"
+            android:exported="true" >
             <intent-filter android:priority="999" >
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
 

@@ -27,6 +27,7 @@ import android.widget.Toast;
 
 import com.celex.rider.Adapters.DeliveryBoyAdapter;
 import com.celex.rider.Adapters.DocumentAdapter;
+import com.celex.rider.BuildConfig;
 import com.celex.rider.CodeClasses.ApiRequest;
 import com.celex.rider.CodeClasses.Api_urls;
 import com.celex.rider.CodeClasses.Functions;
@@ -44,6 +45,7 @@ import org.json.JSONObject;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Objects;
@@ -82,7 +84,6 @@ public class Upload_Photos_F extends RootFragment implements View.OnClickListene
     TextView no_data_text;
     ProgressBar progressbar;
     ActivityResultLauncher<Intent> photoPickActivityResultLauncher;
-
     public Upload_Photos_F(String orderid, String upload_type, Callback callback) {
         this.Order_id = orderid;
         this.callback = callback;
@@ -188,6 +189,22 @@ public class Upload_Photos_F extends RootFragment implements View.OnClickListene
     }
 
 
+    ActivityResultLauncher<Uri> openCameraLauncher = registerForActivityResult(
+            new ActivityResultContracts.TakePicture(),
+            new ActivityResultCallback<Boolean>() {
+                @Override
+                public void onActivityResult(Boolean result) {
+                    Log.e("TAG", "Camera result: "+result);
+                    if(result){
+                        CropImage.activity(selectedImage)
+                                .setAspectRatio(1, 1)
+                                .start(getActivity());
+                    }
+                }
+            }
+    );
+
+
     @Override
     public void onClick(View v) {
 
@@ -200,13 +217,37 @@ public class Upload_Photos_F extends RootFragment implements View.OnClickListene
             case R.id.rl_upload_photos:
                 Toast.makeText(getActivity(), "click Successfully",
                         Toast.LENGTH_LONG).show();
-                ImagePicker.Companion.with(getActivity())
-                        .crop()	    			//Crop image(Optional), Check Customization for more option
-                       // .cropOval()	    		//Allow dimmed layer to have a circle inside
-                        .cropFreeStyle()	    //Let the user to resize crop bounds
-                        .cameraOnly()          //We have to define what image provider we want to use
-                        .maxResultSize(1080, 1080,true)	//Final image resolution will be less than 1080 x 1080(Optional)
-                        .createIntent();
+
+                try {
+                    File file = File.createTempFile(
+                            "JPEG_"+System.currentTimeMillis(),
+                            ".jpg",
+                            Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM)
+                    );
+
+                    Uri uri = FileProvider.getUriForFile(getContext(), BuildConfig.APPLICATION_ID+".provider", file);
+
+                    selectedImage = uri;
+
+                    Log.e("TAG", "Uri: " + uri.getPath());
+                    Log.e("TAG", "File: " + file.getPath());
+
+                    openCameraLauncher.launch(uri);
+
+
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+
+
+
+//                ImagePicker.Companion.with(getActivity())
+//                        .crop()	    			//Crop image(Optional), Check Customization for more option
+//                       // .cropOval()	    		//Allow dimmed layer to have a circle inside
+//                        .cropFreeStyle()	    //Let the user to resize crop bounds
+//                        .cameraOnly()          //We have to define what image provider we want to use
+//                        .maxResultSize(1080, 1080,true)	//Final image resolution will be less than 1080 x 1080(Optional)
+//                        .createIntent();
 
              /*   File root = getContext().getCacheDir(); // consider using getExternalFilesDir(Environment.DIRECTORY_PICTURES); you need to check the file_paths.xml
                 File capturedPhoto = new File(root, "some_photo.jpeg");

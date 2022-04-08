@@ -4,14 +4,14 @@ com/celex/rider/AllFragments/Profile_F.java
 com/celex/rider/Adapters/DocumentHomeAdapter.java
  com.celex.rider.Adapters.DocumentHomeAdapter
  com.celex.rider.Adapters.DocumentHomeAdapter$ChildViewHolder
-com/celex/rider/AllActivitys/TripActivity.java
- com.celex.rider.AllActivitys.TripActivity
- com.celex.rider.AllActivitys.TripActivity$1
- com.celex.rider.AllActivitys.TripActivity$2
 com/celex/rider/AllFragments/Trip_Summary_F.java
  com.celex.rider.AllFragments.Trip_Summary_F
  com.celex.rider.AllFragments.Trip_Summary_F$1
  com.celex.rider.AllFragments.Trip_Summary_F$1$1
+com/celex/rider/AllActivitys/TripActivity.java
+ com.celex.rider.AllActivitys.TripActivity
+ com.celex.rider.AllActivitys.TripActivity$1
+ com.celex.rider.AllActivitys.TripActivity$2
 com/celex/rider/DataModels/My_Orders_Model.java
  com.celex.rider.DataModels.My_Orders_Model
 com/celex/rider/AllFragments/Web_View.java
@@ -19,12 +19,12 @@ com/celex/rider/AllFragments/Web_View.java
  com.celex.rider.AllFragments.Web_View$1
  com.celex.rider.AllFragments.Web_View$2
  com.celex.rider.AllFragments.Web_View$3
-com/celex/rider/AllFragments/Change_Password_F.java
- com.celex.rider.AllFragments.Change_Password_F
- com.celex.rider.AllFragments.Change_Password_F$1
 com/celex/rider/AllFragments/History_F.java
  com.celex.rider.AllFragments.History_F
  com.celex.rider.AllFragments.History_F$1
+com/celex/rider/AllFragments/Change_Password_F.java
+ com.celex.rider.AllFragments.Change_Password_F
+ com.celex.rider.AllFragments.Change_Password_F$1
 com/celex/rider/AllActivitys/DriverActivity.java
  com.celex.rider.AllActivitys.DriverActivity
  com.celex.rider.AllActivitys.DriverActivity$1
@@ -44,6 +44,13 @@ com/celex/rider/AllFragments/Select_Language_F.java
 com/celex/rider/Adapters/OrderDetail_Adapter.java
  com.celex.rider.Adapters.OrderDetail_Adapter
  com.celex.rider.Adapters.OrderDetail_Adapter$CustomViewHolder
+com/celex/rider/AllFragments/HomeFragments/Home_F.java
+ com.celex.rider.AllFragments.HomeFragments.Home_F
+ com.celex.rider.AllFragments.HomeFragments.Home_F$1
+ com.celex.rider.AllFragments.HomeFragments.Home_F$2
+ com.celex.rider.AllFragments.HomeFragments.Home_F$3
+ com.celex.rider.AllFragments.HomeFragments.Home_F$3$1
+ com.celex.rider.AllFragments.HomeFragments.Home_F$NewBroadCast
 com/celex/rider/Adapters/roamTripAdaptor.java
  com.celex.rider.Adapters.roamTripAdaptor
  com.celex.rider.Adapters.roamTripAdaptor$1
@@ -65,13 +72,6 @@ com/celex/rider/Adapters/roamTripAdaptor.java
 com/celex/rider/AllActivitys/Wifi_Activity.java
  com.celex.rider.AllActivitys.Wifi_Activity
  com.celex.rider.AllActivitys.Wifi_Activity$1
-com/celex/rider/AllFragments/HomeFragments/Home_F.java
- com.celex.rider.AllFragments.HomeFragments.Home_F
- com.celex.rider.AllFragments.HomeFragments.Home_F$1
- com.celex.rider.AllFragments.HomeFragments.Home_F$2
- com.celex.rider.AllFragments.HomeFragments.Home_F$3
- com.celex.rider.AllFragments.HomeFragments.Home_F$3$1
- com.celex.rider.AllFragments.HomeFragments.Home_F$NewBroadCast
 com/celex/rider/Adapters/VehicleAdapter.java
  com.celex.rider.Adapters.VehicleAdapter
  com.celex.rider.Adapters.VehicleAdapter$1
@@ -114,10 +114,10 @@ com/celex/rider/Users_Chat/ChatAdapter.java
  com.celex.rider.Users_Chat.ChatAdapter$OnLongClickListener
 com/celex/rider/interfaces/API_CallBack.java
  com.celex.rider.interfaces.API_CallBack
-com/celex/rider/Adapters/Pager_Adapter.java
- com.celex.rider.Adapters.Pager_Adapter
 com/celex/rider/Utils/NotificationHelper.java
  com.celex.rider.Utils.NotificationHelper
+com/celex/rider/Adapters/Pager_Adapter.java
+ com.celex.rider.Adapters.Pager_Adapter
 com/celex/rider/interfaces/LocationService_callback.java
  com.celex.rider.interfaces.LocationService_callback
 com/celex/rider/CodeClasses/RootFragment.java
@@ -155,11 +155,12 @@ com/celex/rider/CodeClasses/Functions.java
  com.celex.rider.CodeClasses.Functions$3
 com/celex/rider/interfaces/CallBack_internet.java
  com.celex.rider.interfaces.CallBack_internet
+com/celex/rider/DataModels/SelectCountryModel.java
+ com.celex.rider.DataModels.SelectCountryModel
 com/celex/rider/AllFragments/Document/Upload_Photos_F.java
  com.celex.rider.AllFragments.Document.Upload_Photos_F
  com.celex.rider.AllFragments.Document.Upload_Photos_F$1
-com/celex/rider/DataModels/SelectCountryModel.java
- com.celex.rider.DataModels.SelectCountryModel
+ com.celex.rider.AllFragments.Document.Upload_Photos_F$2
 com/celex/rider/service/MyInstanceIDListenerService.java
  com.celex.rider.service.MyInstanceIDListenerService
 com/celex/rider/CodeClasses/BackPressImplimentation.java
@@ -206,23 +207,23 @@ com/celex/rider/Adapters/TripAdapter.java
 com/celex/rider/AllActivitys/Enable_location_A.java
  com.celex.rider.AllActivitys.Enable_location_A
  com.celex.rider.AllActivitys.Enable_location_A$1
+com/celex/rider/interfaces/oncallback.java
+ com.celex.rider.interfaces.oncallback
 com/celex/rider/AllActivitys/Verify_Otp_A.java
  com.celex.rider.AllActivitys.Verify_Otp_A
  com.celex.rider.AllActivitys.Verify_Otp_A$1
  com.celex.rider.AllActivitys.Verify_Otp_A$2
  com.celex.rider.AllActivitys.Verify_Otp_A$3
  com.celex.rider.AllActivitys.Verify_Otp_A$GpsStatusReceiver
-com/celex/rider/interfaces/oncallback.java
- com.celex.rider.interfaces.oncallback
 com/celex/rider/DataModels/MeterReadingModel.java
  com.celex.rider.DataModels.MeterReadingModel
+com/celex/rider/interfaces/OnBackPressListener.java
+ com.celex.rider.interfaces.OnBackPressListener
 com/celex/rider/AllActivitys/GetSignature_A.java
  com.celex.rider.AllActivitys.GetSignature_A
  com.celex.rider.AllActivitys.GetSignature_A$1
  com.celex.rider.AllActivitys.GetSignature_A$2
  com.celex.rider.AllActivitys.GetSignature_A$GpsStatusReceiver
-com/celex/rider/interfaces/OnBackPressListener.java
- com.celex.rider.interfaces.OnBackPressListener
 com/celex/rider/CodeClasses/CircleProgressBarDrawable.java
  com.celex.rider.CodeClasses.CircleProgressBarDrawable
 com/celex/rider/AllFragments/Verify_Phone_No.java
@@ -231,13 +232,13 @@ com/celex/rider/AllFragments/Verify_Phone_No.java
  com.celex.rider.AllFragments.Verify_Phone_No$2
 com/celex/rider/CodeClasses/DarkModePrefManager.java
  com.celex.rider.CodeClasses.DarkModePrefManager
-com/celex/rider/Adapters/TransferImageAdapter.java
- com.celex.rider.Adapters.TransferImageAdapter
- com.celex.rider.Adapters.TransferImageAdapter$ChildViewHolder
 com/celex/rider/AllFragments/Change_phone_no.java
  com.celex.rider.AllFragments.Change_phone_no
  com.celex.rider.AllFragments.Change_phone_no$1
  com.celex.rider.AllFragments.Change_phone_no$2
+com/celex/rider/Adapters/TransferImageAdapter.java
+ com.celex.rider.Adapters.TransferImageAdapter
+ com.celex.rider.Adapters.TransferImageAdapter$ChildViewHolder
 com/celex/rider/AllFragments/HomeFragments/Delivered_Order.java
  com.celex.rider.AllFragments.HomeFragments.Delivered_Order
  com.celex.rider.AllFragments.HomeFragments.Delivered_Order$1
@@ -281,10 +282,10 @@ com/celex/rider/AllFragments/Document/Transfer_Delivery_F.java
  com.celex.rider.AllFragments.Document.Transfer_Delivery_F$1
 com/celex/rider/Users_Chat/ViewHolders/Chatviewholder.java
  com.celex.rider.Users_Chat.ViewHolders.Chatviewholder
-com/celex/rider/AllActivitys/BaseApplication.java
- com.celex.rider.AllActivitys.BaseApplication
 com/celex/rider/Utils/DrawingViewUtils.java
  com.celex.rider.Utils.DrawingViewUtils
+com/celex/rider/AllActivitys/BaseApplication.java
+ com.celex.rider.AllActivitys.BaseApplication
 com/celex/rider/DataModels/DocumentHomeModel.java
  com.celex.rider.DataModels.DocumentHomeModel
 com/celex/rider/DataModels/DocumentModel.java
@@ -292,14 +293,14 @@ com/celex/rider/DataModels/DocumentModel.java
 com/celex/rider/Adapters/Orders_Adapter.java
  com.celex.rider.Adapters.Orders_Adapter
  com.celex.rider.Adapters.Orders_Adapter$FilterViewHolder
-com/celex/rider/AllFragments/Email_change_f.java
- com.celex.rider.AllFragments.Email_change_f
- com.celex.rider.AllFragments.Email_change_f$1
- com.celex.rider.AllFragments.Email_change_f$2
 com/celex/rider/AllFragments/Meter_Reading_F.java
  com.celex.rider.AllFragments.Meter_Reading_F
  com.celex.rider.AllFragments.Meter_Reading_F$1
  com.celex.rider.AllFragments.Meter_Reading_F$1$1
+com/celex/rider/AllFragments/Email_change_f.java
+ com.celex.rider.AllFragments.Email_change_f
+ com.celex.rider.AllFragments.Email_change_f$1
+ com.celex.rider.AllFragments.Email_change_f$2
 com/celex/rider/AllFragments/Login_F.java
  com.celex.rider.AllFragments.Login_F
 com/celex/rider/service/LocationReceiver.java

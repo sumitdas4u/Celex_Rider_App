@@ -20,9 +20,9 @@ public class ForegroundService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+        /*if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             startForeground(NotificationHelper.NOTIFICATION_ID, NotificationHelper.showNotification(this));
-        }
+        }*/
         register();
 
     }

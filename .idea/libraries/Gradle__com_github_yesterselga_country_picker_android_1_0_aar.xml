@@ -7,8 +7,19 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bbe3cf79a0fe7c8c998aef97b68dba0b/jetified-country-picker-android-1.0/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bbe3cf79a0fe7c8c998aef97b68dba0b/jetified-country-picker-android-1.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bbe3cf79a0fe7c8c998aef97b68dba0b/jetified-country-picker-android-1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/08411215640e2b2e4c803ed0d8c09870/jetified-country-picker-android-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/08411215640e2b2e4c803ed0d8c09870/jetified-country-picker-android-1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/08411215640e2b2e4c803ed0d8c09870/jetified-country-picker-android-1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a58773ba35b6b29e26861e05ef5057bd/jetified-country-picker-android-1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a58773ba35b6b29e26861e05ef5057bd/jetified-country-picker-android-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a58773ba35b6b29e26861e05ef5057bd/jetified-country-picker-android-1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3a5ad99e06c25c1d654089367e0a7bfb/jetified-country-picker-android-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3a5ad99e06c25c1d654089367e0a7bfb/jetified-country-picker-android-1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3a5ad99e06c25c1d654089367e0a7bfb/jetified-country-picker-android-1.0/res" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.yesterselga/country-picker-android/1.0/4e585cda6ae02f16c8d41e6e22b7144606bbf98a/country-picker-android-1.0-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>
