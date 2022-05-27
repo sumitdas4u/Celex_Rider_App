@@ -193,6 +193,7 @@ com/celex/rider/Firebase_Notification/MyFirebaseMessagingService.java
 com/celex/rider/AllFragments/Document/Upload_Doc_Second_F.java
  com.celex.rider.AllFragments.Document.Upload_Doc_Second_F
  com.celex.rider.AllFragments.Document.Upload_Doc_Second_F$1
+ com.celex.rider.AllFragments.Document.Upload_Doc_Second_F$2
 com/celex/rider/CodeClasses/Variables.java
  com.celex.rider.CodeClasses.Variables
 com/celex/rider/Location_Services/GetLocation_Service.java

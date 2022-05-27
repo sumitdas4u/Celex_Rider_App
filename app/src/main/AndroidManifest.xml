@@ -90,7 +90,8 @@
             android:name=".AllActivitys.GetStarted_A"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
-        <activity android:name=".AllActivitys.Splashscreen_A">
+        <activity android:name=".AllActivitys.Splashscreen_A"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

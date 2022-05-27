@@ -1138,7 +1138,8 @@ private void stopTripAndSummary(String trip_id){
                     , "Celex Rider"
                     , "Celex Rider is running in background"
                     , R.drawable.ic_location
-                    , "com.celex.rider.AllActivitys.MainActivity");
+                    , "com.celex.rider.AllActivitys.MainActivity",
+                    "com.celex.rider.service.ForegroundService");
 
             RoamPublish RoamPublish = new RoamPublish.Builder()
                     .build();

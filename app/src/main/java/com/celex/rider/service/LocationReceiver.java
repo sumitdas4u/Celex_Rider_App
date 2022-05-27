@@ -35,11 +35,15 @@ import java.util.TimeZone;
 public class LocationReceiver extends RoamReceiver {
 
     @Override
-    public void onLocationUpdated(Context context, RoamLocation roamLocation) {
-        super.onLocationUpdated(context, roamLocation);
-        Log.e("Location", "Lat " + roamLocation.getLocation().getLatitude() + " Lng " + roamLocation.getLocation().getLongitude());
+    public void onLocationUpdated(Context context, List<RoamLocation> list) {
+        super.onLocationUpdated(context, list);
+        for(RoamLocation roamLocation: list){
+            Log.e("Location", "Lat " + roamLocation.getLocation().getLatitude() + " Lng " + roamLocation.getLocation().getLongitude());
+        }
         stopTrip(context);
     }
+
+
 
     @Override
     public void onError(Context context, RoamError roamError) {

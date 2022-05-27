@@ -7,7 +7,7 @@
 7    <uses-sdk
 8        android:minSdkVersion="19"
 8-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml
-9        android:targetSdkVersion="31" />
+9        android:targetSdkVersion="32" />
 9-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml
 10
 11    <uses-feature android:name="android.hardware.camera" />
@@ -145,14 +145,14 @@
 71-->[com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:5-82
 71-->[com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:22-79
 72    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" /> <!-- Restart -->
-72-->[com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:17:5-85
-72-->[com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:17:22-82
+72-->[com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:17:5-85
+72-->[com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:17:22-82
 73    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- Battery -->
-73-->[com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:19:5-81
-73-->[com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:19:22-78
+73-->[com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:19:5-81
+73-->[com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:19:22-78
 74    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
-74-->[com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:21:5-95
-74-->[com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:21:22-92
+74-->[com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:21:5-95
+74-->[com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:21:22-92
 75
 76    <uses-feature
 76-->[com.google.android.gms:play-services-maps:17.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c5aa3717e199d252fbe7269624be3c96/jetified-play-services-maps-17.0.1/AndroidManifest.xml:26:5-28:35
@@ -166,7 +166,7 @@
 80-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b2d515da6bf163603ba3a0802e5ec57b/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:26:22-107
 81
 82    <application
-82-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:48:5-154:19
+82-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:48:5-155:19
 83        android:name="com.celex.rider.AllActivitys.BaseApplication"
 83-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:52:9-53
 84        android:allowBackup="false"
@@ -188,590 +188,592 @@
 92-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:56:9-48
 93        android:supportsRtl="true"
 93-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:57:9-35
-94        android:testOnly="true"
-95        android:theme="@style/AppTheme" >
-95-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:58:9-40
-96        <activity android:name="com.celex.rider.AllActivitys.DriverActivity" />
-96-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:61:9-65
-96-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:61:19-62
-97        <activity android:name="com.celex.rider.AllActivitys.Barcode_scaner_A" />
-97-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:62:9-67
-97-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:62:19-64
-98        <activity
-98-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:63:9-66:52
-99            android:name="com.celex.rider.AllActivitys.Wifi_Activity"
-99-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:64:13-55
-100            android:launchMode="singleTask"
-100-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:65:13-44
-101            android:screenOrientation="portrait" />
-101-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:66:13-49
-102        <activity
-102-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:67:9-71:59
-103            android:name="cat.ereza.customactivityoncrash.activity.DefaultErrorActivity"
-103-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:68:13-89
-104            android:process=":error_activity"
-104-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:69:13-46
-105            android:screenOrientation="portrait"
-105-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:70:13-49
-106            android:theme="@style/error_activity_theme" />
-106-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:71:13-56
-107        <activity
-107-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:72:9-74:58
-108            android:name="com.celex.rider.AllActivitys.GetSignature_A"
-108-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:73:13-56
-109            android:windowSoftInputMode="adjustResize" />
-109-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:74:13-55
-110        <activity
-110-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:75:9-77:58
-111            android:name="com.celex.rider.AllActivitys.Verify_Otp_A"
-111-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:76:13-54
-112            android:windowSoftInputMode="adjustResize" />
-112-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:77:13-55
-113        <activity
-113-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:78:9-80:58
-114            android:name="com.celex.rider.AllActivitys.GetCancelReason_A"
-114-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:79:13-59
-115            android:windowSoftInputMode="adjustResize" />
-115-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:80:13-55
-116        <activity
-116-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:81:9-84:52
-117            android:name="com.celex.rider.AllActivitys.Enable_location_A"
-117-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:82:13-59
-118            android:launchMode="singleTask"
-118-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:83:13-44
-119            android:screenOrientation="portrait" />
-119-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:84:13-49
-120        <activity
-120-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:85:9-88:59
-121            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
-121-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:86:13-76
-122            android:screenOrientation="portrait"
-122-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:87:13-49
-123            android:theme="@style/Base.Theme.AppCompat" />
-123-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:88:13-56
-124        <activity
-124-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:89:9-92:47
-125            android:name="com.celex.rider.AllActivitys.GetStarted_A"
-125-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:90:13-54
-126            android:screenOrientation="portrait"
-126-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:91:13-49
-127            android:theme="@style/AppTheme" />
-127-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:92:13-44
-128        <activity android:name="com.celex.rider.AllActivitys.Splashscreen_A" >
-128-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:93:9-99:20
+94        android:theme="@style/AppTheme" >
+94-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:58:9-40
+95        <activity android:name="com.celex.rider.AllActivitys.DriverActivity" />
+95-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:61:9-65
+95-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:61:19-62
+96        <activity android:name="com.celex.rider.AllActivitys.Barcode_scaner_A" />
+96-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:62:9-67
+96-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:62:19-64
+97        <activity
+97-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:63:9-66:52
+98            android:name="com.celex.rider.AllActivitys.Wifi_Activity"
+98-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:64:13-55
+99            android:launchMode="singleTask"
+99-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:65:13-44
+100            android:screenOrientation="portrait" />
+100-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:66:13-49
+101        <activity
+101-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:67:9-71:59
+102            android:name="cat.ereza.customactivityoncrash.activity.DefaultErrorActivity"
+102-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:68:13-89
+103            android:process=":error_activity"
+103-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:69:13-46
+104            android:screenOrientation="portrait"
+104-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:70:13-49
+105            android:theme="@style/error_activity_theme" />
+105-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:71:13-56
+106        <activity
+106-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:72:9-74:58
+107            android:name="com.celex.rider.AllActivitys.GetSignature_A"
+107-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:73:13-56
+108            android:windowSoftInputMode="adjustResize" />
+108-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:74:13-55
+109        <activity
+109-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:75:9-77:58
+110            android:name="com.celex.rider.AllActivitys.Verify_Otp_A"
+110-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:76:13-54
+111            android:windowSoftInputMode="adjustResize" />
+111-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:77:13-55
+112        <activity
+112-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:78:9-80:58
+113            android:name="com.celex.rider.AllActivitys.GetCancelReason_A"
+113-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:79:13-59
+114            android:windowSoftInputMode="adjustResize" />
+114-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:80:13-55
+115        <activity
+115-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:81:9-84:52
+116            android:name="com.celex.rider.AllActivitys.Enable_location_A"
+116-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:82:13-59
+117            android:launchMode="singleTask"
+117-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:83:13-44
+118            android:screenOrientation="portrait" />
+118-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:84:13-49
+119        <activity
+119-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:85:9-88:59
+120            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+120-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:86:13-76
+121            android:screenOrientation="portrait"
+121-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:87:13-49
+122            android:theme="@style/Base.Theme.AppCompat" />
+122-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:88:13-56
+123        <activity
+123-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:89:9-92:47
+124            android:name="com.celex.rider.AllActivitys.GetStarted_A"
+124-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:90:13-54
+125            android:screenOrientation="portrait"
+125-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:91:13-49
+126            android:theme="@style/AppTheme" />
+126-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:92:13-44
+127        <activity
+127-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:93:9-100:20
+128            android:name="com.celex.rider.AllActivitys.Splashscreen_A"
 128-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:93:19-62
-129            <intent-filter>
-129-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:94:13-98:29
-130                <action android:name="android.intent.action.MAIN" />
-130-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:95:17-69
-130-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:95:25-66
-131
-132                <category android:name="android.intent.category.LAUNCHER" />
-132-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:97:17-77
-132-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:97:27-74
-133            </intent-filter>
-134        </activity>
-135        <activity
-135-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:100:9-102:52
-136            android:name="com.celex.rider.AllActivitys.TripActivity"
-136-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:101:13-54
-137            android:screenOrientation="portrait" />
-137-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:102:13-49
-138        <activity
-138-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:103:9-106:58
-139            android:name="com.celex.rider.AllActivitys.MainActivity"
-139-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:104:13-54
-140            android:screenOrientation="portrait"
-140-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:105:13-49
-141            android:windowSoftInputMode="adjustResize" />
-141-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:106:13-55
-142
-143        <meta-data
-143-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:108:9-110:69
-144            android:name="com.google.android.gms.version"
-144-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:109:13-58
-145            android:value="@integer/google_play_services_version" />
-145-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:110:13-66
-146        <meta-data
-146-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:111:9-113:71
-147            android:name="com.google.android.geo.API_KEY"
-147-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:112:13-58
-148            android:value="AIzaSyAvlP1l2JB-5J93HXQRKUAZ7lsqu9F5Uf4" />
-148-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:113:13-68
-149        <meta-data
-149-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:114:9-116:57
-150            android:name="preloaded_fonts"
-150-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:115:13-43
-151            android:resource="@array/preloaded_fonts" />
-151-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:116:13-54
-152
-153        <provider
-154            android:name="androidx.core.content.FileProvider"
-154-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:119:13-62
-155            android:authorities="com.celex.rider.fileprovider"
-155-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:120:13-63
-156            android:exported="false"
-156-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:121:13-37
-157            android:grantUriPermissions="true" >
-157-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:122:13-47
-158            <meta-data
-158-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:123:13-125:54
-159                android:name="android.support.FILE_PROVIDER_PATHS"
-159-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:124:17-67
-160                android:resource="@xml/file_paths" />
-160-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:125:17-51
-161        </provider>
-162
-163        <service
-163-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:128:9-135:19
-164            android:name="com.celex.rider.Firebase_Notification.MyFirebaseMessagingService"
-164-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:129:13-77
-165            android:exported="false"
-165-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:131:13-37
-166            android:stopWithTask="false" >
-166-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:130:13-41
-167            <intent-filter>
-167-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:132:13-134:29
-168                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-168-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:133:17-78
-168-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:133:25-75
-169            </intent-filter>
-170        </service>
-171        <service
-171-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:136:9-139:56
-172            android:name="com.celex.rider.service.ForegroundService"
-172-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:137:13-54
-173            android:exported="false"
-173-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:138:13-37
-174            android:foregroundServiceType="location" />
-174-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:139:13-53
-175
-176        <uses-library
-176-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:141:9-143:40
-177            android:name="org.apache.http.legacy"
-177-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:142:13-50
-178            android:required="false" />
-178-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:143:13-37
-179
-180        <provider
-181            android:name="androidx.core.content.FileProvider"
-181-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:119:13-62
-182            android:authorities="com.celex.rider.provider"
-182-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:120:13-63
-183            android:exported="false"
-183-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:121:13-37
-184            android:grantUriPermissions="true" >
-184-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:122:13-47
-185            <meta-data
-185-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:123:13-125:54
-186                android:name="android.support.FILE_PROVIDER_PATHS"
-186-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:124:17-67
-187                android:resource="@xml/file_paths" />
-187-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:125:17-51
-188        </provider>
-189
-190        <service
-190-->[com.google.firebase:firebase-inappmessaging-display:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/7c5e7d105db9455c6fa7cced9e790986/jetified-firebase-inappmessaging-display-20.0.0/AndroidManifest.xml:23:9-29:19
-191            android:name="com.google.firebase.components.ComponentDiscoveryService"
-191-->[com.google.firebase:firebase-inappmessaging-display:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/7c5e7d105db9455c6fa7cced9e790986/jetified-firebase-inappmessaging-display-20.0.0/AndroidManifest.xml:24:13-84
-192            android:directBootAware="true"
-192-->[com.google.firebase:firebase-common:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/a12c30246d0cb70aeb0bcb1fb3310cb3/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
-193            android:exported="false" >
-193-->[com.google.firebase:firebase-inappmessaging-display:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/7c5e7d105db9455c6fa7cced9e790986/jetified-firebase-inappmessaging-display-20.0.0/AndroidManifest.xml:25:13-37
-194            <meta-data
-194-->[com.google.firebase:firebase-inappmessaging-display:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/7c5e7d105db9455c6fa7cced9e790986/jetified-firebase-inappmessaging-display-20.0.0/AndroidManifest.xml:26:13-28:85
-195                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.display.FirebaseInAppMessagingDisplayRegistrar"
-195-->[com.google.firebase:firebase-inappmessaging-display:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/7c5e7d105db9455c6fa7cced9e790986/jetified-firebase-inappmessaging-display-20.0.0/AndroidManifest.xml:27:17-144
-196                android:value="com.google.firebase.components.ComponentRegistrar" />
-196-->[com.google.firebase:firebase-inappmessaging-display:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/7c5e7d105db9455c6fa7cced9e790986/jetified-firebase-inappmessaging-display-20.0.0/AndroidManifest.xml:28:17-82
-197            <meta-data
-197-->[com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:52:13-54:85
-198                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-198-->[com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:53:17-119
-199                android:value="com.google.firebase.components.ComponentRegistrar" />
-199-->[com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:54:17-82
-200            <meta-data
-200-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
-201                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-201-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
-202                android:value="com.google.firebase.components.ComponentRegistrar" />
-202-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
-203            <meta-data
-203-->[com.google.firebase:firebase-database:20.0.2] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/dcb77e66041b93f851ad5334e1e86767/jetified-firebase-database-20.0.2/AndroidManifest.xml:32:13-34:85
-204                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-204-->[com.google.firebase:firebase-database:20.0.2] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/dcb77e66041b93f851ad5334e1e86767/jetified-firebase-database-20.0.2/AndroidManifest.xml:33:17-109
-205                android:value="com.google.firebase.components.ComponentRegistrar" />
-205-->[com.google.firebase:firebase-database:20.0.2] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/dcb77e66041b93f851ad5334e1e86767/jetified-firebase-database-20.0.2/AndroidManifest.xml:34:17-82
-206            <meta-data
-206-->[com.google.firebase:firebase-storage:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/bfe04ca3c8820be966492b7f35bac059/jetified-firebase-storage-20.0.0/AndroidManifest.xml:33:13-35:85
-207                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-207-->[com.google.firebase:firebase-storage:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/bfe04ca3c8820be966492b7f35bac059/jetified-firebase-storage-20.0.0/AndroidManifest.xml:34:17-107
-208                android:value="com.google.firebase.components.ComponentRegistrar" />
-208-->[com.google.firebase:firebase-storage:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/bfe04ca3c8820be966492b7f35bac059/jetified-firebase-storage-20.0.0/AndroidManifest.xml:35:17-82
-209            <meta-data
-209-->[com.google.firebase:firebase-crashlytics:18.2.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/4d3c1945e72ddf9a54cecf41f24cae7b/jetified-firebase-crashlytics-18.2.1/AndroidManifest.xml:18:13-20:85
-210                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
-210-->[com.google.firebase:firebase-crashlytics:18.2.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/4d3c1945e72ddf9a54cecf41f24cae7b/jetified-firebase-crashlytics-18.2.1/AndroidManifest.xml:19:17-115
-211                android:value="com.google.firebase.components.ComponentRegistrar" />
-211-->[com.google.firebase:firebase-crashlytics:18.2.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/4d3c1945e72ddf9a54cecf41f24cae7b/jetified-firebase-crashlytics-18.2.1/AndroidManifest.xml:20:17-82
-212            <meta-data
-212-->[com.google.android.gms:play-services-measurement-api:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/880caf05fa6d9b362547020765c13aef/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:30:13-32:85
-213                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-213-->[com.google.android.gms:play-services-measurement-api:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/880caf05fa6d9b362547020765c13aef/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:31:17-139
-214                android:value="com.google.firebase.components.ComponentRegistrar" />
-214-->[com.google.android.gms:play-services-measurement-api:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/880caf05fa6d9b362547020765c13aef/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:32:17-82
-215            <meta-data
-215-->[com.google.firebase:firebase-inappmessaging:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/1f6cccab60e75b22d86b1671d2a9a184/jetified-firebase-inappmessaging-20.0.0/AndroidManifest.xml:17:13-19:85
-216                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.FirebaseInAppMessagingRegistrar"
-216-->[com.google.firebase:firebase-inappmessaging:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/1f6cccab60e75b22d86b1671d2a9a184/jetified-firebase-inappmessaging-20.0.0/AndroidManifest.xml:18:17-129
-217                android:value="com.google.firebase.components.ComponentRegistrar" />
-217-->[com.google.firebase:firebase-inappmessaging:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/1f6cccab60e75b22d86b1671d2a9a184/jetified-firebase-inappmessaging-20.0.0/AndroidManifest.xml:19:17-82
-218            <meta-data
-218-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f01c6f1efa1df824a744983940540e3d/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
-219                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-219-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f01c6f1efa1df824a744983940540e3d/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
-220                android:value="com.google.firebase.components.ComponentRegistrar" />
-220-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f01c6f1efa1df824a744983940540e3d/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
-221            <meta-data
-221-->[com.google.firebase:firebase-installations:17.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/d94b82d2d2484df3358bb91c7d9b2fab/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
-222                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-222-->[com.google.firebase:firebase-installations:17.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/d94b82d2d2484df3358bb91c7d9b2fab/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
-223                android:value="com.google.firebase.components.ComponentRegistrar" />
-223-->[com.google.firebase:firebase-installations:17.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/d94b82d2d2484df3358bb91c7d9b2fab/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
-224            <meta-data
-224-->[com.google.firebase:firebase-abt:21.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/9826a4fdfa2819bfe44a7950919273ab/jetified-firebase-abt-21.0.0/AndroidManifest.xml:13:13-15:85
-225                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
-225-->[com.google.firebase:firebase-abt:21.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/9826a4fdfa2819bfe44a7950919273ab/jetified-firebase-abt-21.0.0/AndroidManifest.xml:14:17-109
-226                android:value="com.google.firebase.components.ComponentRegistrar" />
-226-->[com.google.firebase:firebase-abt:21.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/9826a4fdfa2819bfe44a7950919273ab/jetified-firebase-abt-21.0.0/AndroidManifest.xml:15:17-82
-227        </service>
-228
-229        <provider
-229-->[cat.ereza:customactivityoncrash:2.3.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/1d9dddc63d7f67d02ae6b1da74ed8c71/jetified-customactivityoncrash-2.3.0/AndroidManifest.xml:16:9-20:39
-230            android:name="cat.ereza.customactivityoncrash.provider.CaocInitProvider"
-230-->[cat.ereza:customactivityoncrash:2.3.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/1d9dddc63d7f67d02ae6b1da74ed8c71/jetified-customactivityoncrash-2.3.0/AndroidManifest.xml:17:13-85
-231            android:authorities="com.celex.rider.customactivityoncrashinitprovider"
-231-->[cat.ereza:customactivityoncrash:2.3.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/1d9dddc63d7f67d02ae6b1da74ed8c71/jetified-customactivityoncrash-2.3.0/AndroidManifest.xml:18:13-85
-232            android:exported="false"
-232-->[cat.ereza:customactivityoncrash:2.3.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/1d9dddc63d7f67d02ae6b1da74ed8c71/jetified-customactivityoncrash-2.3.0/AndroidManifest.xml:19:13-37
-233            android:initOrder="101" />
-233-->[cat.ereza:customactivityoncrash:2.3.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/1d9dddc63d7f67d02ae6b1da74ed8c71/jetified-customactivityoncrash-2.3.0/AndroidManifest.xml:20:13-36
-234
-235        <activity
-235-->[com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:39:9-42:68
-236            android:name="com.github.drjacky.imagepicker.ImagePickerActivity"
-236-->[com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:40:13-78
-237            android:screenOrientation="unspecified"
-237-->[com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:41:13-52
-238            android:theme="@style/Theme.Transparent.ImagePicker" />
-238-->[com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:42:13-65
-239        <activity
-239-->[com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:43:9-46:72
-240            android:name="com.yalantis.ucrop.UCropActivity"
-240-->[com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:44:13-60
-241            android:screenOrientation="portrait"
-241-->[com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:45:13-49
-242            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-242-->[com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:46:13-69
-243
-244        <provider
-244-->[com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:48:9-56:20
-245            android:name="com.github.drjacky.imagepicker.ImagePickerFileProvider"
-245-->[com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:49:13-82
-246            android:authorities="com.celex.rider.imagepicker.provider"
-246-->[com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:50:13-72
-247            android:exported="false"
-247-->[com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:51:13-37
-248            android:grantUriPermissions="true" >
-248-->[com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:52:13-47
-249            <meta-data
-249-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:123:13-125:54
-250                android:name="android.support.FILE_PROVIDER_PATHS"
-250-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:124:17-67
-251                android:resource="@xml/image_picker_provider_paths" />
-251-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:125:17-51
-252        </provider>
-253
-254        <receiver
-254-->[com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:28:9-35:20
-255            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-255-->[com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:29:13-78
-256            android:exported="true"
-256-->[com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:30:13-36
-257            android:permission="com.google.android.c2dm.permission.SEND" >
-257-->[com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:31:13-73
-258            <intent-filter>
-258-->[com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:32:13-34:29
-259                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-259-->[com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:33:17-81
-259-->[com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:33:25-78
-260            </intent-filter>
-261        </receiver>
-262        <!--
-263             FirebaseMessagingService performs security checks at runtime,
-264             but set to not exported to explicitly avoid allowing another app to call it.
-265        -->
-266        <service
-266-->[com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:41:9-48:19
-267            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-267-->[com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:42:13-82
-268            android:directBootAware="true"
-268-->[com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:43:13-43
-269            android:exported="false" >
-269-->[com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:44:13-37
-270            <intent-filter android:priority="-500" >
-270-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:132:13-134:29
-271                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-271-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:133:17-78
-271-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:133:25-75
-272            </intent-filter>
-273        </service>
-274
-275        <activity
-275-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
-276            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-276-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
-277            android:excludeFromRecents="true"
-277-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
-278            android:exported="true"
-278-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
-279            android:launchMode="singleTask"
-279-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
-280            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-280-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
-281            <intent-filter>
-281-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
-282                <action android:name="android.intent.action.VIEW" />
-282-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:27:13-65
-282-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:27:21-62
-283
-284                <category android:name="android.intent.category.DEFAULT" />
-284-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
-284-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
-285                <category android:name="android.intent.category.BROWSABLE" />
-285-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
-285-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
-286
-287                <data
-287-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:28:13-43
-288                    android:host="firebase.auth"
-289                    android:path="/"
-290                    android:scheme="genericidp" />
-290-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:28:19-40
-291            </intent-filter>
-292        </activity>
-293        <activity
-293-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
-294            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-294-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
-295            android:excludeFromRecents="true"
-295-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
-296            android:exported="true"
-296-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
-297            android:launchMode="singleTask"
-297-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
-298            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-298-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
-299            <intent-filter>
-299-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
-300                <action android:name="android.intent.action.VIEW" />
-300-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:27:13-65
-300-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:27:21-62
-301
-302                <category android:name="android.intent.category.DEFAULT" />
-302-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
-302-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
-303                <category android:name="android.intent.category.BROWSABLE" />
-303-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
-303-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
-304
-305                <data
-305-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:28:13-43
-306                    android:host="firebase.auth"
-307                    android:path="/"
-308                    android:scheme="recaptcha" />
-308-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:28:19-40
-309            </intent-filter>
-310        </activity>
-311
-312        <service
-312-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
-313            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
-313-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
-314            android:enabled="true"
-314-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
-315            android:exported="false" >
-315-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
-316            <intent-filter>
-316-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
-317                <action android:name="com.google.firebase.auth.api.gms.service.START" />
-317-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
-317-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
-318
-319                <category android:name="android.intent.category.DEFAULT" />
-319-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
-319-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
-320            </intent-filter>
-321        </service>
-322
-323        <activity
-323-->[com.google.android.gms:play-services-auth:19.2.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/9198024741f0f074918b193ea2b5b37f/jetified-play-services-auth-19.2.0/AndroidManifest.xml:23:9-27:75
-324            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-324-->[com.google.android.gms:play-services-auth:19.2.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/9198024741f0f074918b193ea2b5b37f/jetified-play-services-auth-19.2.0/AndroidManifest.xml:24:13-93
-325            android:excludeFromRecents="true"
-325-->[com.google.android.gms:play-services-auth:19.2.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/9198024741f0f074918b193ea2b5b37f/jetified-play-services-auth-19.2.0/AndroidManifest.xml:25:13-46
-326            android:exported="false"
-326-->[com.google.android.gms:play-services-auth:19.2.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/9198024741f0f074918b193ea2b5b37f/jetified-play-services-auth-19.2.0/AndroidManifest.xml:26:13-37
-327            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-327-->[com.google.android.gms:play-services-auth:19.2.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/9198024741f0f074918b193ea2b5b37f/jetified-play-services-auth-19.2.0/AndroidManifest.xml:27:13-72
-328        <!--
-329            Service handling Google Sign-In user revocation. For apps that do not integrate with
-330            Google Sign-In, this service will never be started.
-331        -->
-332        <service
-332-->[com.google.android.gms:play-services-auth:19.2.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/9198024741f0f074918b193ea2b5b37f/jetified-play-services-auth-19.2.0/AndroidManifest.xml:33:9-37:51
-333            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-333-->[com.google.android.gms:play-services-auth:19.2.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/9198024741f0f074918b193ea2b5b37f/jetified-play-services-auth-19.2.0/AndroidManifest.xml:34:13-89
-334            android:exported="true"
-334-->[com.google.android.gms:play-services-auth:19.2.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/9198024741f0f074918b193ea2b5b37f/jetified-play-services-auth-19.2.0/AndroidManifest.xml:35:13-36
-335            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-335-->[com.google.android.gms:play-services-auth:19.2.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/9198024741f0f074918b193ea2b5b37f/jetified-play-services-auth-19.2.0/AndroidManifest.xml:36:13-107
-336            android:visibleToInstantApps="true" />
-336-->[com.google.android.gms:play-services-auth:19.2.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/9198024741f0f074918b193ea2b5b37f/jetified-play-services-auth-19.2.0/AndroidManifest.xml:37:13-48
-337        <service
-337-->[com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:28:9-31:40
-338            android:name="com.roam.sdk.service.RoamService"
-338-->[com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:29:13-60
-339            android:enabled="true"
-339-->[com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:30:13-35
-340            android:exported="false" />
-340-->[com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:31:13-37
-341        <service
-341-->[com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:32:9-34:38
-342            android:name="org.eclipse.paho.android.service.MqttService"
-342-->[com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:33:13-72
-343            android:enabled="true" />
-343-->[com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:34:13-35
-344        <service
-344-->[com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:35:9-39:56
-345            android:name="com.roam.sdk.service.RoamLocationService"
-345-->[com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:36:13-68
-346            android:enabled="true"
-346-->[com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:37:13-35
-347            android:exported="false"
-347-->[com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:38:13-37
-348            android:foregroundServiceType="location" /> <!-- RECEIVER -->
-348-->[com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:39:13-53
-349        <receiver
-349-->[com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:42:9-51:20
-350            android:name="com.roam.sdk.core.event.BootEventReceiver"
-350-->[com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:43:13-69
-351            android:enabled="true"
-351-->[com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:44:13-35
-352            android:exported="true" >
-352-->[com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:45:13-36
-353            <intent-filter android:priority="999" >
-353-->[com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:46:13-50:29
-353-->[com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:46:28-50
-354                <action android:name="android.intent.action.BOOT_COMPLETED" />
-354-->[com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:47:17-79
-354-->[com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:47:25-76
-355
-356                <category android:name="android.intent.category.DEFAULT" />
-356-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
-356-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
-357            </intent-filter>
-358        </receiver>
-359
-360        <activity
-360-->[com.google.android.gms:play-services-base:17.6.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b13854b310ad98ea07be1c21d0633a28/jetified-play-services-base-17.6.0/AndroidManifest.xml:23:9-26:75
-361            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-361-->[com.google.android.gms:play-services-base:17.6.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b13854b310ad98ea07be1c21d0633a28/jetified-play-services-base-17.6.0/AndroidManifest.xml:24:13-79
-362            android:exported="false"
-362-->[com.google.android.gms:play-services-base:17.6.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b13854b310ad98ea07be1c21d0633a28/jetified-play-services-base-17.6.0/AndroidManifest.xml:25:13-37
-363            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-363-->[com.google.android.gms:play-services-base:17.6.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b13854b310ad98ea07be1c21d0633a28/jetified-play-services-base-17.6.0/AndroidManifest.xml:26:13-72
-364
-365        <provider
-365-->[com.google.firebase:firebase-common:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/a12c30246d0cb70aeb0bcb1fb3310cb3/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
-366            android:name="com.google.firebase.provider.FirebaseInitProvider"
-366-->[com.google.firebase:firebase-common:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/a12c30246d0cb70aeb0bcb1fb3310cb3/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
-367            android:authorities="com.celex.rider.firebaseinitprovider"
-367-->[com.google.firebase:firebase-common:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/a12c30246d0cb70aeb0bcb1fb3310cb3/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
-368            android:directBootAware="true"
-368-->[com.google.firebase:firebase-common:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/a12c30246d0cb70aeb0bcb1fb3310cb3/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
-369            android:exported="false"
-369-->[com.google.firebase:firebase-common:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/a12c30246d0cb70aeb0bcb1fb3310cb3/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
-370            android:initOrder="100" />
-370-->[com.google.firebase:firebase-common:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/a12c30246d0cb70aeb0bcb1fb3310cb3/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
-371
-372        <receiver
-372-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b2d515da6bf163603ba3a0802e5ec57b/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:29:9-33:20
-373            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-373-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b2d515da6bf163603ba3a0802e5ec57b/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:30:13-85
-374            android:enabled="true"
-374-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b2d515da6bf163603ba3a0802e5ec57b/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:31:13-35
-375            android:exported="false" >
-375-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b2d515da6bf163603ba3a0802e5ec57b/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:32:13-37
-376        </receiver>
-377
-378        <service
-378-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b2d515da6bf163603ba3a0802e5ec57b/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:35:9-38:40
-379            android:name="com.google.android.gms.measurement.AppMeasurementService"
-379-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b2d515da6bf163603ba3a0802e5ec57b/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:36:13-84
-380            android:enabled="true"
-380-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b2d515da6bf163603ba3a0802e5ec57b/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:37:13-35
-381            android:exported="false" />
-381-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b2d515da6bf163603ba3a0802e5ec57b/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:38:13-37
-382        <service
-382-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b2d515da6bf163603ba3a0802e5ec57b/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:39:9-43:72
-383            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-383-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b2d515da6bf163603ba3a0802e5ec57b/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:40:13-87
-384            android:enabled="true"
-384-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b2d515da6bf163603ba3a0802e5ec57b/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:41:13-35
-385            android:exported="false"
-385-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b2d515da6bf163603ba3a0802e5ec57b/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:42:13-37
-386            android:permission="android.permission.BIND_JOB_SERVICE" />
-386-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b2d515da6bf163603ba3a0802e5ec57b/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:43:13-69
-387
-388        <provider
-388-->[com.squareup.picasso:picasso:2.71828] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f04665f67f9db7a80feff922d7df8902/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
-389            android:name="com.squareup.picasso.PicassoProvider"
-389-->[com.squareup.picasso:picasso:2.71828] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f04665f67f9db7a80feff922d7df8902/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
-390            android:authorities="com.celex.rider.com.squareup.picasso"
-390-->[com.squareup.picasso:picasso:2.71828] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f04665f67f9db7a80feff922d7df8902/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
-391            android:exported="false" />
-391-->[com.squareup.picasso:picasso:2.71828] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f04665f67f9db7a80feff922d7df8902/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
-392
-393        <service
-393-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/51df5aa5509a81b5e7e7a2647b51ecf5/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
-394            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-394-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/51df5aa5509a81b5e7e7a2647b51ecf5/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
-395            android:exported="false" >
-395-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/51df5aa5509a81b5e7e7a2647b51ecf5/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
-396            <meta-data
-396-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/51df5aa5509a81b5e7e7a2647b51ecf5/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
-397                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-397-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/51df5aa5509a81b5e7e7a2647b51ecf5/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
-398                android:value="cct" />
-398-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/51df5aa5509a81b5e7e7a2647b51ecf5/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
-399        </service>
-400        <service
-400-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b8dc1962fdce7b060dac555ec7db4b3e/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
-401            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-401-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b8dc1962fdce7b060dac555ec7db4b3e/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
-402            android:exported="false"
-402-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b8dc1962fdce7b060dac555ec7db4b3e/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
-403            android:permission="android.permission.BIND_JOB_SERVICE" >
-403-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b8dc1962fdce7b060dac555ec7db4b3e/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
-404        </service>
-405
-406        <receiver
-406-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b8dc1962fdce7b060dac555ec7db4b3e/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
-407            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-407-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b8dc1962fdce7b060dac555ec7db4b3e/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
-408            android:exported="false" />
-408-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b8dc1962fdce7b060dac555ec7db4b3e/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
-409    </application>
-410
-411</manifest>
+129            android:exported="true" >
+129-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:94:13-36
+130            <intent-filter>
+130-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:95:13-99:29
+131                <action android:name="android.intent.action.MAIN" />
+131-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:96:17-69
+131-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:96:25-66
+132
+133                <category android:name="android.intent.category.LAUNCHER" />
+133-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:98:17-77
+133-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:98:27-74
+134            </intent-filter>
+135        </activity>
+136        <activity
+136-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:101:9-103:52
+137            android:name="com.celex.rider.AllActivitys.TripActivity"
+137-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:102:13-54
+138            android:screenOrientation="portrait" />
+138-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:103:13-49
+139        <activity
+139-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:104:9-107:58
+140            android:name="com.celex.rider.AllActivitys.MainActivity"
+140-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:105:13-54
+141            android:screenOrientation="portrait"
+141-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:106:13-49
+142            android:windowSoftInputMode="adjustResize" />
+142-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:107:13-55
+143
+144        <meta-data
+144-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:109:9-111:69
+145            android:name="com.google.android.gms.version"
+145-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:110:13-58
+146            android:value="@integer/google_play_services_version" />
+146-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:111:13-66
+147        <meta-data
+147-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:112:9-114:71
+148            android:name="com.google.android.geo.API_KEY"
+148-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:113:13-58
+149            android:value="AIzaSyAvlP1l2JB-5J93HXQRKUAZ7lsqu9F5Uf4" />
+149-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:114:13-68
+150        <meta-data
+150-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:115:9-117:57
+151            android:name="preloaded_fonts"
+151-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:116:13-43
+152            android:resource="@array/preloaded_fonts" />
+152-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:117:13-54
+153
+154        <provider
+155            android:name="androidx.core.content.FileProvider"
+155-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:120:13-62
+156            android:authorities="com.celex.rider.fileprovider"
+156-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:121:13-63
+157            android:exported="false"
+157-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:122:13-37
+158            android:grantUriPermissions="true" >
+158-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:123:13-47
+159            <meta-data
+159-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:124:13-126:54
+160                android:name="android.support.FILE_PROVIDER_PATHS"
+160-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:125:17-67
+161                android:resource="@xml/file_paths" />
+161-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:126:17-51
+162        </provider>
+163
+164        <service
+164-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:129:9-136:19
+165            android:name="com.celex.rider.Firebase_Notification.MyFirebaseMessagingService"
+165-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:130:13-77
+166            android:exported="false"
+166-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:132:13-37
+167            android:stopWithTask="false" >
+167-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:131:13-41
+168            <intent-filter>
+168-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:133:13-135:29
+169                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+169-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:134:17-78
+169-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:134:25-75
+170            </intent-filter>
+171        </service>
+172        <service
+172-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:137:9-140:56
+173            android:name="com.celex.rider.service.ForegroundService"
+173-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:138:13-54
+174            android:exported="false"
+174-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:139:13-37
+175            android:foregroundServiceType="location" />
+175-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:140:13-53
+176
+177        <uses-library
+177-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:142:9-144:40
+178            android:name="org.apache.http.legacy"
+178-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:143:13-50
+179            android:required="false" />
+179-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:144:13-37
+180
+181        <provider
+182            android:name="androidx.core.content.FileProvider"
+182-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:120:13-62
+183            android:authorities="com.celex.rider.provider"
+183-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:121:13-63
+184            android:exported="false"
+184-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:122:13-37
+185            android:grantUriPermissions="true" >
+185-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:123:13-47
+186            <meta-data
+186-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:124:13-126:54
+187                android:name="android.support.FILE_PROVIDER_PATHS"
+187-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:125:17-67
+188                android:resource="@xml/file_paths" />
+188-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:126:17-51
+189        </provider>
+190
+191        <service
+191-->[com.google.firebase:firebase-inappmessaging-display:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/7c5e7d105db9455c6fa7cced9e790986/jetified-firebase-inappmessaging-display-20.0.0/AndroidManifest.xml:23:9-29:19
+192            android:name="com.google.firebase.components.ComponentDiscoveryService"
+192-->[com.google.firebase:firebase-inappmessaging-display:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/7c5e7d105db9455c6fa7cced9e790986/jetified-firebase-inappmessaging-display-20.0.0/AndroidManifest.xml:24:13-84
+193            android:directBootAware="true"
+193-->[com.google.firebase:firebase-common:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/a12c30246d0cb70aeb0bcb1fb3310cb3/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+194            android:exported="false" >
+194-->[com.google.firebase:firebase-inappmessaging-display:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/7c5e7d105db9455c6fa7cced9e790986/jetified-firebase-inappmessaging-display-20.0.0/AndroidManifest.xml:25:13-37
+195            <meta-data
+195-->[com.google.firebase:firebase-inappmessaging-display:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/7c5e7d105db9455c6fa7cced9e790986/jetified-firebase-inappmessaging-display-20.0.0/AndroidManifest.xml:26:13-28:85
+196                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.display.FirebaseInAppMessagingDisplayRegistrar"
+196-->[com.google.firebase:firebase-inappmessaging-display:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/7c5e7d105db9455c6fa7cced9e790986/jetified-firebase-inappmessaging-display-20.0.0/AndroidManifest.xml:27:17-144
+197                android:value="com.google.firebase.components.ComponentRegistrar" />
+197-->[com.google.firebase:firebase-inappmessaging-display:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/7c5e7d105db9455c6fa7cced9e790986/jetified-firebase-inappmessaging-display-20.0.0/AndroidManifest.xml:28:17-82
+198            <meta-data
+198-->[com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:52:13-54:85
+199                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+199-->[com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:53:17-119
+200                android:value="com.google.firebase.components.ComponentRegistrar" />
+200-->[com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:54:17-82
+201            <meta-data
+201-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+202                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+202-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+203                android:value="com.google.firebase.components.ComponentRegistrar" />
+203-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+204            <meta-data
+204-->[com.google.firebase:firebase-database:20.0.2] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/dcb77e66041b93f851ad5334e1e86767/jetified-firebase-database-20.0.2/AndroidManifest.xml:32:13-34:85
+205                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+205-->[com.google.firebase:firebase-database:20.0.2] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/dcb77e66041b93f851ad5334e1e86767/jetified-firebase-database-20.0.2/AndroidManifest.xml:33:17-109
+206                android:value="com.google.firebase.components.ComponentRegistrar" />
+206-->[com.google.firebase:firebase-database:20.0.2] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/dcb77e66041b93f851ad5334e1e86767/jetified-firebase-database-20.0.2/AndroidManifest.xml:34:17-82
+207            <meta-data
+207-->[com.google.firebase:firebase-storage:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/bfe04ca3c8820be966492b7f35bac059/jetified-firebase-storage-20.0.0/AndroidManifest.xml:33:13-35:85
+208                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+208-->[com.google.firebase:firebase-storage:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/bfe04ca3c8820be966492b7f35bac059/jetified-firebase-storage-20.0.0/AndroidManifest.xml:34:17-107
+209                android:value="com.google.firebase.components.ComponentRegistrar" />
+209-->[com.google.firebase:firebase-storage:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/bfe04ca3c8820be966492b7f35bac059/jetified-firebase-storage-20.0.0/AndroidManifest.xml:35:17-82
+210            <meta-data
+210-->[com.google.firebase:firebase-crashlytics:18.2.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/4d3c1945e72ddf9a54cecf41f24cae7b/jetified-firebase-crashlytics-18.2.1/AndroidManifest.xml:18:13-20:85
+211                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+211-->[com.google.firebase:firebase-crashlytics:18.2.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/4d3c1945e72ddf9a54cecf41f24cae7b/jetified-firebase-crashlytics-18.2.1/AndroidManifest.xml:19:17-115
+212                android:value="com.google.firebase.components.ComponentRegistrar" />
+212-->[com.google.firebase:firebase-crashlytics:18.2.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/4d3c1945e72ddf9a54cecf41f24cae7b/jetified-firebase-crashlytics-18.2.1/AndroidManifest.xml:20:17-82
+213            <meta-data
+213-->[com.google.android.gms:play-services-measurement-api:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/880caf05fa6d9b362547020765c13aef/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:30:13-32:85
+214                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+214-->[com.google.android.gms:play-services-measurement-api:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/880caf05fa6d9b362547020765c13aef/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:31:17-139
+215                android:value="com.google.firebase.components.ComponentRegistrar" />
+215-->[com.google.android.gms:play-services-measurement-api:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/880caf05fa6d9b362547020765c13aef/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:32:17-82
+216            <meta-data
+216-->[com.google.firebase:firebase-inappmessaging:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/1f6cccab60e75b22d86b1671d2a9a184/jetified-firebase-inappmessaging-20.0.0/AndroidManifest.xml:17:13-19:85
+217                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.FirebaseInAppMessagingRegistrar"
+217-->[com.google.firebase:firebase-inappmessaging:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/1f6cccab60e75b22d86b1671d2a9a184/jetified-firebase-inappmessaging-20.0.0/AndroidManifest.xml:18:17-129
+218                android:value="com.google.firebase.components.ComponentRegistrar" />
+218-->[com.google.firebase:firebase-inappmessaging:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/1f6cccab60e75b22d86b1671d2a9a184/jetified-firebase-inappmessaging-20.0.0/AndroidManifest.xml:19:17-82
+219            <meta-data
+219-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f01c6f1efa1df824a744983940540e3d/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+220                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+220-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f01c6f1efa1df824a744983940540e3d/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+221                android:value="com.google.firebase.components.ComponentRegistrar" />
+221-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f01c6f1efa1df824a744983940540e3d/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+222            <meta-data
+222-->[com.google.firebase:firebase-installations:17.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/d94b82d2d2484df3358bb91c7d9b2fab/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+223                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+223-->[com.google.firebase:firebase-installations:17.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/d94b82d2d2484df3358bb91c7d9b2fab/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+224                android:value="com.google.firebase.components.ComponentRegistrar" />
+224-->[com.google.firebase:firebase-installations:17.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/d94b82d2d2484df3358bb91c7d9b2fab/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+225            <meta-data
+225-->[com.google.firebase:firebase-abt:21.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/9826a4fdfa2819bfe44a7950919273ab/jetified-firebase-abt-21.0.0/AndroidManifest.xml:13:13-15:85
+226                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+226-->[com.google.firebase:firebase-abt:21.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/9826a4fdfa2819bfe44a7950919273ab/jetified-firebase-abt-21.0.0/AndroidManifest.xml:14:17-109
+227                android:value="com.google.firebase.components.ComponentRegistrar" />
+227-->[com.google.firebase:firebase-abt:21.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/9826a4fdfa2819bfe44a7950919273ab/jetified-firebase-abt-21.0.0/AndroidManifest.xml:15:17-82
+228        </service>
+229
+230        <provider
+230-->[cat.ereza:customactivityoncrash:2.3.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/1d9dddc63d7f67d02ae6b1da74ed8c71/jetified-customactivityoncrash-2.3.0/AndroidManifest.xml:16:9-20:39
+231            android:name="cat.ereza.customactivityoncrash.provider.CaocInitProvider"
+231-->[cat.ereza:customactivityoncrash:2.3.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/1d9dddc63d7f67d02ae6b1da74ed8c71/jetified-customactivityoncrash-2.3.0/AndroidManifest.xml:17:13-85
+232            android:authorities="com.celex.rider.customactivityoncrashinitprovider"
+232-->[cat.ereza:customactivityoncrash:2.3.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/1d9dddc63d7f67d02ae6b1da74ed8c71/jetified-customactivityoncrash-2.3.0/AndroidManifest.xml:18:13-85
+233            android:exported="false"
+233-->[cat.ereza:customactivityoncrash:2.3.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/1d9dddc63d7f67d02ae6b1da74ed8c71/jetified-customactivityoncrash-2.3.0/AndroidManifest.xml:19:13-37
+234            android:initOrder="101" />
+234-->[cat.ereza:customactivityoncrash:2.3.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/1d9dddc63d7f67d02ae6b1da74ed8c71/jetified-customactivityoncrash-2.3.0/AndroidManifest.xml:20:13-36
+235
+236        <activity
+236-->[com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:39:9-42:68
+237            android:name="com.github.drjacky.imagepicker.ImagePickerActivity"
+237-->[com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:40:13-78
+238            android:screenOrientation="unspecified"
+238-->[com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:41:13-52
+239            android:theme="@style/Theme.Transparent.ImagePicker" />
+239-->[com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:42:13-65
+240        <activity
+240-->[com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:43:9-46:72
+241            android:name="com.yalantis.ucrop.UCropActivity"
+241-->[com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:44:13-60
+242            android:screenOrientation="portrait"
+242-->[com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:45:13-49
+243            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+243-->[com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:46:13-69
+244
+245        <provider
+245-->[com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:48:9-56:20
+246            android:name="com.github.drjacky.imagepicker.ImagePickerFileProvider"
+246-->[com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:49:13-82
+247            android:authorities="com.celex.rider.imagepicker.provider"
+247-->[com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:50:13-72
+248            android:exported="false"
+248-->[com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:51:13-37
+249            android:grantUriPermissions="true" >
+249-->[com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:52:13-47
+250            <meta-data
+250-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:124:13-126:54
+251                android:name="android.support.FILE_PROVIDER_PATHS"
+251-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:125:17-67
+252                android:resource="@xml/image_picker_provider_paths" />
+252-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:126:17-51
+253        </provider>
+254
+255        <receiver
+255-->[com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:28:9-35:20
+256            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+256-->[com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:29:13-78
+257            android:exported="true"
+257-->[com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:30:13-36
+258            android:permission="com.google.android.c2dm.permission.SEND" >
+258-->[com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:31:13-73
+259            <intent-filter>
+259-->[com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:32:13-34:29
+260                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+260-->[com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:33:17-81
+260-->[com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:33:25-78
+261            </intent-filter>
+262        </receiver>
+263        <!--
+264             FirebaseMessagingService performs security checks at runtime,
+265             but set to not exported to explicitly avoid allowing another app to call it.
+266        -->
+267        <service
+267-->[com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:41:9-48:19
+268            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+268-->[com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:42:13-82
+269            android:directBootAware="true"
+269-->[com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:43:13-43
+270            android:exported="false" >
+270-->[com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:44:13-37
+271            <intent-filter android:priority="-500" >
+271-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:133:13-135:29
+272                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+272-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:134:17-78
+272-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:134:25-75
+273            </intent-filter>
+274        </service>
+275
+276        <activity
+276-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+277            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+277-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+278            android:excludeFromRecents="true"
+278-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+279            android:exported="true"
+279-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+280            android:launchMode="singleTask"
+280-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+281            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+281-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+282            <intent-filter>
+282-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+283                <action android:name="android.intent.action.VIEW" />
+283-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:27:13-65
+283-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:27:21-62
+284
+285                <category android:name="android.intent.category.DEFAULT" />
+285-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+285-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+286                <category android:name="android.intent.category.BROWSABLE" />
+286-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+286-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+287
+288                <data
+288-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:28:13-43
+289                    android:host="firebase.auth"
+290                    android:path="/"
+291                    android:scheme="genericidp" />
+291-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:28:19-40
+292            </intent-filter>
+293        </activity>
+294        <activity
+294-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+295            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+295-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+296            android:excludeFromRecents="true"
+296-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+297            android:exported="true"
+297-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+298            android:launchMode="singleTask"
+298-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+299            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+299-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+300            <intent-filter>
+300-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+301                <action android:name="android.intent.action.VIEW" />
+301-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:27:13-65
+301-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:27:21-62
+302
+303                <category android:name="android.intent.category.DEFAULT" />
+303-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+303-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+304                <category android:name="android.intent.category.BROWSABLE" />
+304-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+304-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+305
+306                <data
+306-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:28:13-43
+307                    android:host="firebase.auth"
+308                    android:path="/"
+309                    android:scheme="recaptcha" />
+309-->/Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:28:19-40
+310            </intent-filter>
+311        </activity>
+312
+313        <service
+313-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+314            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+314-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+315            android:enabled="true"
+315-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+316            android:exported="false" >
+316-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+317            <intent-filter>
+317-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+318                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+318-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+318-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+319
+320                <category android:name="android.intent.category.DEFAULT" />
+320-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+320-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+321            </intent-filter>
+322        </service>
+323
+324        <activity
+324-->[com.google.android.gms:play-services-auth:19.2.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/9198024741f0f074918b193ea2b5b37f/jetified-play-services-auth-19.2.0/AndroidManifest.xml:23:9-27:75
+325            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+325-->[com.google.android.gms:play-services-auth:19.2.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/9198024741f0f074918b193ea2b5b37f/jetified-play-services-auth-19.2.0/AndroidManifest.xml:24:13-93
+326            android:excludeFromRecents="true"
+326-->[com.google.android.gms:play-services-auth:19.2.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/9198024741f0f074918b193ea2b5b37f/jetified-play-services-auth-19.2.0/AndroidManifest.xml:25:13-46
+327            android:exported="false"
+327-->[com.google.android.gms:play-services-auth:19.2.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/9198024741f0f074918b193ea2b5b37f/jetified-play-services-auth-19.2.0/AndroidManifest.xml:26:13-37
+328            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+328-->[com.google.android.gms:play-services-auth:19.2.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/9198024741f0f074918b193ea2b5b37f/jetified-play-services-auth-19.2.0/AndroidManifest.xml:27:13-72
+329        <!--
+330            Service handling Google Sign-In user revocation. For apps that do not integrate with
+331            Google Sign-In, this service will never be started.
+332        -->
+333        <service
+333-->[com.google.android.gms:play-services-auth:19.2.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/9198024741f0f074918b193ea2b5b37f/jetified-play-services-auth-19.2.0/AndroidManifest.xml:33:9-37:51
+334            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+334-->[com.google.android.gms:play-services-auth:19.2.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/9198024741f0f074918b193ea2b5b37f/jetified-play-services-auth-19.2.0/AndroidManifest.xml:34:13-89
+335            android:exported="true"
+335-->[com.google.android.gms:play-services-auth:19.2.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/9198024741f0f074918b193ea2b5b37f/jetified-play-services-auth-19.2.0/AndroidManifest.xml:35:13-36
+336            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+336-->[com.google.android.gms:play-services-auth:19.2.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/9198024741f0f074918b193ea2b5b37f/jetified-play-services-auth-19.2.0/AndroidManifest.xml:36:13-107
+337            android:visibleToInstantApps="true" />
+337-->[com.google.android.gms:play-services-auth:19.2.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/9198024741f0f074918b193ea2b5b37f/jetified-play-services-auth-19.2.0/AndroidManifest.xml:37:13-48
+338        <service
+338-->[com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:28:9-31:40
+339            android:name="com.roam.sdk.service.RoamService"
+339-->[com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:29:13-60
+340            android:enabled="true"
+340-->[com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:30:13-35
+341            android:exported="false" />
+341-->[com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:31:13-37
+342        <service
+342-->[com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:32:9-34:38
+343            android:name="org.eclipse.paho.android.service.MqttService"
+343-->[com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:33:13-72
+344            android:enabled="true" />
+344-->[com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:34:13-35
+345        <service
+345-->[com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:35:9-39:56
+346            android:name="com.roam.sdk.service.RoamLocationService"
+346-->[com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:36:13-68
+347            android:enabled="true"
+347-->[com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:37:13-35
+348            android:exported="false"
+348-->[com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:38:13-37
+349            android:foregroundServiceType="location" /> <!-- RECEIVER -->
+349-->[com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:39:13-53
+350        <receiver
+350-->[com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:42:9-51:20
+351            android:name="com.roam.sdk.core.event.BootEventReceiver"
+351-->[com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:43:13-69
+352            android:enabled="true"
+352-->[com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:44:13-35
+353            android:exported="true" >
+353-->[com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:45:13-36
+354            <intent-filter android:priority="999" >
+354-->[com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:46:13-50:29
+354-->[com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:46:28-50
+355                <action android:name="android.intent.action.BOOT_COMPLETED" />
+355-->[com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:47:17-79
+355-->[com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:47:25-76
+356
+357                <category android:name="android.intent.category.DEFAULT" />
+357-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+357-->[com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+358            </intent-filter>
+359        </receiver>
+360
+361        <activity
+361-->[com.google.android.gms:play-services-base:17.6.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b13854b310ad98ea07be1c21d0633a28/jetified-play-services-base-17.6.0/AndroidManifest.xml:23:9-26:75
+362            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+362-->[com.google.android.gms:play-services-base:17.6.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b13854b310ad98ea07be1c21d0633a28/jetified-play-services-base-17.6.0/AndroidManifest.xml:24:13-79
+363            android:exported="false"
+363-->[com.google.android.gms:play-services-base:17.6.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b13854b310ad98ea07be1c21d0633a28/jetified-play-services-base-17.6.0/AndroidManifest.xml:25:13-37
+364            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+364-->[com.google.android.gms:play-services-base:17.6.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b13854b310ad98ea07be1c21d0633a28/jetified-play-services-base-17.6.0/AndroidManifest.xml:26:13-72
+365
+366        <provider
+366-->[com.google.firebase:firebase-common:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/a12c30246d0cb70aeb0bcb1fb3310cb3/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+367            android:name="com.google.firebase.provider.FirebaseInitProvider"
+367-->[com.google.firebase:firebase-common:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/a12c30246d0cb70aeb0bcb1fb3310cb3/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+368            android:authorities="com.celex.rider.firebaseinitprovider"
+368-->[com.google.firebase:firebase-common:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/a12c30246d0cb70aeb0bcb1fb3310cb3/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+369            android:directBootAware="true"
+369-->[com.google.firebase:firebase-common:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/a12c30246d0cb70aeb0bcb1fb3310cb3/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+370            android:exported="false"
+370-->[com.google.firebase:firebase-common:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/a12c30246d0cb70aeb0bcb1fb3310cb3/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+371            android:initOrder="100" />
+371-->[com.google.firebase:firebase-common:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/a12c30246d0cb70aeb0bcb1fb3310cb3/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+372
+373        <receiver
+373-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b2d515da6bf163603ba3a0802e5ec57b/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:29:9-33:20
+374            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+374-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b2d515da6bf163603ba3a0802e5ec57b/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:30:13-85
+375            android:enabled="true"
+375-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b2d515da6bf163603ba3a0802e5ec57b/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:31:13-35
+376            android:exported="false" >
+376-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b2d515da6bf163603ba3a0802e5ec57b/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:32:13-37
+377        </receiver>
+378
+379        <service
+379-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b2d515da6bf163603ba3a0802e5ec57b/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:35:9-38:40
+380            android:name="com.google.android.gms.measurement.AppMeasurementService"
+380-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b2d515da6bf163603ba3a0802e5ec57b/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:36:13-84
+381            android:enabled="true"
+381-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b2d515da6bf163603ba3a0802e5ec57b/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:37:13-35
+382            android:exported="false" />
+382-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b2d515da6bf163603ba3a0802e5ec57b/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:38:13-37
+383        <service
+383-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b2d515da6bf163603ba3a0802e5ec57b/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:39:9-43:72
+384            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+384-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b2d515da6bf163603ba3a0802e5ec57b/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:40:13-87
+385            android:enabled="true"
+385-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b2d515da6bf163603ba3a0802e5ec57b/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:41:13-35
+386            android:exported="false"
+386-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b2d515da6bf163603ba3a0802e5ec57b/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:42:13-37
+387            android:permission="android.permission.BIND_JOB_SERVICE" />
+387-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b2d515da6bf163603ba3a0802e5ec57b/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:43:13-69
+388
+389        <provider
+389-->[com.squareup.picasso:picasso:2.71828] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f3a99070a7ae1fbaa4c365ab4dbf6ab7/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+390            android:name="com.squareup.picasso.PicassoProvider"
+390-->[com.squareup.picasso:picasso:2.71828] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f3a99070a7ae1fbaa4c365ab4dbf6ab7/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+391            android:authorities="com.celex.rider.com.squareup.picasso"
+391-->[com.squareup.picasso:picasso:2.71828] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f3a99070a7ae1fbaa4c365ab4dbf6ab7/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+392            android:exported="false" />
+392-->[com.squareup.picasso:picasso:2.71828] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f3a99070a7ae1fbaa4c365ab4dbf6ab7/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+393
+394        <service
+394-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/51df5aa5509a81b5e7e7a2647b51ecf5/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+395            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+395-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/51df5aa5509a81b5e7e7a2647b51ecf5/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+396            android:exported="false" >
+396-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/51df5aa5509a81b5e7e7a2647b51ecf5/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+397            <meta-data
+397-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/51df5aa5509a81b5e7e7a2647b51ecf5/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+398                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+398-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/51df5aa5509a81b5e7e7a2647b51ecf5/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+399                android:value="cct" />
+399-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/51df5aa5509a81b5e7e7a2647b51ecf5/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+400        </service>
+401        <service
+401-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b8dc1962fdce7b060dac555ec7db4b3e/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+402            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+402-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b8dc1962fdce7b060dac555ec7db4b3e/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+403            android:exported="false"
+403-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b8dc1962fdce7b060dac555ec7db4b3e/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+404            android:permission="android.permission.BIND_JOB_SERVICE" >
+404-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b8dc1962fdce7b060dac555ec7db4b3e/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+405        </service>
+406
+407        <receiver
+407-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b8dc1962fdce7b060dac555ec7db4b3e/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+408            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+408-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b8dc1962fdce7b060dac555ec7db4b3e/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+409            android:exported="false" />
+409-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b8dc1962fdce7b060dac555ec7db4b3e/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+410    </application>
+411
+412</manifest>

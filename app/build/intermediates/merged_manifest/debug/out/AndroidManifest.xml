@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="19"
-        android:targetSdkVersion="31" />
+        android:targetSdkVersion="32" />
 
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
@@ -91,7 +91,6 @@
         android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.celex.rider.AllActivitys.DriverActivity" />
         <activity android:name="com.celex.rider.AllActivitys.Barcode_scaner_A" />
@@ -125,7 +124,9 @@
             android:name="com.celex.rider.AllActivitys.GetStarted_A"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
-        <activity android:name="com.celex.rider.AllActivitys.Splashscreen_A" >
+        <activity
+            android:name="com.celex.rider.AllActivitys.Splashscreen_A"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

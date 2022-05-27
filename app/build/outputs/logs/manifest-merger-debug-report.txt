@@ -1,50 +1,50 @@
 -- Merging decision tree log ---
 provider#androidx.core.content.FileProvider
-INJECTED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:145:9-153:20
+INJECTED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:146:9-154:20
 	android:grantUriPermissions
-		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:122:13-47
+		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:123:13-47
 	android:authorities
 		INJECTED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml
-		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:120:13-63
+		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:121:13-63
 	android:exported
-		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:121:13-37
+		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:122:13-37
 	android:name
-		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:119:13-62
+		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:120:13-62
 manifest
-ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:2:1-156:12
-INJECTED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:2:1-156:12
-INJECTED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:2:1-156:12
-INJECTED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:2:1-156:12
+ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:2:1-157:12
+INJECTED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:2:1-157:12
+INJECTED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:2:1-157:12
+INJECTED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:2:1-157:12
 MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f03ac7c99b2ff9dfc4b36f7aab0f6695/jetified-android-image-cropper-2.8.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.multidex:multidex:2.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/e6b22f52969d77b479e41714e97ad4d5/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.material:material:1.4.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8a593b648c0b0d977deb4c3561345945/material-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-inappmessaging-display:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/7c5e7d105db9455c6fa7cced9e790986/jetified-firebase-inappmessaging-display-20.0.0/AndroidManifest.xml:2:1-32:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/db6ccf94d14a04ab0eeb166a3ae2ae99/constraintlayout-2.1.1/AndroidManifest.xml:2:1-11:12
-MERGED from [com.gmail.samehadar:iosdialog:1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/403c280481b3f0eeb9e95e10e8380cfc/jetified-iosdialog-1.0/AndroidManifest.xml:2:1-17:12
+MERGED from [com.gmail.samehadar:iosdialog:1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/a700edeb711d2b072011102001bf033a/jetified-iosdialog-1.0/AndroidManifest.xml:2:1-17:12
 MERGED from [org.xdty.preference:color-picker:0.0.4] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/43168f464f4516a520e804f8aca03dad/jetified-color-picker-0.0.4/AndroidManifest.xml:2:1-16:12
 MERGED from [cat.ereza:customactivityoncrash:2.3.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/1d9dddc63d7f67d02ae6b1da74ed8c71/jetified-customactivityoncrash-2.3.0/AndroidManifest.xml:2:1-23:12
-MERGED from [com.github.yesterselga:country-picker-android:1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/3a5ad99e06c25c1d654089367e0a7bfb/jetified-country-picker-android-1.0/AndroidManifest.xml:2:1-17:12
-MERGED from [com.devlomi.record-view:record-view:2.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/375e454a9ae12acb6ff90fbeb204a374/jetified-record-view-2.0.1/AndroidManifest.xml:2:1-15:12
+MERGED from [com.github.yesterselga:country-picker-android:1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/e12b99a473cc0577b921751dd364d8a2/jetified-country-picker-android-1.0/AndroidManifest.xml:2:1-17:12
+MERGED from [com.devlomi.record-view:record-view:2.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/ebb4af572c622f1a51517cdd50fced98/jetified-record-view-2.0.1/AndroidManifest.xml:2:1-15:12
 MERGED from [com.chaos.view:pinview:1.4.3] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/ab2434f43baa6635a388d37fbcb83410/jetified-pinview-1.4.3/AndroidManifest.xml:17:1-24:12
 MERGED from [com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:2:1-59:12
 MERGED from [com.github.yalantis:ucrop:2.2.7] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/10e2624e7040ef6dbdf649cdc9e96fe2/jetified-ucrop-2.2.7/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/769db6bbaca138f52289824953048c27/appcompat-1.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [com.booking:rtlviewpager:1.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/ce4b83266ce87704e8e81e3d56d8854d/jetified-rtlviewpager-1.0.1/AndroidManifest.xml:2:1-12:12
+MERGED from [com.booking:rtlviewpager:1.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/bf06d7e364b9774c4b961952e33df1cc/jetified-rtlviewpager-1.0.1/AndroidManifest.xml:2:1-12:12
 MERGED from [me.dm7.barcodescanner:zxing:1.9.13] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/6dd2266ec6ebd0382e20b21033d18229/jetified-zxing-1.9.13/AndroidManifest.xml:2:1-13:12
-MERGED from [me.dm7.barcodescanner:core:1.9.13] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/0df145825c5d159e9e63a8ef90ed28ef/jetified-core-1.9.13/AndroidManifest.xml:2:1-13:12
+MERGED from [me.dm7.barcodescanner:core:1.9.13] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7fe7f1c79c8ac9a6587a69436784247/jetified-core-1.9.13/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/5a314e0e2df6686398c7e1224828fa3c/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:17:1-58:12
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:17:1-83:12
 MERGED from [androidx.browser:browser:1.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/de382e6f19fe90b8c825cb339468df0f/browser-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/4ebf72210b25595a5e970993ea140de1/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/70983d518b862aa30cd01fa27cdb61f9/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.firebase:geofire-android:3.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8ba54b5e1a88a32d979ff11e275dcab1/jetified-geofire-android-3.1.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.firebase:geofire-android:3.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/210f76a2826d2312e6918f7355d1a5bc/jetified-geofire-android-3.1.0/AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.firebase:firebase-database:20.0.2] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/dcb77e66041b93f851ad5334e1e86767/jetified-firebase-database-20.0.2/AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/bfe04ca3c8820be966492b7f35bac059/jetified-firebase-storage-20.0.0/AndroidManifest.xml:15:1-39:12
 MERGED from [com.google.android.gms:play-services-auth:19.2.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/9198024741f0f074918b193ea2b5b37f/jetified-play-services-auth-19.2.0/AndroidManifest.xml:17:1-40:12
 MERGED from [com.google.android.gms:play-services-identity:17.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f0b6feee6b2fab7cff883e5d591fcd14/jetified-play-services-identity-17.0.1/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.5.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b80a7a12b451539f774d767ef16c1ca2/jetified-play-services-auth-api-phone-17.5.1/AndroidManifest.xml:2:1-7:12
-MERGED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:2:1-54:12
+MERGED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:2:1-54:12
 MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/532d4fd71da7d483fcf73460dc5ee3ec/jetified-play-services-location-18.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c5aa3717e199d252fbe7269624be3c96/jetified-play-services-maps-17.0.1/AndroidManifest.xml:17:1-44:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/27a75a3864c49da767a3009f927fe7c6/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
@@ -95,7 +95,7 @@ MERGED from [androidx.loader:loader:1.0.0] /Users/sahilsaini/.gradle/caches/tran
 MERGED from [androidx.core:core-ktx:1.7.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/d42d65e9f466bec16de2a7b819f7c946/jetified-core-ktx-1.7.0/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/2c1b2175d7f52e3c83bbad0577cf007e/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/a4f08a23d64392fa55b7528a07475256/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [me.everything:overscroll-decor-android:1.0.4] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/d856b9c9902dbe364f3a676c08723cd1/jetified-overscroll-decor-android-1.0.4/AndroidManifest.xml:2:1-12:12
+MERGED from [me.everything:overscroll-decor-android:1.0.4] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/59b8346de40868ce69744e842479d0d2/jetified-overscroll-decor-android-1.0.4/AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c26b2eafa5b729044548beedb1b15cce/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df79285040d28d9bd2055d370db28e3e/customview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/3ac9859b8620a2c9aaaa3b95b6915a55/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -105,12 +105,12 @@ MERGED from [androidx.cardview:cardview:1.0.0] /Users/sahilsaini/.gradle/caches/
 MERGED from [com.android.volley:volley:1.2.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/eeadbb65294f6f46ecd96f764ebaa4df/jetified-volley-1.2.1/AndroidManifest.xml:2:1-7:12
 MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/43164b0c3481df91959d95e7e25d27f5/jetified-fresco-2.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [net.the4thdimension:audio-wife:1.0.3] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/2034064691ac6d6f49b8cda9fb72f42f/jetified-audio-wife-1.0.3/AndroidManifest.xml:2:1-16:12
-MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/2fb4e2a8cb975dea4be3060735dfe83a/jetified-roundedimageview-2.3.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8dc393e6f0958c5b80de7e5004ad3b65/jetified-roundedimageview-2.3.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.mindorks.android:prdownloader:0.4.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/180e780315b0b0eb0b079638490fa921/jetified-prdownloader-0.4.0/AndroidManifest.xml:17:1-26:12
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f04665f67f9db7a80feff922d7df8902/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f3a99070a7ae1fbaa4c365ab4dbf6ab7/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
 MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/5268f00dccb9fd4875cdf03d322878eb/jetified-circleimageview-3.1.0/AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/0e19d77437a1c60669d308f388130fb4/jetified-android-maps-utils-0.5/AndroidManifest.xml:2:1-13:12
-MERGED from [com.borjabravo:readmoretextview:2.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/aedb60fc7407d38f03a87429f03bd8bc/jetified-readmoretextview-2.1.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/2dc17f50a45f72e5dafd0e57a6f8fbfd/jetified-android-maps-utils-0.5/AndroidManifest.xml:2:1-13:12
+MERGED from [com.borjabravo:readmoretextview:2.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/43b4782c7a7d840271f45c96a86bc265/jetified-readmoretextview-2.1.0/AndroidManifest.xml:2:1-12:12
 MERGED from [com.github.joielechong:countrycodepicker:2.4.2] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/78922abf6785e2950d029e549a25a13e/jetified-countrycodepicker-2.4.2/AndroidManifest.xml:2:1-11:12
 MERGED from [com.intuit.sdp:sdp-android:1.0.6] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/d50d2910ce85863d3b0378c9feb3c9cf/jetified-sdp-android-1.0.6/AndroidManifest.xml:2:1-11:12
 MERGED from [com.intuit.ssp:ssp-android:1.0.6] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/d8fb8088ed448e5d93a32ef965f2117f/jetified-ssp-android-1.0.6/AndroidManifest.xml:2:1-11:12
@@ -146,27 +146,27 @@ MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/sahilsaini/
 MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/fb744f69632ccaad17fa1f58557ef3ec/jetified-imagepipeline-base-2.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/3131fbf45748bb4e4daa7f4b36906594/jetified-fbcore-2.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/5d0f967c3f70526a0e6bb4b1f930642a/jetified-soloader-0.6.0/AndroidManifest.xml:2:1-13:12
-MERGED from [com.firebase:geofire-android-common:3.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/d49a661f21e7796ea04fcab716e91982/jetified-geofire-android-common-3.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.firebase:geofire-android-common:3.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/7d24da686e87e001ce14ebebde4ba873/jetified-geofire-android-common-3.1.0/AndroidManifest.xml:2:1-11:12
 MERGED from [io.supercharge:shimmerlayout:2.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/36d783546cd6f0bd1170a9c7e4e7d214/jetified-shimmerlayout-2.1.0/AndroidManifest.xml:2:1-14:12
 MERGED from [io.michaelrocks:libphonenumber-android:8.12.5] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c0c9a3c400937ef12d0f2eb20ef582b8/jetified-libphonenumber-android-8.12.5/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/19fcdc5aa8a7049b51a4e67e10295307/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
 MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c8e9426d1d7e2bfac7d46a8eb704e95c/jetified-rxandroid-2.0.2/AndroidManifest.xml:15:1-21:12
-INJECTED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:2:1-156:12
-INJECTED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:2:1-156:12
-INJECTED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:2:1-156:12
+INJECTED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:2:1-157:12
+INJECTED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:2:1-157:12
+INJECTED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:2:1-157:12
 	package
 		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:4:5-30
 		INJECTED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml
-		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:2:1-156:12
+		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:2:1-157:12
 		INJECTED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml
-		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:2:1-156:12
+		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:2:1-157:12
 		INJECTED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:2:11-69
@@ -188,14 +188,14 @@ MERGED from [com.google.firebase:firebase-inappmessaging-display:20.0.0] /Users/
 MERGED from [com.google.firebase:firebase-inappmessaging-display:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/7c5e7d105db9455c6fa7cced9e790986/jetified-firebase-inappmessaging-display-20.0.0/AndroidManifest.xml:12:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
-MERGED from [com.firebase:geofire-android:3.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8ba54b5e1a88a32d979ff11e275dcab1/jetified-geofire-android-3.1.0/AndroidManifest.xml:11:5-67
-MERGED from [com.firebase:geofire-android:3.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8ba54b5e1a88a32d979ff11e275dcab1/jetified-geofire-android-3.1.0/AndroidManifest.xml:11:5-67
+MERGED from [com.firebase:geofire-android:3.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/210f76a2826d2312e6918f7355d1a5bc/jetified-geofire-android-3.1.0/AndroidManifest.xml:11:5-67
+MERGED from [com.firebase:geofire-android:3.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/210f76a2826d2312e6918f7355d1a5bc/jetified-geofire-android-3.1.0/AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-database:20.0.2] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/dcb77e66041b93f851ad5334e1e86767/jetified-firebase-database-20.0.2/AndroidManifest.xml:26:5-67
 MERGED from [com.google.firebase:firebase-database:20.0.2] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/dcb77e66041b93f851ad5334e1e86767/jetified-firebase-database-20.0.2/AndroidManifest.xml:26:5-67
 MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/bfe04ca3c8820be966492b7f35bac059/jetified-firebase-storage-20.0.0/AndroidManifest.xml:27:5-67
 MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/bfe04ca3c8820be966492b7f35bac059/jetified-firebase-storage-20.0.0/AndroidManifest.xml:27:5-67
-MERGED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:12:5-67
-MERGED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:12:5-67
+MERGED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:12:5-67
+MERGED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:12:5-67
 MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c5aa3717e199d252fbe7269624be3c96/jetified-play-services-maps-17.0.1/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c5aa3717e199d252fbe7269624be3c96/jetified-play-services-maps-17.0.1/AndroidManifest.xml:24:5-67
 MERGED from [com.google.firebase:firebase-crashlytics:18.2.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/4d3c1945e72ddf9a54cecf41f24cae7b/jetified-firebase-crashlytics-18.2.1/AndroidManifest.xml:10:5-67
@@ -224,8 +224,8 @@ ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/Android
 		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:11:22-95
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:12:5-81
-MERGED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:16:5-81
-MERGED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:16:5-81
+MERGED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:16:5-81
+MERGED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:16:5-81
 	android:name
 		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:12:22-78
 uses-permission#android.permission.ACCESS_NETWORK_STATE
@@ -240,8 +240,8 @@ MERGED from [com.google.firebase:firebase-database:20.0.2] /Users/sahilsaini/.gr
 MERGED from [com.google.firebase:firebase-database:20.0.2] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/dcb77e66041b93f851ad5334e1e86767/jetified-firebase-database-20.0.2/AndroidManifest.xml:25:5-79
 MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/bfe04ca3c8820be966492b7f35bac059/jetified-firebase-storage-20.0.0/AndroidManifest.xml:26:5-79
 MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/bfe04ca3c8820be966492b7f35bac059/jetified-firebase-storage-20.0.0/AndroidManifest.xml:26:5-79
-MERGED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:13:5-79
-MERGED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:13:5-79
+MERGED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:13:5-79
+MERGED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:13:5-79
 MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c5aa3717e199d252fbe7269624be3c96/jetified-play-services-maps-17.0.1/AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c5aa3717e199d252fbe7269624be3c96/jetified-play-services-maps-17.0.1/AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/880caf05fa6d9b362547020765c13aef/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:23:5-79
@@ -266,8 +266,8 @@ MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/sa
 		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:13:22-76
 uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:14:5-79
-MERGED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:15:5-79
-MERGED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:15:5-79
+MERGED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:15:5-79
+MERGED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:15:5-79
 	android:name
 		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:14:22-76
 uses-permission#android.permission.CAMERA
@@ -286,16 +286,16 @@ uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:18:5-80
 MERGED from [com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:9:5-80
 MERGED from [com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:9:5-80
-MERGED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:24:5-80
-MERGED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:24:5-80
+MERGED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:24:5-80
+MERGED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:24:5-80
 	android:name
 		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:18:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:19:5-20:40
 MERGED from [com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:10:5-12:38
 MERGED from [com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:10:5-12:38
-MERGED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:23:5-81
-MERGED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:23:5-81
+MERGED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:23:5-81
+MERGED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:23:5-81
 	android:maxSdkVersion
 		ADDED from [com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:12:9-35
 	tools:ignore
@@ -308,8 +308,8 @@ ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/Android
 		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:21:22-66
 uses-permission#android.permission.FOREGROUND_SERVICE
 ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:22:5-77
-MERGED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:25:5-77
-MERGED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:25:5-77
+MERGED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:25:5-77
+MERGED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:25:5-77
 	android:name
 		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:22:22-74
 queries
@@ -357,29 +357,29 @@ ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/Android
 	android:name
 		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:44:21-65
 application
-ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:48:5-154:19
+ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:48:5-155:19
 MERGED from [com.google.android.material:material:1.4.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8a593b648c0b0d977deb4c3561345945/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8a593b648c0b0d977deb4c3561345945/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-inappmessaging-display:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/7c5e7d105db9455c6fa7cced9e790986/jetified-firebase-inappmessaging-display-20.0.0/AndroidManifest.xml:22:5-30:19
 MERGED from [com.google.firebase:firebase-inappmessaging-display:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/7c5e7d105db9455c6fa7cced9e790986/jetified-firebase-inappmessaging-display-20.0.0/AndroidManifest.xml:22:5-30:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/db6ccf94d14a04ab0eeb166a3ae2ae99/constraintlayout-2.1.1/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/db6ccf94d14a04ab0eeb166a3ae2ae99/constraintlayout-2.1.1/AndroidManifest.xml:9:5-20
-MERGED from [com.gmail.samehadar:iosdialog:1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/403c280481b3f0eeb9e95e10e8380cfc/jetified-iosdialog-1.0/AndroidManifest.xml:11:5-15:19
-MERGED from [com.gmail.samehadar:iosdialog:1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/403c280481b3f0eeb9e95e10e8380cfc/jetified-iosdialog-1.0/AndroidManifest.xml:11:5-15:19
+MERGED from [com.gmail.samehadar:iosdialog:1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/a700edeb711d2b072011102001bf033a/jetified-iosdialog-1.0/AndroidManifest.xml:11:5-15:19
+MERGED from [com.gmail.samehadar:iosdialog:1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/a700edeb711d2b072011102001bf033a/jetified-iosdialog-1.0/AndroidManifest.xml:11:5-15:19
 MERGED from [org.xdty.preference:color-picker:0.0.4] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/43168f464f4516a520e804f8aca03dad/jetified-color-picker-0.0.4/AndroidManifest.xml:11:5-14:19
 MERGED from [org.xdty.preference:color-picker:0.0.4] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/43168f464f4516a520e804f8aca03dad/jetified-color-picker-0.0.4/AndroidManifest.xml:11:5-14:19
 MERGED from [cat.ereza:customactivityoncrash:2.3.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/1d9dddc63d7f67d02ae6b1da74ed8c71/jetified-customactivityoncrash-2.3.0/AndroidManifest.xml:11:5-21:19
 MERGED from [cat.ereza:customactivityoncrash:2.3.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/1d9dddc63d7f67d02ae6b1da74ed8c71/jetified-customactivityoncrash-2.3.0/AndroidManifest.xml:11:5-21:19
-MERGED from [com.github.yesterselga:country-picker-android:1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/3a5ad99e06c25c1d654089367e0a7bfb/jetified-country-picker-android-1.0/AndroidManifest.xml:11:5-15:19
-MERGED from [com.github.yesterselga:country-picker-android:1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/3a5ad99e06c25c1d654089367e0a7bfb/jetified-country-picker-android-1.0/AndroidManifest.xml:11:5-15:19
-MERGED from [com.devlomi.record-view:record-view:2.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/375e454a9ae12acb6ff90fbeb204a374/jetified-record-view-2.0.1/AndroidManifest.xml:9:5-13:19
-MERGED from [com.devlomi.record-view:record-view:2.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/375e454a9ae12acb6ff90fbeb204a374/jetified-record-view-2.0.1/AndroidManifest.xml:9:5-13:19
+MERGED from [com.github.yesterselga:country-picker-android:1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/e12b99a473cc0577b921751dd364d8a2/jetified-country-picker-android-1.0/AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.yesterselga:country-picker-android:1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/e12b99a473cc0577b921751dd364d8a2/jetified-country-picker-android-1.0/AndroidManifest.xml:11:5-15:19
+MERGED from [com.devlomi.record-view:record-view:2.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/ebb4af572c622f1a51517cdd50fced98/jetified-record-view-2.0.1/AndroidManifest.xml:9:5-13:19
+MERGED from [com.devlomi.record-view:record-view:2.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/ebb4af572c622f1a51517cdd50fced98/jetified-record-view-2.0.1/AndroidManifest.xml:9:5-13:19
 MERGED from [com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:38:5-57:19
 MERGED from [com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:38:5-57:19
 MERGED from [me.dm7.barcodescanner:zxing:1.9.13] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/6dd2266ec6ebd0382e20b21033d18229/jetified-zxing-1.9.13/AndroidManifest.xml:11:5-20
 MERGED from [me.dm7.barcodescanner:zxing:1.9.13] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/6dd2266ec6ebd0382e20b21033d18229/jetified-zxing-1.9.13/AndroidManifest.xml:11:5-20
-MERGED from [me.dm7.barcodescanner:core:1.9.13] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/0df145825c5d159e9e63a8ef90ed28ef/jetified-core-1.9.13/AndroidManifest.xml:11:5-20
-MERGED from [me.dm7.barcodescanner:core:1.9.13] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/0df145825c5d159e9e63a8ef90ed28ef/jetified-core-1.9.13/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.9.13] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7fe7f1c79c8ac9a6587a69436784247/jetified-core-1.9.13/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.9.13] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7fe7f1c79c8ac9a6587a69436784247/jetified-core-1.9.13/AndroidManifest.xml:11:5-20
 MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:27:5-56:19
 MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:27:5-56:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df828e68caa8cae7652cdb0e01fcc58b/jetified-firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
@@ -392,8 +392,8 @@ MERGED from [com.google.android.gms:play-services-auth:19.2.0] /Users/sahilsaini
 MERGED from [com.google.android.gms:play-services-auth:19.2.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/9198024741f0f074918b193ea2b5b37f/jetified-play-services-auth-19.2.0/AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.gms:play-services-identity:17.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f0b6feee6b2fab7cff883e5d591fcd14/jetified-play-services-identity-17.0.1/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-identity:17.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f0b6feee6b2fab7cff883e5d591fcd14/jetified-play-services-identity-17.0.1/AndroidManifest.xml:22:5-20
-MERGED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:27:5-52:19
-MERGED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:27:5-52:19
+MERGED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:27:5-52:19
+MERGED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:27:5-52:19
 MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/532d4fd71da7d483fcf73460dc5ee3ec/jetified-play-services-location-18.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/532d4fd71da7d483fcf73460dc5ee3ec/jetified-play-services-location-18.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c5aa3717e199d252fbe7269624be3c96/jetified-play-services-maps-17.0.1/AndroidManifest.xml:36:5-42:19
@@ -450,12 +450,12 @@ MERGED from [androidx.core:core:1.7.0] /Users/sahilsaini/.gradle/caches/transfor
 MERGED from [androidx.core:core:1.7.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/ed8c6e1e1bb4fefaaf88d114f9bd3672/core-1.7.0/AndroidManifest.xml:24:5-89
 MERGED from [net.the4thdimension:audio-wife:1.0.3] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/2034064691ac6d6f49b8cda9fb72f42f/jetified-audio-wife-1.0.3/AndroidManifest.xml:11:5-14:19
 MERGED from [net.the4thdimension:audio-wife:1.0.3] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/2034064691ac6d6f49b8cda9fb72f42f/jetified-audio-wife-1.0.3/AndroidManifest.xml:11:5-14:19
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f04665f67f9db7a80feff922d7df8902/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f04665f67f9db7a80feff922d7df8902/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f3a99070a7ae1fbaa4c365ab4dbf6ab7/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f3a99070a7ae1fbaa4c365ab4dbf6ab7/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
 MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/5268f00dccb9fd4875cdf03d322878eb/jetified-circleimageview-3.1.0/AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/5268f00dccb9fd4875cdf03d322878eb/jetified-circleimageview-3.1.0/AndroidManifest.xml:9:5-20
-MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/0e19d77437a1c60669d308f388130fb4/jetified-android-maps-utils-0.5/AndroidManifest.xml:7:5-11:19
-MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/0e19d77437a1c60669d308f388130fb4/jetified-android-maps-utils-0.5/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/2dc17f50a45f72e5dafd0e57a6f8fbfd/jetified-android-maps-utils-0.5/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/2dc17f50a45f72e5dafd0e57a6f8fbfd/jetified-android-maps-utils-0.5/AndroidManifest.xml:7:5-11:19
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/51df5aa5509a81b5e7e7a2647b51ecf5/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/51df5aa5509a81b5e7e7a2647b51ecf5/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b8dc1962fdce7b060dac555ec7db4b3e/jetified-transport-runtime-3.0.0/AndroidManifest.xml:25:5-39:19
@@ -486,10 +486,10 @@ MERGED from [io.supercharge:shimmerlayout:2.1.0] /Users/sahilsaini/.gradle/cache
 		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:60:9-28
 	android:allowBackup
 		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:49:9-36
-		REJECTED from [com.gmail.samehadar:iosdialog:1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/403c280481b3f0eeb9e95e10e8380cfc/jetified-iosdialog-1.0/AndroidManifest.xml:12:9-35
+		REJECTED from [com.gmail.samehadar:iosdialog:1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/a700edeb711d2b072011102001bf033a/jetified-iosdialog-1.0/AndroidManifest.xml:12:9-35
 		REJECTED from [org.xdty.preference:color-picker:0.0.4] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/43168f464f4516a520e804f8aca03dad/jetified-color-picker-0.0.4/AndroidManifest.xml:12:9-35
-		REJECTED from [com.github.yesterselga:country-picker-android:1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/3a5ad99e06c25c1d654089367e0a7bfb/jetified-country-picker-android-1.0/AndroidManifest.xml:12:9-35
-		REJECTED from [com.devlomi.record-view:record-view:2.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/375e454a9ae12acb6ff90fbeb204a374/jetified-record-view-2.0.1/AndroidManifest.xml:10:9-35
+		REJECTED from [com.github.yesterselga:country-picker-android:1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/e12b99a473cc0577b921751dd364d8a2/jetified-country-picker-android-1.0/AndroidManifest.xml:12:9-35
+		REJECTED from [com.devlomi.record-view:record-view:2.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/ebb4af572c622f1a51517cdd50fced98/jetified-record-view-2.0.1/AndroidManifest.xml:10:9-35
 		REJECTED from [net.the4thdimension:audio-wife:1.0.3] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/2034064691ac6d6f49b8cda9fb72f42f/jetified-audio-wife-1.0.3/AndroidManifest.xml:12:9-35
 	android:theme
 		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:58:9-40
@@ -568,85 +568,87 @@ ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/Android
 	android:name
 		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:90:13-54
 activity#com.celex.rider.AllActivitys.Splashscreen_A
-ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:93:9-99:20
+ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:93:9-100:20
+	android:exported
+		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:94:13-36
 	android:name
 		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:93:19-62
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:94:13-98:29
+ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:95:13-99:29
 action#android.intent.action.MAIN
-ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:95:17-69
+ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:96:17-69
 	android:name
-		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:95:25-66
+		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:96:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:97:17-77
+ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:98:17-77
 	android:name
-		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:97:27-74
+		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:98:27-74
 activity#com.celex.rider.AllActivitys.TripActivity
-ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:100:9-102:52
+ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:101:9-103:52
 	android:screenOrientation
-		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:102:13-49
+		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:103:13-49
 	android:name
-		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:101:13-54
+		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:102:13-54
 activity#com.celex.rider.AllActivitys.MainActivity
-ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:103:9-106:58
+ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:104:9-107:58
 	android:screenOrientation
-		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:105:13-49
+		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:106:13-49
 	android:windowSoftInputMode
-		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:106:13-55
+		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:107:13-55
 	android:name
-		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:104:13-54
+		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:105:13-54
 meta-data#com.google.android.gms.version
-ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:108:9-110:69
+ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:109:9-111:69
 MERGED from [com.google.android.gms:play-services-basement:17.6.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/53f00badd2171ba8825aefa002b7b2c9/jetified-play-services-basement-17.6.0/AndroidManifest.xml:23:9-25:69
 MERGED from [com.google.android.gms:play-services-basement:17.6.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/53f00badd2171ba8825aefa002b7b2c9/jetified-play-services-basement-17.6.0/AndroidManifest.xml:23:9-25:69
-MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/0e19d77437a1c60669d308f388130fb4/jetified-android-maps-utils-0.5/AndroidManifest.xml:8:9-10:69
-MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/0e19d77437a1c60669d308f388130fb4/jetified-android-maps-utils-0.5/AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/2dc17f50a45f72e5dafd0e57a6f8fbfd/jetified-android-maps-utils-0.5/AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/2dc17f50a45f72e5dafd0e57a6f8fbfd/jetified-android-maps-utils-0.5/AndroidManifest.xml:8:9-10:69
 	android:value
-		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:110:13-66
+		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:111:13-66
 	android:name
-		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:109:13-58
+		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:110:13-58
 meta-data#com.google.android.geo.API_KEY
-ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:111:9-113:71
+ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:112:9-114:71
 	android:value
-		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:113:13-68
+		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:114:13-68
 	android:name
-		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:112:13-58
+		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:113:13-58
 meta-data#preloaded_fonts
-ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:114:9-116:57
+ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:115:9-117:57
 	android:resource
-		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:116:13-54
+		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:117:13-54
 	android:name
-		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:115:13-43
+		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:116:13-43
 service#com.celex.rider.Firebase_Notification.MyFirebaseMessagingService
-ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:128:9-135:19
+ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:129:9-136:19
 	android:exported
-		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:131:13-37
+		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:132:13-37
 	android:stopWithTask
-		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:130:13-41
+		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:131:13-41
 	android:name
-		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:129:13-77
+		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:130:13-77
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:132:13-134:29
+ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:133:13-135:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:133:17-78
+ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:134:17-78
 	android:name
-		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:133:25-75
+		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:134:25-75
 service#com.celex.rider.service.ForegroundService
-ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:136:9-139:56
+ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:137:9-140:56
 	android:exported
-		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:138:13-37
+		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:139:13-37
 	android:foregroundServiceType
-		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:139:13-53
+		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:140:13-53
 	android:name
-		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:137:13-54
+		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:138:13-54
 uses-library#org.apache.http.legacy
-ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:141:9-143:40
+ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:142:9-144:40
 MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c5aa3717e199d252fbe7269624be3c96/jetified-play-services-maps-17.0.1/AndroidManifest.xml:39:9-41:40
 MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c5aa3717e199d252fbe7269624be3c96/jetified-play-services-maps-17.0.1/AndroidManifest.xml:39:9-41:40
 	android:required
-		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:143:13-37
+		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:144:13-37
 	android:name
-		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:142:13-50
+		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:143:13-50
 uses-sdk
 INJECTED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml
@@ -661,16 +663,16 @@ MERGED from [com.google.firebase:firebase-inappmessaging-display:20.0.0] /Users/
 MERGED from [com.google.firebase:firebase-inappmessaging-display:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/7c5e7d105db9455c6fa7cced9e790986/jetified-firebase-inappmessaging-display-20.0.0/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/db6ccf94d14a04ab0eeb166a3ae2ae99/constraintlayout-2.1.1/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/db6ccf94d14a04ab0eeb166a3ae2ae99/constraintlayout-2.1.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.gmail.samehadar:iosdialog:1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/403c280481b3f0eeb9e95e10e8380cfc/jetified-iosdialog-1.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.gmail.samehadar:iosdialog:1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/403c280481b3f0eeb9e95e10e8380cfc/jetified-iosdialog-1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.gmail.samehadar:iosdialog:1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/a700edeb711d2b072011102001bf033a/jetified-iosdialog-1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.gmail.samehadar:iosdialog:1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/a700edeb711d2b072011102001bf033a/jetified-iosdialog-1.0/AndroidManifest.xml:7:5-9:41
 MERGED from [org.xdty.preference:color-picker:0.0.4] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/43168f464f4516a520e804f8aca03dad/jetified-color-picker-0.0.4/AndroidManifest.xml:7:5-9:41
 MERGED from [org.xdty.preference:color-picker:0.0.4] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/43168f464f4516a520e804f8aca03dad/jetified-color-picker-0.0.4/AndroidManifest.xml:7:5-9:41
 MERGED from [cat.ereza:customactivityoncrash:2.3.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/1d9dddc63d7f67d02ae6b1da74ed8c71/jetified-customactivityoncrash-2.3.0/AndroidManifest.xml:7:5-9:41
 MERGED from [cat.ereza:customactivityoncrash:2.3.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/1d9dddc63d7f67d02ae6b1da74ed8c71/jetified-customactivityoncrash-2.3.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.yesterselga:country-picker-android:1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/3a5ad99e06c25c1d654089367e0a7bfb/jetified-country-picker-android-1.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.yesterselga:country-picker-android:1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/3a5ad99e06c25c1d654089367e0a7bfb/jetified-country-picker-android-1.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.devlomi.record-view:record-view:2.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/375e454a9ae12acb6ff90fbeb204a374/jetified-record-view-2.0.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.devlomi.record-view:record-view:2.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/375e454a9ae12acb6ff90fbeb204a374/jetified-record-view-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.yesterselga:country-picker-android:1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/e12b99a473cc0577b921751dd364d8a2/jetified-country-picker-android-1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yesterselga:country-picker-android:1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/e12b99a473cc0577b921751dd364d8a2/jetified-country-picker-android-1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.devlomi.record-view:record-view:2.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/ebb4af572c622f1a51517cdd50fced98/jetified-record-view-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.devlomi.record-view:record-view:2.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/ebb4af572c622f1a51517cdd50fced98/jetified-record-view-2.0.1/AndroidManifest.xml:5:5-7:41
 MERGED from [com.chaos.view:pinview:1.4.3] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/ab2434f43baa6635a388d37fbcb83410/jetified-pinview-1.4.3/AndroidManifest.xml:20:5-22:41
 MERGED from [com.chaos.view:pinview:1.4.3] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/ab2434f43baa6635a388d37fbcb83410/jetified-pinview-1.4.3/AndroidManifest.xml:20:5-22:41
 MERGED from [com.github.Drjacky:ImagePicker:2.1.15] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c526a9703d94d2d4dbe139eb5720c090/jetified-ImagePicker-2.1.15/AndroidManifest.xml:5:5-7:41
@@ -679,12 +681,12 @@ MERGED from [com.github.yalantis:ucrop:2.2.7] /Users/sahilsaini/.gradle/caches/t
 MERGED from [com.github.yalantis:ucrop:2.2.7] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/10e2624e7040ef6dbdf649cdc9e96fe2/jetified-ucrop-2.2.7/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/769db6bbaca138f52289824953048c27/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/769db6bbaca138f52289824953048c27/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.booking:rtlviewpager:1.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/ce4b83266ce87704e8e81e3d56d8854d/jetified-rtlviewpager-1.0.1/AndroidManifest.xml:8:5-10:41
-MERGED from [com.booking:rtlviewpager:1.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/ce4b83266ce87704e8e81e3d56d8854d/jetified-rtlviewpager-1.0.1/AndroidManifest.xml:8:5-10:41
+MERGED from [com.booking:rtlviewpager:1.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/bf06d7e364b9774c4b961952e33df1cc/jetified-rtlviewpager-1.0.1/AndroidManifest.xml:8:5-10:41
+MERGED from [com.booking:rtlviewpager:1.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/bf06d7e364b9774c4b961952e33df1cc/jetified-rtlviewpager-1.0.1/AndroidManifest.xml:8:5-10:41
 MERGED from [me.dm7.barcodescanner:zxing:1.9.13] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/6dd2266ec6ebd0382e20b21033d18229/jetified-zxing-1.9.13/AndroidManifest.xml:7:5-9:41
 MERGED from [me.dm7.barcodescanner:zxing:1.9.13] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/6dd2266ec6ebd0382e20b21033d18229/jetified-zxing-1.9.13/AndroidManifest.xml:7:5-9:41
-MERGED from [me.dm7.barcodescanner:core:1.9.13] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/0df145825c5d159e9e63a8ef90ed28ef/jetified-core-1.9.13/AndroidManifest.xml:7:5-9:41
-MERGED from [me.dm7.barcodescanner:core:1.9.13] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/0df145825c5d159e9e63a8ef90ed28ef/jetified-core-1.9.13/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.9.13] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7fe7f1c79c8ac9a6587a69436784247/jetified-core-1.9.13/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.9.13] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7fe7f1c79c8ac9a6587a69436784247/jetified-core-1.9.13/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/5a314e0e2df6686398c7e1224828fa3c/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/5a314e0e2df6686398c7e1224828fa3c/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8068755e0ff2fea1a739cc21a2385269/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:20:5-44
@@ -697,8 +699,8 @@ MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/sahilsaini/.gr
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/4ebf72210b25595a5e970993ea140de1/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/70983d518b862aa30cd01fa27cdb61f9/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/70983d518b862aa30cd01fa27cdb61f9/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.firebase:geofire-android:3.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8ba54b5e1a88a32d979ff11e275dcab1/jetified-geofire-android-3.1.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.firebase:geofire-android:3.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8ba54b5e1a88a32d979ff11e275dcab1/jetified-geofire-android-3.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebase:geofire-android:3.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/210f76a2826d2312e6918f7355d1a5bc/jetified-geofire-android-3.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebase:geofire-android:3.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/210f76a2826d2312e6918f7355d1a5bc/jetified-geofire-android-3.1.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-database:20.0.2] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/dcb77e66041b93f851ad5334e1e86767/jetified-firebase-database-20.0.2/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-database:20.0.2] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/dcb77e66041b93f851ad5334e1e86767/jetified-firebase-database-20.0.2/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/bfe04ca3c8820be966492b7f35bac059/jetified-firebase-storage-20.0.0/AndroidManifest.xml:20:5-22:41
@@ -709,8 +711,8 @@ MERGED from [com.google.android.gms:play-services-identity:17.0.1] /Users/sahils
 MERGED from [com.google.android.gms:play-services-identity:17.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f0b6feee6b2fab7cff883e5d591fcd14/jetified-play-services-identity-17.0.1/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.5.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b80a7a12b451539f774d767ef16c1ca2/jetified-play-services-auth-api-phone-17.5.1/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.5.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b80a7a12b451539f774d767ef16c1ca2/jetified-play-services-auth-api-phone-17.5.1/AndroidManifest.xml:5:5-44
-MERGED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:7:5-9:41
-MERGED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:7:5-9:41
+MERGED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:7:5-9:41
+MERGED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/532d4fd71da7d483fcf73460dc5ee3ec/jetified-play-services-location-18.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/532d4fd71da7d483fcf73460dc5ee3ec/jetified-play-services-location-18.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c5aa3717e199d252fbe7269624be3c96/jetified-play-services-maps-17.0.1/AndroidManifest.xml:20:5-44
@@ -811,8 +813,8 @@ MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/sahilsaini/.gradle/cache
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/2c1b2175d7f52e3c83bbad0577cf007e/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/a4f08a23d64392fa55b7528a07475256/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/a4f08a23d64392fa55b7528a07475256/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [me.everything:overscroll-decor-android:1.0.4] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/d856b9c9902dbe364f3a676c08723cd1/jetified-overscroll-decor-android-1.0.4/AndroidManifest.xml:8:5-10:41
-MERGED from [me.everything:overscroll-decor-android:1.0.4] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/d856b9c9902dbe364f3a676c08723cd1/jetified-overscroll-decor-android-1.0.4/AndroidManifest.xml:8:5-10:41
+MERGED from [me.everything:overscroll-decor-android:1.0.4] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/59b8346de40868ce69744e842479d0d2/jetified-overscroll-decor-android-1.0.4/AndroidManifest.xml:8:5-10:41
+MERGED from [me.everything:overscroll-decor-android:1.0.4] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/59b8346de40868ce69744e842479d0d2/jetified-overscroll-decor-android-1.0.4/AndroidManifest.xml:8:5-10:41
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c26b2eafa5b729044548beedb1b15cce/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c26b2eafa5b729044548beedb1b15cce/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/df79285040d28d9bd2055d370db28e3e/customview-1.0.0/AndroidManifest.xml:20:5-44
@@ -831,18 +833,18 @@ MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/sahilsaini/.gradle/caches/
 MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/43164b0c3481df91959d95e7e25d27f5/jetified-fresco-2.0.0/AndroidManifest.xml:5:5-7:41
 MERGED from [net.the4thdimension:audio-wife:1.0.3] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/2034064691ac6d6f49b8cda9fb72f42f/jetified-audio-wife-1.0.3/AndroidManifest.xml:7:5-9:41
 MERGED from [net.the4thdimension:audio-wife:1.0.3] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/2034064691ac6d6f49b8cda9fb72f42f/jetified-audio-wife-1.0.3/AndroidManifest.xml:7:5-9:41
-MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/2fb4e2a8cb975dea4be3060735dfe83a/jetified-roundedimageview-2.3.0/AndroidManifest.xml:7:5-43
-MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/2fb4e2a8cb975dea4be3060735dfe83a/jetified-roundedimageview-2.3.0/AndroidManifest.xml:7:5-43
+MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8dc393e6f0958c5b80de7e5004ad3b65/jetified-roundedimageview-2.3.0/AndroidManifest.xml:7:5-43
+MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/8dc393e6f0958c5b80de7e5004ad3b65/jetified-roundedimageview-2.3.0/AndroidManifest.xml:7:5-43
 MERGED from [com.mindorks.android:prdownloader:0.4.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/180e780315b0b0eb0b079638490fa921/jetified-prdownloader-0.4.0/AndroidManifest.xml:22:5-24:41
 MERGED from [com.mindorks.android:prdownloader:0.4.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/180e780315b0b0eb0b079638490fa921/jetified-prdownloader-0.4.0/AndroidManifest.xml:22:5-24:41
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f04665f67f9db7a80feff922d7df8902/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f04665f67f9db7a80feff922d7df8902/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f3a99070a7ae1fbaa4c365ab4dbf6ab7/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f3a99070a7ae1fbaa4c365ab4dbf6ab7/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
 MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/5268f00dccb9fd4875cdf03d322878eb/jetified-circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
 MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/5268f00dccb9fd4875cdf03d322878eb/jetified-circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/0e19d77437a1c60669d308f388130fb4/jetified-android-maps-utils-0.5/AndroidManifest.xml:5:5-43
-MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/0e19d77437a1c60669d308f388130fb4/jetified-android-maps-utils-0.5/AndroidManifest.xml:5:5-43
-MERGED from [com.borjabravo:readmoretextview:2.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/aedb60fc7407d38f03a87429f03bd8bc/jetified-readmoretextview-2.1.0/AndroidManifest.xml:8:5-10:41
-MERGED from [com.borjabravo:readmoretextview:2.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/aedb60fc7407d38f03a87429f03bd8bc/jetified-readmoretextview-2.1.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/2dc17f50a45f72e5dafd0e57a6f8fbfd/jetified-android-maps-utils-0.5/AndroidManifest.xml:5:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/2dc17f50a45f72e5dafd0e57a6f8fbfd/jetified-android-maps-utils-0.5/AndroidManifest.xml:5:5-43
+MERGED from [com.borjabravo:readmoretextview:2.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/43b4782c7a7d840271f45c96a86bc265/jetified-readmoretextview-2.1.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.borjabravo:readmoretextview:2.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/43b4782c7a7d840271f45c96a86bc265/jetified-readmoretextview-2.1.0/AndroidManifest.xml:8:5-10:41
 MERGED from [com.github.joielechong:countrycodepicker:2.4.2] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/78922abf6785e2950d029e549a25a13e/jetified-countrycodepicker-2.4.2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.joielechong:countrycodepicker:2.4.2] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/78922abf6785e2950d029e549a25a13e/jetified-countrycodepicker-2.4.2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.intuit.sdp:sdp-android:1.0.6] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/d50d2910ce85863d3b0378c9feb3c9cf/jetified-sdp-android-1.0.6/AndroidManifest.xml:7:5-9:41
@@ -913,8 +915,8 @@ MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/sahilsaini/.gradle/caches/
 MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/3131fbf45748bb4e4daa7f4b36906594/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/5d0f967c3f70526a0e6bb4b1f930642a/jetified-soloader-0.6.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/5d0f967c3f70526a0e6bb4b1f930642a/jetified-soloader-0.6.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.firebase:geofire-android-common:3.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/d49a661f21e7796ea04fcab716e91982/jetified-geofire-android-common-3.1.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.firebase:geofire-android-common:3.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/d49a661f21e7796ea04fcab716e91982/jetified-geofire-android-common-3.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebase:geofire-android-common:3.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/7d24da686e87e001ce14ebebde4ba873/jetified-geofire-android-common-3.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebase:geofire-android-common:3.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/7d24da686e87e001ce14ebebde4ba873/jetified-geofire-android-common-3.1.0/AndroidManifest.xml:7:5-9:41
 MERGED from [io.supercharge:shimmerlayout:2.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/36d783546cd6f0bd1170a9c7e4e7d214/jetified-shimmerlayout-2.1.0/AndroidManifest.xml:8:5-10:41
 MERGED from [io.supercharge:shimmerlayout:2.1.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/36d783546cd6f0bd1170a9c7e4e7d214/jetified-shimmerlayout-2.1.0/AndroidManifest.xml:8:5-10:41
 MERGED from [io.michaelrocks:libphonenumber-android:8.12.5] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c0c9a3c400937ef12d0f2eb20ef582b8/jetified-libphonenumber-android-8.12.5/AndroidManifest.xml:7:5-9:41
@@ -934,11 +936,11 @@ INJECTED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/Andr
 		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:123:13-125:54
+ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:124:13-126:54
 	android:resource
-		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:125:17-51
+		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:126:17-51
 	android:name
-		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:124:17-67
+		ADDED from /Users/sahilsaini/StudioProjects/Celex_Rider_App/app/src/main/AndroidManifest.xml:125:17-67
 intent#action:name:android.intent.action.VIEW+data:scheme:https
 ADDED from [com.google.firebase:firebase-inappmessaging-display:20.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/7c5e7d105db9455c6fa7cced9e790986/jetified-firebase-inappmessaging-display-20.0.0/AndroidManifest.xml:15:9-19:18
 service#com.google.firebase.components.ComponentDiscoveryService
@@ -1158,57 +1160,57 @@ ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/sahilsaini/
 	android:name
 		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/9198024741f0f074918b193ea2b5b37f/jetified-play-services-auth-19.2.0/AndroidManifest.xml:34:13-89
 uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
-ADDED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:17:5-85
+ADDED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:17:5-85
 	android:name
-		ADDED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:17:22-82
+		ADDED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:17:22-82
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:19:5-81
+ADDED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:19:5-81
 	android:name
-		ADDED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:19:22-78
+		ADDED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:19:22-78
 uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
-ADDED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:21:5-95
+ADDED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:21:5-95
 	android:name
-		ADDED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:21:22-92
+		ADDED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:21:22-92
 service#com.roam.sdk.service.RoamService
-ADDED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:28:9-31:40
+ADDED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:28:9-31:40
 	android:enabled
-		ADDED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:30:13-35
+		ADDED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:30:13-35
 	android:exported
-		ADDED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:31:13-37
+		ADDED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:29:13-60
+		ADDED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:29:13-60
 service#org.eclipse.paho.android.service.MqttService
-ADDED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:32:9-34:38
+ADDED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:32:9-34:38
 	android:enabled
-		ADDED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:34:13-35
+		ADDED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:34:13-35
 	android:name
-		ADDED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:33:13-72
+		ADDED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:33:13-72
 service#com.roam.sdk.service.RoamLocationService
-ADDED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:35:9-39:56
+ADDED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:35:9-39:56
 	android:enabled
-		ADDED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:37:13-35
+		ADDED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:37:13-35
 	android:exported
-		ADDED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:38:13-37
+		ADDED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:38:13-37
 	android:foregroundServiceType
-		ADDED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:39:13-53
+		ADDED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:39:13-53
 	android:name
-		ADDED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:36:13-68
+		ADDED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:36:13-68
 receiver#com.roam.sdk.core.event.BootEventReceiver
-ADDED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:42:9-51:20
+ADDED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:42:9-51:20
 	android:enabled
-		ADDED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:44:13-35
+		ADDED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:44:13-35
 	android:exported
-		ADDED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:45:13-36
+		ADDED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:45:13-36
 	android:name
-		ADDED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:43:13-69
+		ADDED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:43:13-69
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED+category:name:android.intent.category.DEFAULT
-ADDED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:46:13-50:29
+ADDED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:46:13-50:29
 	android:priority
-		ADDED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:46:28-50
+		ADDED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:46:28-50
 action#android.intent.action.BOOT_COMPLETED
-ADDED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:47:17-79
+ADDED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:47:17-79
 	android:name
-		ADDED from [com.roam.sdk:roam-android:0.0.17] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml:47:25-76
+		ADDED from [com.roam.sdk:roam-android:0.0.24] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c7cfacdac67b679e468af65f90edb90a/jetified-roam-android-0.0.24/AndroidManifest.xml:47:25-76
 uses-feature#0x00020000
 ADDED from [com.google.android.gms:play-services-maps:17.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/c5aa3717e199d252fbe7269624be3c96/jetified-play-services-maps-17.0.1/AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
@@ -1308,13 +1310,13 @@ ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/sahi
 	android:name
 		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b2d515da6bf163603ba3a0802e5ec57b/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:40:13-87
 provider#com.squareup.picasso.PicassoProvider
-ADDED from [com.squareup.picasso:picasso:2.71828] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f04665f67f9db7a80feff922d7df8902/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f3a99070a7ae1fbaa4c365ab4dbf6ab7/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
 	android:authorities
-		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f04665f67f9db7a80feff922d7df8902/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f3a99070a7ae1fbaa4c365ab4dbf6ab7/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
 	android:exported
-		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f04665f67f9db7a80feff922d7df8902/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f3a99070a7ae1fbaa4c365ab4dbf6ab7/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
 	android:name
-		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f04665f67f9db7a80feff922d7df8902/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/f3a99070a7ae1fbaa4c365ab4dbf6ab7/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
 service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
 ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/51df5aa5509a81b5e7e7a2647b51ecf5/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/sahilsaini/.gradle/caches/transforms-2/files-2.1/b8dc1962fdce7b060dac555ec7db4b3e/jetified-transport-runtime-3.0.0/AndroidManifest.xml:36:9-38:40
