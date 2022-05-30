@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
@@ -43,6 +44,7 @@ import com.theartofdev.edmodo.cropper.CropImage;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -111,50 +113,6 @@ public class Upload_Doc_Second_F extends RootFragment implements View.OnClickLis
                         CropImage.activity(selectedImage)
                                 .setAspectRatio(1, 1)
                                 .start(getActivity());
-
-                        InputStream imageStream = null;
-                        try {
-                            imageStream = getActivity().getContentResolver().openInputStream(selectedImage);
-                        } catch (FileNotFoundException e) {
-                            e.printStackTrace();
-                        }
-                        bitmap = BitmapFactory.decodeStream(imageStream);
-
-                        extension = Objects.requireNonNull(selectedImage.getPath()).replaceAll("^.*\\.", "");
-                        File f = new File(selectedImage.getPath());
-                        imageName = f.getName();
-                        DocumentModel documentMode = new DocumentModel();
-
-                        documentMode.documnet_name = imageName;
-
-                        arrayList.add(documentMode);
-
-                        recyclerView = view.findViewById(R.id.rc_upload_documents);
-                        recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
-                        recyclerView.setHasFixedSize(true);
-                        documentHomeAdapter = new DocumentAdapter(getContext(), arrayList, (postion, Model, view) -> {
-
-                            DocumentModel documentModel = (DocumentModel) Model;
-                            switch (view.getId()) {
-
-                                case R.id.delete_btn:
-                                    arrayList.remove(documentModel);
-                                    documentHomeAdapter.notifyDataSetChanged();
-                                    arrayList.clear();
-                                    extension = "";
-                                    bitmap = null;
-                                    btn_submit_doc.setClickable(false);
-                                    btn_submit_doc.setFocusable(false);
-
-                                    break;
-                                default:
-                                    return;
-                            }
-
-                        });
-                        recyclerView.setAdapter(documentHomeAdapter);
-                        btn_submit_doc.setClickable(true);
-                        btn_submit_doc.setFocusable(true);
                     }
                 }
             }
@@ -187,37 +145,39 @@ public class Upload_Doc_Second_F extends RootFragment implements View.OnClickLis
 
                     //------------
 
-                    Toast.makeText(getActivity(), "click Successfully",
-                            Toast.LENGTH_LONG).show();
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
 
-                    try {
-                        File file = File.createTempFile(
-                                "JPEG_"+System.currentTimeMillis(),
-                                ".jpg",
-                                Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM)
-                        );
+                        try {
+                            File file = File.createTempFile(
+                                    "JPEG_" + System.currentTimeMillis(),
+                                    ".jpg",
+                                    Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM)
+                            );
 
-                        Uri uri = FileProvider.getUriForFile(getContext(), BuildConfig.APPLICATION_ID+".fileprovider", file);
+                            Uri uri = FileProvider.getUriForFile(getContext(), BuildConfig.APPLICATION_ID + ".fileprovider", file);
 
-                        selectedImage = uri;
+                            selectedImage = uri;
 
-                        Log.e("TAG", "Uri: " + uri.getPath());
-                        Log.e("TAG", "File: " + file.getPath());
+                            Log.e("TAG", "Uri: " + uri.getPath());
+                            Log.e("TAG", "File: " + file.getPath());
 
-                        openCameraLauncher.launch(uri);
+                            openCameraLauncher.launch(uri);
 
 
-                    } catch (IOException e) {
-                        e.printStackTrace();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                    } else {
+                        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                       // File photo = new File(Environment.getExternalStorageDirectory(),  "Pic.jpg");
+
+                       // selectedImage =  FileProvider.getUriForFile(getContext(), getContext().getApplicationContext().getPackageName() + ".fileprovider", photo);
+//                        intent.putExtra(MediaStore.EXTRA_OUTPUT,
+//                                selectedImage);
+                        startActivityForResult(intent, RESULT_LOAD_IMG);
                     }
 
-//                    Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-//                    File photo = new File(Environment.getExternalStorageDirectory(),  "Pic.jpg");
-//
-//                    selectedImage =  FileProvider.getUriForFile(getContext(), getContext().getApplicationContext().getPackageName() + ".fileprovider", photo);
-//                    intent.putExtra(MediaStore.EXTRA_OUTPUT,
-//                            selectedImage);
-//                    startActivityForResult(intent, RESULT_LOAD_IMG);
+
 //
                     // -----
 /*                    Intent photoPickerIntent = new Intent(Intent.ACTION_PICK);
@@ -256,9 +216,51 @@ public class Upload_Doc_Second_F extends RootFragment implements View.OnClickLis
         if (resultCode == RESULT_OK ) {
             if (requestCode == RESULT_LOAD_IMG) {
 
-                CropImage.activity(selectedImage)
-                        .setAspectRatio(1, 1)
-                        .start(getActivity());
+                Bundle extras = data.getExtras();
+                Bitmap imageBitmap = (Bitmap) extras.get("data");
+                bitmap = imageBitmap;
+
+                ByteArrayOutputStream bytes = new ByteArrayOutputStream();
+                imageBitmap.compress(Bitmap.CompressFormat.JPEG, 100, bytes);
+                String path = MediaStore.Images.Media.insertImage(getContext().getContentResolver(), imageBitmap, "Pic", null);
+
+                selectedImage = Uri.parse(path);
+
+                extension = Objects.requireNonNull(selectedImage.getPath()).replaceAll("^.*\\.", "");
+                File f = new File(selectedImage.getPath());
+                imageName = "Pic";
+                DocumentModel documentMode = new DocumentModel();
+
+                documentMode.documnet_name = imageName;
+
+                arrayList.add(documentMode);
+
+                recyclerView = view.findViewById(R.id.rc_upload_documents);
+                recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+                recyclerView.setHasFixedSize(true);
+                documentHomeAdapter = new DocumentAdapter(getContext(), arrayList, (postion, Model, view) -> {
+
+                    DocumentModel documentModel = (DocumentModel) Model;
+                    switch (view.getId()) {
+
+                        case R.id.delete_btn:
+                            arrayList.remove(documentModel);
+                            documentHomeAdapter.notifyDataSetChanged();
+                            arrayList.clear();
+                            extension = "";
+                            bitmap = null;
+                            btn_submit_doc.setClickable(false);
+                            btn_submit_doc.setFocusable(false);
+
+                            break;
+                        default:
+                            return;
+                    }
+
+                });
+                recyclerView.setAdapter(documentHomeAdapter);
+                btn_submit_doc.setClickable(true);
+                btn_submit_doc.setFocusable(true);
             }
 
             if (requestCode == CropImage.CROP_IMAGE_ACTIVITY_REQUEST_CODE) {
