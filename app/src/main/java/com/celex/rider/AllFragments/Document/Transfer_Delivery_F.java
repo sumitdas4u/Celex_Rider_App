@@ -13,6 +13,7 @@ import android.os.Environment;
 import android.os.Handler;
 import android.os.Looper;
 import android.provider.MediaStore;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -25,6 +26,7 @@ import android.widget.Toast;
 
 import com.celex.rider.Adapters.DeliveryBoyAdapter;
 import com.celex.rider.Adapters.DocumentAdapter;
+import com.celex.rider.BuildConfig;
 import com.celex.rider.CodeClasses.ApiRequest;
 import com.celex.rider.CodeClasses.Api_urls;
 import com.celex.rider.CodeClasses.Functions;
@@ -41,12 +43,16 @@ import org.json.JSONObject;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.io.InputStream;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Objects;
 
+import androidx.activity.result.ActivityResultCallback;
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.FileProvider;
@@ -119,6 +125,20 @@ public class Transfer_Delivery_F extends RootFragment implements View.OnClickLis
 
     }
 
+    ActivityResultLauncher<Uri> openCameraLauncher = registerForActivityResult(
+            new ActivityResultContracts.TakePicture(),
+            new ActivityResultCallback<Boolean>() {
+                @Override
+                public void onActivityResult(Boolean result) {
+                    Log.e("TAG", "Camera result: "+result);
+                    if(result){
+                        CropImage.activity(selectedImage)
+                                .setAspectRatio(1, 1)
+                                .start(getActivity());
+                    }
+                }
+            }
+    );
 
     @Override
     public void onClick(View v) {
@@ -131,25 +151,61 @@ public class Transfer_Delivery_F extends RootFragment implements View.OnClickLis
 
             case R.id.rl_upload_photos:
 
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+
+                try {
+                    File file = File.createTempFile(
+                            "JPEG_"+System.currentTimeMillis(),
+                            ".jpg",
+                            Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM)
+                    );
+
+                    if (file.exists()) {
+
+                        // the file is created
+                        // as the function returned true
+                        System.out.println("Temp File created: "
+                                + file.getAbsolutePath());
+                    }
+
+                    else {
+
+                        // display the file cannot be created
+                        // as the function returned false
+                        System.out.println("Temp File cannot be created: "
+                                + file.getAbsolutePath());
+                    }
+
+                    Uri uri = FileProvider.getUriForFile(getContext(), BuildConfig.APPLICATION_ID+".fileprovider", file);
+
+                    selectedImage = uri;
 
 
-           /*         String name = new Date()+ "yyyy-MM-dd-hh-mm-ss";
-                    File destination = new File(Environment
-                            .getExternalStorageDirectory(), name + ".jpg");
-
-                    Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-                    intent.putExtra(MediaStore.EXTRA_OUTPUT,
-                            Uri.fromFile(destination));
-                    startActivityForResult(intent, RESULT_LOAD_IMG);*/
-                    Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-                    File photo = new File(Environment.getExternalStorageDirectory(),  "Pic.jpg");
-
-                    selectedImage =  FileProvider.getUriForFile(getContext(), getContext().getApplicationContext().getPackageName() + ".fileprovider", photo);
-                    intent.putExtra(MediaStore.EXTRA_OUTPUT,
-                            selectedImage);
-                    startActivityForResult(intent, RESULT_LOAD_IMG);
 
 
+
+
+
+                    Log.e("TAG", "Uri: " + uri.getPath());
+                    Log.e("TAG", "File: " + file.getPath());
+
+                    openCameraLauncher.launch(uri);
+
+
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+
+        }
+                else {
+            Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+            // File photo = new File(Environment.getExternalStorageDirectory(),  "Pic.jpg");
+
+            // selectedImage =  FileProvider.getUriForFile(getContext(), getContext().getApplicationContext().getPackageName() + ".fileprovider", photo);
+//                        intent.putExtra(MediaStore.EXTRA_OUTPUT,
+//                                selectedImage);
+            startActivityForResult(intent, RESULT_LOAD_IMG);
+        }
                 break;
 
             case R.id.btn_submit_transfer:

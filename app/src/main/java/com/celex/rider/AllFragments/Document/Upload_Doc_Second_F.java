@@ -1,15 +1,18 @@
 package com.celex.rider.AllFragments.Document;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
 import android.os.Looper;
 import android.provider.MediaStore;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,6 +21,10 @@ import android.widget.EditText;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
+import androidx.activity.result.ActivityResult;
+import androidx.activity.result.ActivityResultCallback;
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.FileProvider;
@@ -26,6 +33,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 
 import com.celex.rider.Adapters.DocumentAdapter;
+import com.celex.rider.BuildConfig;
 import com.celex.rider.CodeClasses.ApiRequest;
 import com.celex.rider.CodeClasses.Functions;
 import com.celex.rider.CodeClasses.RootFragment;
@@ -33,6 +41,7 @@ import com.celex.rider.DataModels.DocumentModel;
 import com.celex.rider.R;
 import com.celex.rider.CodeClasses.Api_urls;
 import com.celex.rider.interfaces.Callback;
+import com.github.drjacky.imagepicker.ImagePicker;
 import com.theartofdev.edmodo.cropper.CropImage;
 
 import org.json.JSONException;
@@ -40,6 +49,7 @@ import org.json.JSONObject;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Objects;
@@ -62,7 +72,7 @@ public class Upload_Doc_Second_F extends RootFragment implements View.OnClickLis
     RelativeLayout rl_upload_doc;
     EditText ed_km;
     Uri selectedImage;
-
+    ActivityResultLauncher<Intent> photoPickActivityResultLauncher;
     public Upload_Doc_Second_F(String uploadType, Callback callback) {
         this.UploadType = uploadType;
         this.callback = callback;
@@ -78,11 +88,26 @@ public class Upload_Doc_Second_F extends RootFragment implements View.OnClickLis
         view = inflater.inflate(R.layout.fragment_upload_documents, container, false);
 
 
+
         initViews();
 
         return view;
     }
 
+    ActivityResultLauncher<Uri> openCameraLauncher = registerForActivityResult(
+            new ActivityResultContracts.TakePicture(),
+            new ActivityResultCallback<Boolean>() {
+                @Override
+                public void onActivityResult(Boolean result) {
+                    Log.e("TAG", "Camera result: "+result);
+                    if(result){
+                        CropImage.activity(selectedImage)
+                                .setAspectRatio(1, 1)
+                                .start(getActivity());
+                    }
+                }
+            }
+    );
 
     void initViews() {
 
@@ -111,6 +136,62 @@ public class Upload_Doc_Second_F extends RootFragment implements View.OnClickLis
                     Functions.dialouge(getActivity(),getResources().getString(R.string.alert),getString(R.string.already_img_selected));
                 } else {
 
+
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+                        try {
+                            File file = File.createTempFile(
+                                    "JPEG_"+System.currentTimeMillis(),
+                                    ".jpg",
+                                    Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM)
+                            );
+
+                            if (file.exists()) {
+
+                                // the file is created
+                                // as the function returned true
+                                System.out.println("Temp File created: "
+                                        + file.getAbsolutePath());
+                            }
+
+                            else {
+
+                                // display the file cannot be created
+                                // as the function returned false
+                                System.out.println("Temp File cannot be created: "
+                                        + file.getAbsolutePath());
+                            }
+
+                            Uri uri = FileProvider.getUriForFile(getContext(), BuildConfig.APPLICATION_ID+".fileprovider", file);
+
+                            selectedImage = uri;
+
+
+
+
+
+
+
+                            Log.e("TAG", "Uri: " + uri.getPath());
+                            Log.e("TAG", "File: " + file.getPath());
+
+                            openCameraLauncher.launch(uri);
+
+
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+
+                    }
+                    else {
+                        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                        // File photo = new File(Environment.getExternalStorageDirectory(),  "Pic.jpg");
+
+                        // selectedImage =  FileProvider.getUriForFile(getContext(), getContext().getApplicationContext().getPackageName() + ".fileprovider", photo);
+//                        intent.putExtra(MediaStore.EXTRA_OUTPUT,
+//                                selectedImage);
+                        startActivityForResult(intent, RESULT_LOAD_IMG);
+                    }
+
            /*         String name = new Date()+ "yyyy-MM-dd-hh-mm-ss";
                     File destination = new File(Environment
                             .getExternalStorageDirectory(), name + ".jpg");
@@ -118,7 +199,7 @@ public class Upload_Doc_Second_F extends RootFragment implements View.OnClickLis
                     Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
                     intent.putExtra(MediaStore.EXTRA_OUTPUT,
                             Uri.fromFile(destination));
-                    startActivityForResult(intent, RESULT_LOAD_IMG);*/
+                    startActivityForResult(intent, RESULT_LOAD_IMG);*//*
                     Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
                     File photo = new File(Environment.getExternalStorageDirectory(),  "Pic.jpg");
 
@@ -126,7 +207,7 @@ public class Upload_Doc_Second_F extends RootFragment implements View.OnClickLis
                     intent.putExtra(MediaStore.EXTRA_OUTPUT,
                             selectedImage);
                     startActivityForResult(intent, RESULT_LOAD_IMG);
-/*                    Intent photoPickerIntent = new Intent(Intent.ACTION_PICK);
+*//*                    Intent photoPickerIntent = new Intent(Intent.ACTION_PICK);
                     photoPickerIntent.setType("image/*");
                     startActivityForResult(photoPickerIntent, RESULT_LOAD_IMG);*/
                 }

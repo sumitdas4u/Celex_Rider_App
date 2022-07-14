@@ -6,5 +6,9 @@
     <external-path name="my_images" path="Android/data/com.celex.rider/files/Pictures" />
 
     <external-path name="external_files" path="."/>
-
+    <paths>
+        <files-path
+            name="pictures"
+            path="pictures/" />
+    </paths>
 </paths>

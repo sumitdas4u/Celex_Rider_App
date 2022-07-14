@@ -735,14 +735,23 @@ public class OrderDetail_F extends RootFragment implements View.OnClickListener 
                 break;*/
 
             case R.id.iv_menu:
-                Upload_Photos_F f = new Upload_Photos_F(id,"delivery", resp -> {
+          /*      Upload_Photos_F f = new Upload_Photos_F(id,"delivery", resp -> {
                 });
                 FragmentTransaction ft = getFragmentManager().beginTransaction();
                 f.setTargetFragment(this, FRAGMENT_CODE);
 
 
                 ft.setCustomAnimations(R.anim.in_from_right, R.anim.out_to_left, R.anim.in_from_left, R.anim.out_to_right);
-                ft.replace(R.id.li_acticvityDetail, f).addToBackStack(null).commit();
+                ft.replace(R.id.li_acticvityDetail, f).addToBackStack(null).commit();*/
+
+
+                Intent intent41 = new Intent(getActivity(), GetSignature_A.class);
+                Bundle dataBundle41 = new Bundle();
+                dataBundle41.putString(st_order_id, id);
+                intent41.putExtras(dataBundle41);
+
+                launchOpenSignatureDeliveryActivity.launch(intent41);
+
                 MainActivity.Open_drawer();
                 break;
 

@@ -15,12 +15,13 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="Manifest.permission.ACCESS_NOTIFICATION_POLICY" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-        tools:ignore="ScopedStorage" />
+        android:maxSdkVersion="28" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-    <uses-permission android:name="android.permission.CALL_PHONE" />
+
 
     <queries>
         <intent>
@@ -58,49 +59,50 @@
         android:theme="@style/AppTheme"
         tools:replace="allowBackup"
         tools:targetApi="n">
-        <activity android:name=".AllActivitys.DriverActivity" />
-        <activity android:name=".AllActivitys.Barcode_scaner_A" />
+        <activity android:name=".AllActivitys.DriverActivity"   android:exported="true"/>
+        <activity android:name=".AllActivitys.Barcode_scaner_A"  android:exported="true" />
         <activity
             android:name=".AllActivitys.Wifi_Activity"
-            android:launchMode="singleTask"
+            android:launchMode="singleTask"   android:exported="true"
             android:screenOrientation="portrait" />
         <activity
             android:name="cat.ereza.customactivityoncrash.activity.DefaultErrorActivity"
-            android:process=":error_activity"
+            android:process=":error_activity"  android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@style/error_activity_theme" />
-        <activity
+        <activity  android:exported="true"
             android:name=".AllActivitys.GetSignature_A"
             android:windowSoftInputMode="adjustResize" />
-        <activity
+        <activity  android:exported="true"
             android:name=".AllActivitys.Verify_Otp_A"
             android:windowSoftInputMode="adjustResize" />
-        <activity
+        <activity  android:exported="true"
             android:name=".AllActivitys.GetCancelReason_A"
             android:windowSoftInputMode="adjustResize" />
-        <activity
+        <activity  android:exported="true"
             android:name=".AllActivitys.Enable_location_A"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
-        <activity
+        <activity  android:exported="true"
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.Theme.AppCompat" />
-        <activity
+        <activity  android:exported="true"
             android:name=".AllActivitys.GetStarted_A"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
-        <activity android:name=".AllActivitys.Splashscreen_A">
+        <activity   android:exported="true" android:name=".AllActivitys.Splashscreen_A">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
+        <activity  android:exported="true"
             android:name=".AllActivitys.TripActivity"
             android:screenOrientation="portrait" />
         <activity
+            android:exported="true"
             android:name=".AllActivitys.MainActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />

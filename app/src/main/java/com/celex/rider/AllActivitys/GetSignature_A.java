@@ -34,6 +34,7 @@ import org.json.JSONObject;
 
 import java.io.IOException;
 
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
@@ -173,10 +174,10 @@ public class GetSignature_A extends AppCompatActivity implements View.OnClickLis
         }
 
         Log.d("freshly_logged","params at sendoNj"+sendobj.toString());
-
+/*
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
             Functions.wrtieFileOnInternalStorage(context,"signature_api_params",sendobj.toString(),"","");
-        }
+        }*/
 
         Functions.show_loader(this,false,false);
         ApiRequest.Call_Api(GetSignature_A.this, Api_urls.URL_ADD_SIGNATURE, sendobj, resp ->  {
@@ -189,7 +190,7 @@ public class GetSignature_A extends AppCompatActivity implements View.OnClickLis
 
                         if (respobj.getString("status").equals("1")){
 
-                            Functions.cancel_loader();
+                          Functions.cancel_loader();
                             Intent returnIntent = new Intent();
                             returnIntent.putExtra("result","ok");
                             setResult(Activity.RESULT_OK, returnIntent);
@@ -213,7 +214,9 @@ public class GetSignature_A extends AppCompatActivity implements View.OnClickLis
     @Override
     protected void onPause() {
         super.onPause();
-        unregisterReceiver(receiver);
+        LocalBroadcastManager.getInstance(this).unregisterReceiver(receiver);
+
+     //   unregisterReceiver(receiver);
     }
 
     private class GpsStatusReceiver extends BroadcastReceiver {

@@ -83,7 +83,7 @@ public class Upload_Photos_F extends RootFragment implements View.OnClickListene
     Uri selectedImage;
     TextView no_data_text;
     ProgressBar progressbar;
-    ActivityResultLauncher<Intent> photoPickActivityResultLauncher;
+
     public Upload_Photos_F(String orderid, String upload_type, Callback callback) {
         this.Order_id = orderid;
         this.callback = callback;
@@ -107,70 +107,6 @@ public class Upload_Photos_F extends RootFragment implements View.OnClickListene
         initViews();
 
 
-        ActivityResultLauncher<Intent> launcher =
-                registerForActivityResult(new ActivityResultContracts.StartActivityForResult(), (ActivityResult result) -> {
-                    if (result.getResultCode() == RESULT_OK) {
-                        assert result.getData() != null;
-                        Uri resultUri = result.getData().getData();
-
-
-                        InputStream imageStream = null;
-                        try {
-                            assert resultUri != null;
-                            imageStream = getActivity().getContentResolver().openInputStream(resultUri);
-                        } catch (FileNotFoundException e) {
-                            e.printStackTrace();
-                        }
-                        bitmap = BitmapFactory.decodeStream(imageStream);
-
-                        extension = Objects.requireNonNull(resultUri.getPath()).replaceAll("^.*\\.", "");
-                        File f = new File(resultUri.getPath());
-                        imageName = f.getName();
-                        DocumentModel documentMode = new DocumentModel();
-                        documentMode.image=bitmap;
-                        documentMode.documnet_name = imageName;
-
-                        photoArrayList.add(documentMode);
-
-                        recyclerView = view.findViewById(R.id.rc_upload_images);
-                        recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
-                        recyclerView.setHasFixedSize(true);
-                        documentHomeAdapter = new DocumentAdapter(getContext(), photoArrayList, (postion, Model, view) -> {
-
-                            DocumentModel documentModel = (DocumentModel) Model;
-                            if (view.getId() == R.id.delete_btn) {
-                                photoArrayList.remove(postion);
-                                documentHomeAdapter.notifyDataSetChanged();
-                                // arrayList.clear();
-                                extension = "";
-                                bitmap = null;
-                                btn_submit_doc.setClickable(false);
-                                btn_submit_doc.setFocusable(false);
-                            }
-
-                        });
-                        recyclerView.setAdapter(documentHomeAdapter);
-                        btn_submit_doc.setClickable(true);
-                        btn_submit_doc.setFocusable(true);
-
-                    } else if (result.getResultCode() == ImagePicker.RESULT_ERROR) {
-                        // Use ImagePicker.Companion.getError(result.getData()) to show an error
-                    }
-                });
-
-        photoPickActivityResultLauncher = registerForActivityResult(
-                new ActivityResultContracts.StartActivityForResult(),
-                result -> {
-                    if (result.getResultCode() == Activity.RESULT_OK) {
-                        // There are no request codes
-                        Intent data = result.getData();
-                        Log.e("pick", selectedImage.toString());
-
-                        CropImage.activity(selectedImage)
-                                .setAspectRatio(1, 1)
-                                .start(getActivity());
-                    }
-                });
 
         return view;
     }
@@ -187,6 +123,8 @@ public class Upload_Photos_F extends RootFragment implements View.OnClickListene
         view.findViewById(R.id.iv_back).setOnClickListener(this::onClick);
 
     }
+
+
 
 
     ActivityResultLauncher<Uri> openCameraLauncher = registerForActivityResult(
@@ -215,48 +153,68 @@ public class Upload_Photos_F extends RootFragment implements View.OnClickListene
                 break;
 
             case R.id.rl_upload_photos:
-                Toast.makeText(getActivity(), "click Successfully",
-                        Toast.LENGTH_LONG).show();
-
-                try {
-                    File file = File.createTempFile(
-                            "JPEG_"+System.currentTimeMillis(),
-                            ".jpg",
-                            Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM)
-                    );
-
-                    Uri uri = FileProvider.getUriForFile(getContext(), BuildConfig.APPLICATION_ID+".provider", file);
-
-                    selectedImage = uri;
-
-                    Log.e("TAG", "Uri: " + uri.getPath());
-                    Log.e("TAG", "File: " + file.getPath());
-
-                    openCameraLauncher.launch(uri);
+                Toast.makeText(getActivity(), "pressed", Toast.LENGTH_SHORT).show();
+                if (!photoArrayList.isEmpty() && photoArrayList.size() > 0) {
+                    Functions.dialouge(getActivity(),getResources().getString(R.string.alert),getString(R.string.already_img_selected));
+                } else {
 
 
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+                        try {
+                            File file = File.createTempFile(
+                                    "JPEG_"+System.currentTimeMillis(),
+                                    ".jpg",
+                                    Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM)
+                            );
+
+                            if (file.exists()) {
+
+                                // the file is created
+                                // as the function returned true
+                                System.out.println("Temp File created: "
+                                        + file.getAbsolutePath());
+                            }
+
+                            else {
+
+                                // display the file cannot be created
+                                // as the function returned false
+                                System.out.println("Temp File cannot be created: "
+                                        + file.getAbsolutePath());
+                            }
+
+                            Uri uri = FileProvider.getUriForFile(getContext(), BuildConfig.APPLICATION_ID+".fileprovider", file);
+
+                            selectedImage = uri;
 
 
 
-//                ImagePicker.Companion.with(getActivity())
-//                        .crop()	    			//Crop image(Optional), Check Customization for more option
-//                       // .cropOval()	    		//Allow dimmed layer to have a circle inside
-//                        .cropFreeStyle()	    //Let the user to resize crop bounds
-//                        .cameraOnly()          //We have to define what image provider we want to use
-//                        .maxResultSize(1080, 1080,true)	//Final image resolution will be less than 1080 x 1080(Optional)
-//                        .createIntent();
 
-             /*   File root = getContext().getCacheDir(); // consider using getExternalFilesDir(Environment.DIRECTORY_PICTURES); you need to check the file_paths.xml
-                File capturedPhoto = new File(root, "some_photo.jpeg");
-                *//*if(!photoFile.exists()) {
-                    photoFile.mkdirs();
-                }*//*
-                Uri photoURI = FileProvider.getUriForFile(getContext(), getContext().getPackageName() + ".fileprovider", capturedPhoto);
 
-           *//*         String name = new Date()+ "yyyy-MM-dd-hh-mm-ss";
+
+
+                            Log.e("TAG", "Uri: " + uri.getPath());
+                            Log.e("TAG", "File: " + file.getPath());
+
+                            openCameraLauncher.launch(uri);
+
+
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+
+                    }
+                    else {
+                        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                        // File photo = new File(Environment.getExternalStorageDirectory(),  "Pic.jpg");
+
+                        // selectedImage =  FileProvider.getUriForFile(getContext(), getContext().getApplicationContext().getPackageName() + ".fileprovider", photo);
+//                        intent.putExtra(MediaStore.EXTRA_OUTPUT,
+//                                selectedImage);
+                        startActivityForResult(intent, RESULT_LOAD_IMG);
+                    }
+
+           /*         String name = new Date()+ "yyyy-MM-dd-hh-mm-ss";
                     File destination = new File(Environment
                             .getExternalStorageDirectory(), name + ".jpg");
 
@@ -265,15 +223,16 @@ public class Upload_Photos_F extends RootFragment implements View.OnClickListene
                             Uri.fromFile(destination));
                     startActivityForResult(intent, RESULT_LOAD_IMG);*//*
                     Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-                    //File photo = new File(Environment.getExternalStorageDirectory(),  photoURI);
-                    intent.putExtra(MediaStore.EXTRA_OUTPUT,photoURI);
+                    File photo = new File(Environment.getExternalStorageDirectory(),  "Pic.jpg");
 
-             *//*       selectedImage =  FileProvider.getUriForFile(getContext(), getContext().getApplicationContext().getPackageName() + ".fileprovider", photo);
+                    selectedImage =  FileProvider.getUriForFile(getContext(), getContext().getApplicationContext().getPackageName() + ".fileprovider", photo);
                     intent.putExtra(MediaStore.EXTRA_OUTPUT,
-                            selectedImage);*//*
-
-                photoPickActivityResultLauncher.launch(intent);*/
-
+                            selectedImage);
+                    startActivityForResult(intent, RESULT_LOAD_IMG);
+*//*                    Intent photoPickerIntent = new Intent(Intent.ACTION_PICK);
+                    photoPickerIntent.setType("image/*");
+                    startActivityForResult(photoPickerIntent, RESULT_LOAD_IMG);*/
+                }
                 break;
 
             case R.id.btn_submit_transfer:
@@ -298,7 +257,6 @@ public class Upload_Photos_F extends RootFragment implements View.OnClickListene
 
     }
 
-
     @Override
     public void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -306,12 +264,19 @@ public class Upload_Photos_F extends RootFragment implements View.OnClickListene
         if (resultCode == RESULT_OK ) {
             if (requestCode == RESULT_LOAD_IMG) {
 
-
+                CropImage.activity(selectedImage)
+                        .setAspectRatio(1, 1)
+                        .start(getActivity());
             }
 
             if (requestCode == CropImage.CROP_IMAGE_ACTIVITY_REQUEST_CODE) {
                 CropImage.ActivityResult result = CropImage.getActivityResult(data);
 
+                if (resultCode == RESULT_OK) {
+                    Uri resultUri = result.getUri();
+                } else if (resultCode == CropImage.CROP_IMAGE_ACTIVITY_RESULT_ERROR_CODE) {
+                    Exception error = result.getError();
+                }
 
                 if (resultCode == RESULT_OK) {
                     Uri resultUri = result.getUri();
@@ -327,7 +292,7 @@ public class Upload_Photos_F extends RootFragment implements View.OnClickListene
                     File f = new File(resultUri.getPath());
                     imageName = f.getName();
                     DocumentModel documentMode = new DocumentModel();
-                    documentMode.image=bitmap;
+
                     documentMode.documnet_name = imageName;
 
                     photoArrayList.add(documentMode);
@@ -343,7 +308,7 @@ public class Upload_Photos_F extends RootFragment implements View.OnClickListene
                             case R.id.delete_btn:
                                 photoArrayList.remove(postion);
                                 documentHomeAdapter.notifyDataSetChanged();
-                               // arrayList.clear();
+                                // arrayList.clear();
                                 extension = "";
                                 bitmap = null;
                                 btn_submit_doc.setClickable(false);
@@ -365,6 +330,8 @@ public class Upload_Photos_F extends RootFragment implements View.OnClickListene
         }
     }
 
+
+
     private void CallApi_addUserDoc(Context context, String id) {
 
 
@@ -379,7 +346,9 @@ public class Upload_Photos_F extends RootFragment implements View.OnClickListene
 
             JSONArray file_data = new JSONArray();
             for (int i = 0; i < photoArrayList.size(); i++) {
-                file_data.put(Functions.Convert_Bitmap_to_base64(Functions.scaleDown(photoArrayList.get(i).image,800)));
+
+
+                file_data.put(Functions.Convert_Bitmap_to_base64(Functions.scaleDown(bitmap,800)));
             }
             sendobj.put("attachment", file_data);
 
