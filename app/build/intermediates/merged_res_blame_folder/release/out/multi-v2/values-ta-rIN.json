@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\sumit\\Documents\\projects\\celex\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-ta-rIN\\values-ta-rIN.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\sumit\\.gradle\\caches\\transforms-2\\files-2.1\\43168f464f4516a520e804f8aca03dad\\jetified-color-picker-0.0.4\\res\\values-ta-rIN\\values-ta-rIN.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "105,219,346",
+                        "endColumns": "113,126,157",
+                        "endOffsets": "214,341,499"
+                    }
+                }
+            ]
+        }
+    ]
+}

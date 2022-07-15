@@ -1,0 +1,801 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.celex.rider"
+4    android:versionCode="33"
+5    android:versionName="3.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature android:name="android.hardware.camera" />
+11-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:6:5-60
+11-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:6:19-57
+12    <uses-feature android:name="android.hardware.camera.autofocus" />
+12-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:7:5-70
+12-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:7:19-67
+13
+14    <uses-permission android:name="com.google.android.c2dm.permission.SEND" />
+14-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:9:5-79
+14-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:9:22-76
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:10:5-67
+15-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:10:22-64
+16    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" /> <!-- <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" /> -->
+16-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:11:5-98
+16-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:11:22-95
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:12:5-81
+17-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:12:22-78
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:13:5-79
+18-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:13:22-76
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:14:5-79
+19-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:14:22-76
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:15:5-65
+20-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:15:22-62
+21    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+21-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:16:5-71
+21-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:16:22-68
+22    <uses-permission android:name="Manifest.permission.ACCESS_NOTIFICATION_POLICY" />
+22-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:17:5-86
+22-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:17:22-83
+23    <uses-permission
+23-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:18:5-19:38
+24        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+24-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:18:22-78
+25        android:maxSdkVersion="28" />
+25-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:19:9-35
+26    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+26-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:20:5-80
+26-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:20:22-77
+27    <uses-permission android:name="android.permission.CALL_PHONE" />
+27-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:22:5-69
+27-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:22:22-66
+28    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+28-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:23:5-77
+28-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:23:22-74
+29
+30    <queries>
+30-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:26:5-47:15
+31        <intent>
+31-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:27:9-30:18
+32            <action android:name="android.intent.action.VIEW" />
+32-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:28:13-65
+32-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:28:21-62
+33
+34            <data android:scheme="http" />
+34-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:29:13-43
+34-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:29:19-40
+35        </intent>
+36        <!-- Camera -->
+37        <intent>
+37-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:32:9-34:18
+38            <action android:name="android.media.action.IMAGE_CAPTURE" />
+38-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:33:13-73
+38-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:33:21-70
+39        </intent>
+40        <!-- Gallery -->
+41        <intent>
+41-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:36:9-39:18
+42            <action android:name="android.intent.action.GET_CONTENT" />
+42-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:37:13-72
+42-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:37:21-69
+43
+44            <data android:mimeType="image/*" />
+44-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:29:13-43
+44-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:38:19-45
+45        </intent>
+46        <intent>
+46-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:40:9-43:18
+47            <action android:name="android.intent.action.PICK" />
+47-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:41:13-65
+47-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:41:21-62
+48
+49            <data android:mimeType="image/*" />
+49-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:29:13-43
+49-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:38:19-45
+50        </intent>
+51        <intent>
+51-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:44:9-46:18
+52            <action android:name="android.intent.action.CHOOSER" />
+52-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:45:13-68
+52-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:45:21-65
+53        </intent>
+54        <intent>
+54-->[com.google.firebase:firebase-inappmessaging-display:20.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\7c5e7d105db9455c6fa7cced9e790986\jetified-firebase-inappmessaging-display-20.0.0\AndroidManifest.xml:15:9-19:18
+55            <action android:name="android.intent.action.VIEW" />
+55-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:28:13-65
+55-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:28:21-62
+56
+57            <data android:scheme="https" />
+57-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:29:13-43
+57-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:29:19-40
+58        </intent> <!-- Gallery -->
+59        <intent>
+59-->[com.github.Drjacky:ImagePicker:2.1.15] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\c526a9703d94d2d4dbe139eb5720c090\jetified-ImagePicker-2.1.15\AndroidManifest.xml:17:9-23:18
+60            <action android:name="android.intent.action.GET_CONTENT" />
+60-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:37:13-72
+60-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:37:21-69
+61
+62            <category android:name="android.intent.category.OPENABLE" />
+62-->[com.github.Drjacky:ImagePicker:2.1.15] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\c526a9703d94d2d4dbe139eb5720c090\jetified-ImagePicker-2.1.15\AndroidManifest.xml:20:13-73
+62-->[com.github.Drjacky:ImagePicker:2.1.15] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\c526a9703d94d2d4dbe139eb5720c090\jetified-ImagePicker-2.1.15\AndroidManifest.xml:20:23-70
+63
+64            <data android:mimeType="image/*" />
+64-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:29:13-43
+64-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:38:19-45
+65        </intent> <!-- Needs to be explicitly declared on Android R+ -->
+66        <package android:name="com.google.android.apps.maps" />
+66-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\c5aa3717e199d252fbe7269624be3c96\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:9-64
+66-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\c5aa3717e199d252fbe7269624be3c96\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:18-61
+67    </queries>
+68
+69    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+69-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\8068755e0ff2fea1a739cc21a2385269\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:23:5-68
+69-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\8068755e0ff2fea1a739cc21a2385269\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:23:22-65
+70    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+70-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\8068755e0ff2fea1a739cc21a2385269\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:25:5-82
+70-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\8068755e0ff2fea1a739cc21a2385269\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:25:22-79
+71    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" /> <!-- Restart -->
+71-->[com.roam.sdk:roam-android:0.0.17] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\13380456e2a1282b8e436694427a252d\jetified-roam-android-0.0.17\AndroidManifest.xml:17:5-85
+71-->[com.roam.sdk:roam-android:0.0.17] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\13380456e2a1282b8e436694427a252d\jetified-roam-android-0.0.17\AndroidManifest.xml:17:22-82
+72    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- Battery -->
+72-->[com.roam.sdk:roam-android:0.0.17] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\13380456e2a1282b8e436694427a252d\jetified-roam-android-0.0.17\AndroidManifest.xml:19:5-81
+72-->[com.roam.sdk:roam-android:0.0.17] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\13380456e2a1282b8e436694427a252d\jetified-roam-android-0.0.17\AndroidManifest.xml:19:22-78
+73    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+73-->[com.roam.sdk:roam-android:0.0.17] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\13380456e2a1282b8e436694427a252d\jetified-roam-android-0.0.17\AndroidManifest.xml:21:5-95
+73-->[com.roam.sdk:roam-android:0.0.17] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\13380456e2a1282b8e436694427a252d\jetified-roam-android-0.0.17\AndroidManifest.xml:21:22-92
+74
+75    <uses-feature
+75-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\c5aa3717e199d252fbe7269624be3c96\jetified-play-services-maps-17.0.1\AndroidManifest.xml:26:5-28:35
+76        android:glEsVersion="0x00020000"
+76-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\c5aa3717e199d252fbe7269624be3c96\jetified-play-services-maps-17.0.1\AndroidManifest.xml:27:9-41
+77        android:required="true" />
+77-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\c5aa3717e199d252fbe7269624be3c96\jetified-play-services-maps-17.0.1\AndroidManifest.xml:28:9-32
+78
+79    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+79-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\b2d515da6bf163603ba3a0802e5ec57b\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:26:5-110
+79-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\b2d515da6bf163603ba3a0802e5ec57b\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:26:22-107
+80
+81    <application
+81-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:49:5-156:19
+82        android:name="com.celex.rider.AllActivitys.BaseApplication"
+82-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:53:9-53
+83        android:allowBackup="false"
+83-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:50:9-36
+84        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+84-->[androidx.core:core:1.7.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\ed8c6e1e1bb4fefaaf88d114f9bd3672\core-1.7.0\AndroidManifest.xml:24:18-86
+85        android:icon="@mipmap/ic_launcher"
+85-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:51:9-43
+86        android:label="@string/app_name"
+86-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:52:9-41
+87        android:largeHeap="true"
+87-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:54:9-33
+88        android:networkSecurityConfig="@xml/network_security_config"
+88-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:55:9-69
+89        android:requestLegacyExternalStorage="true"
+89-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:56:9-52
+90        android:roundIcon="@mipmap/ic_launcher"
+90-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:57:9-48
+91        android:supportsRtl="true"
+91-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:58:9-35
+92        android:theme="@style/AppTheme" >
+92-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:59:9-40
+93        <activity
+93-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:62:9-90
+94            android:name="com.celex.rider.AllActivitys.DriverActivity"
+94-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:62:19-62
+95            android:exported="true" />
+95-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:62:65-88
+96        <activity
+96-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:63:9-92
+97            android:name="com.celex.rider.AllActivitys.Barcode_scaner_A"
+97-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:63:19-64
+98            android:exported="true" />
+98-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:63:66-89
+99        <activity
+99-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:64:9-67:52
+100            android:name="com.celex.rider.AllActivitys.Wifi_Activity"
+100-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:65:13-55
+101            android:exported="true"
+101-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:66:47-70
+102            android:launchMode="singleTask"
+102-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:66:13-44
+103            android:screenOrientation="portrait" />
+103-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:67:13-49
+104        <activity
+104-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:68:9-72:59
+105            android:name="cat.ereza.customactivityoncrash.activity.DefaultErrorActivity"
+105-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:69:13-89
+106            android:exported="true"
+106-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:70:48-71
+107            android:process=":error_activity"
+107-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:70:13-46
+108            android:screenOrientation="portrait"
+108-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:71:13-49
+109            android:theme="@style/error_activity_theme" />
+109-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:72:13-56
+110        <activity
+110-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:73:9-75:58
+111            android:name="com.celex.rider.AllActivitys.GetSignature_A"
+111-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:74:13-56
+112            android:exported="true"
+112-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:73:20-43
+113            android:windowSoftInputMode="adjustResize" />
+113-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:75:13-55
+114        <activity
+114-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:76:9-78:58
+115            android:name="com.celex.rider.AllActivitys.Verify_Otp_A"
+115-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:77:13-54
+116            android:exported="true"
+116-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:76:20-43
+117            android:windowSoftInputMode="adjustResize" />
+117-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:78:13-55
+118        <activity
+118-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:79:9-81:58
+119            android:name="com.celex.rider.AllActivitys.GetCancelReason_A"
+119-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:80:13-59
+120            android:exported="true"
+120-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:79:20-43
+121            android:windowSoftInputMode="adjustResize" />
+121-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:81:13-55
+122        <activity
+122-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:82:9-85:52
+123            android:name="com.celex.rider.AllActivitys.Enable_location_A"
+123-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:83:13-59
+124            android:exported="true"
+124-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:82:20-43
+125            android:launchMode="singleTask"
+125-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:84:13-44
+126            android:screenOrientation="portrait" />
+126-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:85:13-49
+127        <activity
+127-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:86:9-89:59
+128            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+128-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:87:13-76
+129            android:exported="true"
+129-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:86:20-43
+130            android:screenOrientation="portrait"
+130-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:88:13-49
+131            android:theme="@style/Base.Theme.AppCompat" />
+131-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:89:13-56
+132        <activity
+132-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:90:9-93:47
+133            android:name="com.celex.rider.AllActivitys.GetStarted_A"
+133-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:91:13-54
+134            android:exported="true"
+134-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:90:20-43
+135            android:screenOrientation="portrait"
+135-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:92:13-49
+136            android:theme="@style/AppTheme" />
+136-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:93:13-44
+137        <activity
+137-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:94:9-100:20
+138            android:name="com.celex.rider.AllActivitys.Splashscreen_A"
+138-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:94:45-88
+139            android:exported="true" >
+139-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:94:21-44
+140            <intent-filter>
+140-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:95:13-99:29
+141                <action android:name="android.intent.action.MAIN" />
+141-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:96:17-69
+141-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:96:25-66
+142
+143                <category android:name="android.intent.category.LAUNCHER" />
+143-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:98:17-77
+143-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:98:27-74
+144            </intent-filter>
+145        </activity>
+146        <activity
+146-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:101:9-103:52
+147            android:name="com.celex.rider.AllActivitys.TripActivity"
+147-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:102:13-54
+148            android:exported="true"
+148-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:101:20-43
+149            android:screenOrientation="portrait" />
+149-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:103:13-49
+150        <activity
+150-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:104:9-108:58
+151            android:name="com.celex.rider.AllActivitys.MainActivity"
+151-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:106:13-54
+152            android:exported="true"
+152-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:105:13-36
+153            android:screenOrientation="portrait"
+153-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:107:13-49
+154            android:windowSoftInputMode="adjustResize" />
+154-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:108:13-55
+155
+156        <meta-data
+156-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:110:9-112:69
+157            android:name="com.google.android.gms.version"
+157-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:111:13-58
+158            android:value="@integer/google_play_services_version" />
+158-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:112:13-66
+159        <meta-data
+159-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:113:9-115:71
+160            android:name="com.google.android.geo.API_KEY"
+160-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:114:13-58
+161            android:value="AIzaSyAvlP1l2JB-5J93HXQRKUAZ7lsqu9F5Uf4" />
+161-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:115:13-68
+162        <meta-data
+162-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:116:9-118:57
+163            android:name="preloaded_fonts"
+163-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:117:13-43
+164            android:resource="@array/preloaded_fonts" />
+164-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:118:13-54
+165
+166        <provider
+167            android:name="androidx.core.content.FileProvider"
+167-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:121:13-62
+168            android:authorities="com.celex.rider.fileprovider"
+168-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:122:13-63
+169            android:exported="false"
+169-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:123:13-37
+170            android:grantUriPermissions="true" >
+170-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:124:13-47
+171            <meta-data
+171-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:125:13-127:54
+172                android:name="android.support.FILE_PROVIDER_PATHS"
+172-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:126:17-67
+173                android:resource="@xml/file_paths" />
+173-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:127:17-51
+174        </provider>
+175
+176        <service
+176-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:130:9-137:19
+177            android:name="com.celex.rider.Firebase_Notification.MyFirebaseMessagingService"
+177-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:131:13-77
+178            android:exported="false"
+178-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:133:13-37
+179            android:stopWithTask="false" >
+179-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:132:13-41
+180            <intent-filter>
+180-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:134:13-136:29
+181                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+181-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:135:17-78
+181-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:135:25-75
+182            </intent-filter>
+183        </service>
+184        <service
+184-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:138:9-141:56
+185            android:name="com.celex.rider.service.ForegroundService"
+185-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:139:13-54
+186            android:exported="false"
+186-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:140:13-37
+187            android:foregroundServiceType="location" />
+187-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:141:13-53
+188
+189        <uses-library
+189-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:143:9-145:40
+190            android:name="org.apache.http.legacy"
+190-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:144:13-50
+191            android:required="false" />
+191-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:145:13-37
+192
+193        <provider
+194            android:name="androidx.core.content.FileProvider"
+194-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:121:13-62
+195            android:authorities="com.celex.rider.provider"
+195-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:122:13-63
+196            android:exported="false"
+196-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:123:13-37
+197            android:grantUriPermissions="true" >
+197-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:124:13-47
+198            <meta-data
+198-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:125:13-127:54
+199                android:name="android.support.FILE_PROVIDER_PATHS"
+199-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:126:17-67
+200                android:resource="@xml/file_paths" />
+200-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:127:17-51
+201        </provider>
+202
+203        <service
+203-->[com.google.firebase:firebase-inappmessaging-display:20.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\7c5e7d105db9455c6fa7cced9e790986\jetified-firebase-inappmessaging-display-20.0.0\AndroidManifest.xml:23:9-29:19
+204            android:name="com.google.firebase.components.ComponentDiscoveryService"
+204-->[com.google.firebase:firebase-inappmessaging-display:20.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\7c5e7d105db9455c6fa7cced9e790986\jetified-firebase-inappmessaging-display-20.0.0\AndroidManifest.xml:24:13-84
+205            android:directBootAware="true"
+205-->[com.google.firebase:firebase-common:20.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\a12c30246d0cb70aeb0bcb1fb3310cb3\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+206            android:exported="false" >
+206-->[com.google.firebase:firebase-inappmessaging-display:20.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\7c5e7d105db9455c6fa7cced9e790986\jetified-firebase-inappmessaging-display-20.0.0\AndroidManifest.xml:25:13-37
+207            <meta-data
+207-->[com.google.firebase:firebase-inappmessaging-display:20.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\7c5e7d105db9455c6fa7cced9e790986\jetified-firebase-inappmessaging-display-20.0.0\AndroidManifest.xml:26:13-28:85
+208                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.display.FirebaseInAppMessagingDisplayRegistrar"
+208-->[com.google.firebase:firebase-inappmessaging-display:20.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\7c5e7d105db9455c6fa7cced9e790986\jetified-firebase-inappmessaging-display-20.0.0\AndroidManifest.xml:27:17-144
+209                android:value="com.google.firebase.components.ComponentRegistrar" />
+209-->[com.google.firebase:firebase-inappmessaging-display:20.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\7c5e7d105db9455c6fa7cced9e790986\jetified-firebase-inappmessaging-display-20.0.0\AndroidManifest.xml:28:17-82
+210            <meta-data
+210-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\8068755e0ff2fea1a739cc21a2385269\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:52:13-54:85
+211                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+211-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\8068755e0ff2fea1a739cc21a2385269\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:53:17-119
+212                android:value="com.google.firebase.components.ComponentRegistrar" />
+212-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\8068755e0ff2fea1a739cc21a2385269\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:54:17-82
+213            <meta-data
+213-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+214                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+214-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+215                android:value="com.google.firebase.components.ComponentRegistrar" />
+215-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+216            <meta-data
+216-->[com.google.firebase:firebase-database:20.0.2] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\dcb77e66041b93f851ad5334e1e86767\jetified-firebase-database-20.0.2\AndroidManifest.xml:32:13-34:85
+217                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+217-->[com.google.firebase:firebase-database:20.0.2] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\dcb77e66041b93f851ad5334e1e86767\jetified-firebase-database-20.0.2\AndroidManifest.xml:33:17-109
+218                android:value="com.google.firebase.components.ComponentRegistrar" />
+218-->[com.google.firebase:firebase-database:20.0.2] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\dcb77e66041b93f851ad5334e1e86767\jetified-firebase-database-20.0.2\AndroidManifest.xml:34:17-82
+219            <meta-data
+219-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\bfe04ca3c8820be966492b7f35bac059\jetified-firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
+220                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+220-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\bfe04ca3c8820be966492b7f35bac059\jetified-firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
+221                android:value="com.google.firebase.components.ComponentRegistrar" />
+221-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\bfe04ca3c8820be966492b7f35bac059\jetified-firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
+222            <meta-data
+222-->[com.google.firebase:firebase-crashlytics:18.2.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\4d3c1945e72ddf9a54cecf41f24cae7b\jetified-firebase-crashlytics-18.2.1\AndroidManifest.xml:18:13-20:85
+223                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+223-->[com.google.firebase:firebase-crashlytics:18.2.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\4d3c1945e72ddf9a54cecf41f24cae7b\jetified-firebase-crashlytics-18.2.1\AndroidManifest.xml:19:17-115
+224                android:value="com.google.firebase.components.ComponentRegistrar" />
+224-->[com.google.firebase:firebase-crashlytics:18.2.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\4d3c1945e72ddf9a54cecf41f24cae7b\jetified-firebase-crashlytics-18.2.1\AndroidManifest.xml:20:17-82
+225            <meta-data
+225-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\880caf05fa6d9b362547020765c13aef\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:30:13-32:85
+226                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+226-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\880caf05fa6d9b362547020765c13aef\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:31:17-139
+227                android:value="com.google.firebase.components.ComponentRegistrar" />
+227-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\880caf05fa6d9b362547020765c13aef\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:32:17-82
+228            <meta-data
+228-->[com.google.firebase:firebase-inappmessaging:20.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\1f6cccab60e75b22d86b1671d2a9a184\jetified-firebase-inappmessaging-20.0.0\AndroidManifest.xml:17:13-19:85
+229                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.FirebaseInAppMessagingRegistrar"
+229-->[com.google.firebase:firebase-inappmessaging:20.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\1f6cccab60e75b22d86b1671d2a9a184\jetified-firebase-inappmessaging-20.0.0\AndroidManifest.xml:18:17-129
+230                android:value="com.google.firebase.components.ComponentRegistrar" />
+230-->[com.google.firebase:firebase-inappmessaging:20.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\1f6cccab60e75b22d86b1671d2a9a184\jetified-firebase-inappmessaging-20.0.0\AndroidManifest.xml:19:17-82
+231            <meta-data
+231-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\f01c6f1efa1df824a744983940540e3d\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:28:13-30:85
+232                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+232-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\f01c6f1efa1df824a744983940540e3d\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:29:17-115
+233                android:value="com.google.firebase.components.ComponentRegistrar" />
+233-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\f01c6f1efa1df824a744983940540e3d\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:30:17-82
+234            <meta-data
+234-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\d94b82d2d2484df3358bb91c7d9b2fab\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+235                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+235-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\d94b82d2d2484df3358bb91c7d9b2fab\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+236                android:value="com.google.firebase.components.ComponentRegistrar" />
+236-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\d94b82d2d2484df3358bb91c7d9b2fab\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+237            <meta-data
+237-->[com.google.firebase:firebase-abt:21.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\9826a4fdfa2819bfe44a7950919273ab\jetified-firebase-abt-21.0.0\AndroidManifest.xml:13:13-15:85
+238                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+238-->[com.google.firebase:firebase-abt:21.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\9826a4fdfa2819bfe44a7950919273ab\jetified-firebase-abt-21.0.0\AndroidManifest.xml:14:17-109
+239                android:value="com.google.firebase.components.ComponentRegistrar" />
+239-->[com.google.firebase:firebase-abt:21.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\9826a4fdfa2819bfe44a7950919273ab\jetified-firebase-abt-21.0.0\AndroidManifest.xml:15:17-82
+240        </service>
+241
+242        <provider
+242-->[cat.ereza:customactivityoncrash:2.3.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\1d9dddc63d7f67d02ae6b1da74ed8c71\jetified-customactivityoncrash-2.3.0\AndroidManifest.xml:16:9-20:39
+243            android:name="cat.ereza.customactivityoncrash.provider.CaocInitProvider"
+243-->[cat.ereza:customactivityoncrash:2.3.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\1d9dddc63d7f67d02ae6b1da74ed8c71\jetified-customactivityoncrash-2.3.0\AndroidManifest.xml:17:13-85
+244            android:authorities="com.celex.rider.customactivityoncrashinitprovider"
+244-->[cat.ereza:customactivityoncrash:2.3.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\1d9dddc63d7f67d02ae6b1da74ed8c71\jetified-customactivityoncrash-2.3.0\AndroidManifest.xml:18:13-85
+245            android:exported="false"
+245-->[cat.ereza:customactivityoncrash:2.3.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\1d9dddc63d7f67d02ae6b1da74ed8c71\jetified-customactivityoncrash-2.3.0\AndroidManifest.xml:19:13-37
+246            android:initOrder="101" />
+246-->[cat.ereza:customactivityoncrash:2.3.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\1d9dddc63d7f67d02ae6b1da74ed8c71\jetified-customactivityoncrash-2.3.0\AndroidManifest.xml:20:13-36
+247
+248        <activity
+248-->[com.github.Drjacky:ImagePicker:2.1.15] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\c526a9703d94d2d4dbe139eb5720c090\jetified-ImagePicker-2.1.15\AndroidManifest.xml:39:9-42:68
+249            android:name="com.github.drjacky.imagepicker.ImagePickerActivity"
+249-->[com.github.Drjacky:ImagePicker:2.1.15] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\c526a9703d94d2d4dbe139eb5720c090\jetified-ImagePicker-2.1.15\AndroidManifest.xml:40:13-78
+250            android:screenOrientation="unspecified"
+250-->[com.github.Drjacky:ImagePicker:2.1.15] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\c526a9703d94d2d4dbe139eb5720c090\jetified-ImagePicker-2.1.15\AndroidManifest.xml:41:13-52
+251            android:theme="@style/Theme.Transparent.ImagePicker" />
+251-->[com.github.Drjacky:ImagePicker:2.1.15] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\c526a9703d94d2d4dbe139eb5720c090\jetified-ImagePicker-2.1.15\AndroidManifest.xml:42:13-65
+252        <activity
+252-->[com.github.Drjacky:ImagePicker:2.1.15] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\c526a9703d94d2d4dbe139eb5720c090\jetified-ImagePicker-2.1.15\AndroidManifest.xml:43:9-46:72
+253            android:name="com.yalantis.ucrop.UCropActivity"
+253-->[com.github.Drjacky:ImagePicker:2.1.15] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\c526a9703d94d2d4dbe139eb5720c090\jetified-ImagePicker-2.1.15\AndroidManifest.xml:44:13-60
+254            android:screenOrientation="portrait"
+254-->[com.github.Drjacky:ImagePicker:2.1.15] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\c526a9703d94d2d4dbe139eb5720c090\jetified-ImagePicker-2.1.15\AndroidManifest.xml:45:13-49
+255            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+255-->[com.github.Drjacky:ImagePicker:2.1.15] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\c526a9703d94d2d4dbe139eb5720c090\jetified-ImagePicker-2.1.15\AndroidManifest.xml:46:13-69
+256
+257        <provider
+257-->[com.github.Drjacky:ImagePicker:2.1.15] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\c526a9703d94d2d4dbe139eb5720c090\jetified-ImagePicker-2.1.15\AndroidManifest.xml:48:9-56:20
+258            android:name="com.github.drjacky.imagepicker.ImagePickerFileProvider"
+258-->[com.github.Drjacky:ImagePicker:2.1.15] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\c526a9703d94d2d4dbe139eb5720c090\jetified-ImagePicker-2.1.15\AndroidManifest.xml:49:13-82
+259            android:authorities="com.celex.rider.imagepicker.provider"
+259-->[com.github.Drjacky:ImagePicker:2.1.15] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\c526a9703d94d2d4dbe139eb5720c090\jetified-ImagePicker-2.1.15\AndroidManifest.xml:50:13-72
+260            android:exported="false"
+260-->[com.github.Drjacky:ImagePicker:2.1.15] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\c526a9703d94d2d4dbe139eb5720c090\jetified-ImagePicker-2.1.15\AndroidManifest.xml:51:13-37
+261            android:grantUriPermissions="true" >
+261-->[com.github.Drjacky:ImagePicker:2.1.15] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\c526a9703d94d2d4dbe139eb5720c090\jetified-ImagePicker-2.1.15\AndroidManifest.xml:52:13-47
+262            <meta-data
+262-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:125:13-127:54
+263                android:name="android.support.FILE_PROVIDER_PATHS"
+263-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:126:17-67
+264                android:resource="@xml/image_picker_provider_paths" />
+264-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:127:17-51
+265        </provider>
+266
+267        <receiver
+267-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\8068755e0ff2fea1a739cc21a2385269\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:28:9-35:20
+268            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+268-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\8068755e0ff2fea1a739cc21a2385269\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:29:13-78
+269            android:exported="true"
+269-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\8068755e0ff2fea1a739cc21a2385269\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:30:13-36
+270            android:permission="com.google.android.c2dm.permission.SEND" >
+270-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\8068755e0ff2fea1a739cc21a2385269\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:31:13-73
+271            <intent-filter>
+271-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\8068755e0ff2fea1a739cc21a2385269\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:32:13-34:29
+272                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+272-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\8068755e0ff2fea1a739cc21a2385269\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:33:17-81
+272-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\8068755e0ff2fea1a739cc21a2385269\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:33:25-78
+273            </intent-filter>
+274        </receiver>
+275        <!--
+276             FirebaseMessagingService performs security checks at runtime,
+277             but set to not exported to explicitly avoid allowing another app to call it.
+278        -->
+279        <service
+279-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\8068755e0ff2fea1a739cc21a2385269\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:41:9-48:19
+280            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+280-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\8068755e0ff2fea1a739cc21a2385269\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:42:13-82
+281            android:directBootAware="true"
+281-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\8068755e0ff2fea1a739cc21a2385269\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:43:13-43
+282            android:exported="false" >
+282-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\8068755e0ff2fea1a739cc21a2385269\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:44:13-37
+283            <intent-filter android:priority="-500" >
+283-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:134:13-136:29
+284                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+284-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:135:17-78
+284-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:135:25-75
+285            </intent-filter>
+286        </service>
+287
+288        <activity
+288-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+289            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+289-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+290            android:excludeFromRecents="true"
+290-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+291            android:exported="true"
+291-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+292            android:launchMode="singleTask"
+292-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+293            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+293-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+294            <intent-filter>
+294-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+295                <action android:name="android.intent.action.VIEW" />
+295-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:28:13-65
+295-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:28:21-62
+296
+297                <category android:name="android.intent.category.DEFAULT" />
+297-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+297-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+298                <category android:name="android.intent.category.BROWSABLE" />
+298-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+298-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+299
+300                <data
+300-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:29:13-43
+301                    android:host="firebase.auth"
+302                    android:path="/"
+303                    android:scheme="genericidp" />
+303-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:29:19-40
+304            </intent-filter>
+305        </activity>
+306        <activity
+306-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+307            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+307-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+308            android:excludeFromRecents="true"
+308-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+309            android:exported="true"
+309-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+310            android:launchMode="singleTask"
+310-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+311            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+311-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+312            <intent-filter>
+312-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+313                <action android:name="android.intent.action.VIEW" />
+313-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:28:13-65
+313-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:28:21-62
+314
+315                <category android:name="android.intent.category.DEFAULT" />
+315-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+315-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+316                <category android:name="android.intent.category.BROWSABLE" />
+316-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+316-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+317
+318                <data
+318-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:29:13-43
+319                    android:host="firebase.auth"
+320                    android:path="/"
+321                    android:scheme="recaptcha" />
+321-->C:\Users\sumit\Documents\projects\celex\app\src\main\AndroidManifest.xml:29:19-40
+322            </intent-filter>
+323        </activity>
+324
+325        <service
+325-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+326            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+326-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+327            android:enabled="true"
+327-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+328            android:exported="false" >
+328-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+329            <intent-filter>
+329-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+330                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+330-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+330-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+331
+332                <category android:name="android.intent.category.DEFAULT" />
+332-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+332-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+333            </intent-filter>
+334        </service>
+335
+336        <activity
+336-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\9198024741f0f074918b193ea2b5b37f\jetified-play-services-auth-19.2.0\AndroidManifest.xml:23:9-27:75
+337            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+337-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\9198024741f0f074918b193ea2b5b37f\jetified-play-services-auth-19.2.0\AndroidManifest.xml:24:13-93
+338            android:excludeFromRecents="true"
+338-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\9198024741f0f074918b193ea2b5b37f\jetified-play-services-auth-19.2.0\AndroidManifest.xml:25:13-46
+339            android:exported="false"
+339-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\9198024741f0f074918b193ea2b5b37f\jetified-play-services-auth-19.2.0\AndroidManifest.xml:26:13-37
+340            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+340-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\9198024741f0f074918b193ea2b5b37f\jetified-play-services-auth-19.2.0\AndroidManifest.xml:27:13-72
+341        <!--
+342            Service handling Google Sign-In user revocation. For apps that do not integrate with
+343            Google Sign-In, this service will never be started.
+344        -->
+345        <service
+345-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\9198024741f0f074918b193ea2b5b37f\jetified-play-services-auth-19.2.0\AndroidManifest.xml:33:9-37:51
+346            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+346-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\9198024741f0f074918b193ea2b5b37f\jetified-play-services-auth-19.2.0\AndroidManifest.xml:34:13-89
+347            android:exported="true"
+347-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\9198024741f0f074918b193ea2b5b37f\jetified-play-services-auth-19.2.0\AndroidManifest.xml:35:13-36
+348            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+348-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\9198024741f0f074918b193ea2b5b37f\jetified-play-services-auth-19.2.0\AndroidManifest.xml:36:13-107
+349            android:visibleToInstantApps="true" />
+349-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\9198024741f0f074918b193ea2b5b37f\jetified-play-services-auth-19.2.0\AndroidManifest.xml:37:13-48
+350        <service
+350-->[com.roam.sdk:roam-android:0.0.17] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\13380456e2a1282b8e436694427a252d\jetified-roam-android-0.0.17\AndroidManifest.xml:28:9-31:40
+351            android:name="com.roam.sdk.service.RoamService"
+351-->[com.roam.sdk:roam-android:0.0.17] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\13380456e2a1282b8e436694427a252d\jetified-roam-android-0.0.17\AndroidManifest.xml:29:13-60
+352            android:enabled="true"
+352-->[com.roam.sdk:roam-android:0.0.17] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\13380456e2a1282b8e436694427a252d\jetified-roam-android-0.0.17\AndroidManifest.xml:30:13-35
+353            android:exported="false" />
+353-->[com.roam.sdk:roam-android:0.0.17] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\13380456e2a1282b8e436694427a252d\jetified-roam-android-0.0.17\AndroidManifest.xml:31:13-37
+354        <service
+354-->[com.roam.sdk:roam-android:0.0.17] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\13380456e2a1282b8e436694427a252d\jetified-roam-android-0.0.17\AndroidManifest.xml:32:9-34:38
+355            android:name="org.eclipse.paho.android.service.MqttService"
+355-->[com.roam.sdk:roam-android:0.0.17] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\13380456e2a1282b8e436694427a252d\jetified-roam-android-0.0.17\AndroidManifest.xml:33:13-72
+356            android:enabled="true" />
+356-->[com.roam.sdk:roam-android:0.0.17] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\13380456e2a1282b8e436694427a252d\jetified-roam-android-0.0.17\AndroidManifest.xml:34:13-35
+357        <service
+357-->[com.roam.sdk:roam-android:0.0.17] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\13380456e2a1282b8e436694427a252d\jetified-roam-android-0.0.17\AndroidManifest.xml:35:9-39:56
+358            android:name="com.roam.sdk.service.RoamLocationService"
+358-->[com.roam.sdk:roam-android:0.0.17] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\13380456e2a1282b8e436694427a252d\jetified-roam-android-0.0.17\AndroidManifest.xml:36:13-68
+359            android:enabled="true"
+359-->[com.roam.sdk:roam-android:0.0.17] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\13380456e2a1282b8e436694427a252d\jetified-roam-android-0.0.17\AndroidManifest.xml:37:13-35
+360            android:exported="false"
+360-->[com.roam.sdk:roam-android:0.0.17] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\13380456e2a1282b8e436694427a252d\jetified-roam-android-0.0.17\AndroidManifest.xml:38:13-37
+361            android:foregroundServiceType="location" /> <!-- RECEIVER -->
+361-->[com.roam.sdk:roam-android:0.0.17] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\13380456e2a1282b8e436694427a252d\jetified-roam-android-0.0.17\AndroidManifest.xml:39:13-53
+362        <receiver
+362-->[com.roam.sdk:roam-android:0.0.17] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\13380456e2a1282b8e436694427a252d\jetified-roam-android-0.0.17\AndroidManifest.xml:42:9-51:20
+363            android:name="com.roam.sdk.core.event.BootEventReceiver"
+363-->[com.roam.sdk:roam-android:0.0.17] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\13380456e2a1282b8e436694427a252d\jetified-roam-android-0.0.17\AndroidManifest.xml:43:13-69
+364            android:enabled="true"
+364-->[com.roam.sdk:roam-android:0.0.17] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\13380456e2a1282b8e436694427a252d\jetified-roam-android-0.0.17\AndroidManifest.xml:44:13-35
+365            android:exported="true" >
+365-->[com.roam.sdk:roam-android:0.0.17] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\13380456e2a1282b8e436694427a252d\jetified-roam-android-0.0.17\AndroidManifest.xml:45:13-36
+366            <intent-filter android:priority="999" >
+366-->[com.roam.sdk:roam-android:0.0.17] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\13380456e2a1282b8e436694427a252d\jetified-roam-android-0.0.17\AndroidManifest.xml:46:13-50:29
+366-->[com.roam.sdk:roam-android:0.0.17] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\13380456e2a1282b8e436694427a252d\jetified-roam-android-0.0.17\AndroidManifest.xml:46:28-50
+367                <action android:name="android.intent.action.BOOT_COMPLETED" />
+367-->[com.roam.sdk:roam-android:0.0.17] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\13380456e2a1282b8e436694427a252d\jetified-roam-android-0.0.17\AndroidManifest.xml:47:17-79
+367-->[com.roam.sdk:roam-android:0.0.17] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\13380456e2a1282b8e436694427a252d\jetified-roam-android-0.0.17\AndroidManifest.xml:47:25-76
+368
+369                <category android:name="android.intent.category.DEFAULT" />
+369-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+369-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\df828e68caa8cae7652cdb0e01fcc58b\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+370            </intent-filter>
+371        </receiver>
+372
+373        <activity
+373-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\b13854b310ad98ea07be1c21d0633a28\jetified-play-services-base-17.6.0\AndroidManifest.xml:23:9-26:75
+374            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+374-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\b13854b310ad98ea07be1c21d0633a28\jetified-play-services-base-17.6.0\AndroidManifest.xml:24:13-79
+375            android:exported="false"
+375-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\b13854b310ad98ea07be1c21d0633a28\jetified-play-services-base-17.6.0\AndroidManifest.xml:25:13-37
+376            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+376-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\b13854b310ad98ea07be1c21d0633a28\jetified-play-services-base-17.6.0\AndroidManifest.xml:26:13-72
+377
+378        <provider
+378-->[com.google.firebase:firebase-common:20.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\a12c30246d0cb70aeb0bcb1fb3310cb3\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+379            android:name="com.google.firebase.provider.FirebaseInitProvider"
+379-->[com.google.firebase:firebase-common:20.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\a12c30246d0cb70aeb0bcb1fb3310cb3\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+380            android:authorities="com.celex.rider.firebaseinitprovider"
+380-->[com.google.firebase:firebase-common:20.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\a12c30246d0cb70aeb0bcb1fb3310cb3\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+381            android:directBootAware="true"
+381-->[com.google.firebase:firebase-common:20.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\a12c30246d0cb70aeb0bcb1fb3310cb3\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+382            android:exported="false"
+382-->[com.google.firebase:firebase-common:20.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\a12c30246d0cb70aeb0bcb1fb3310cb3\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+383            android:initOrder="100" />
+383-->[com.google.firebase:firebase-common:20.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\a12c30246d0cb70aeb0bcb1fb3310cb3\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+384
+385        <receiver
+385-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\b2d515da6bf163603ba3a0802e5ec57b\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:29:9-33:20
+386            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+386-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\b2d515da6bf163603ba3a0802e5ec57b\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:30:13-85
+387            android:enabled="true"
+387-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\b2d515da6bf163603ba3a0802e5ec57b\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:31:13-35
+388            android:exported="false" >
+388-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\b2d515da6bf163603ba3a0802e5ec57b\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:32:13-37
+389        </receiver>
+390
+391        <service
+391-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\b2d515da6bf163603ba3a0802e5ec57b\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:35:9-38:40
+392            android:name="com.google.android.gms.measurement.AppMeasurementService"
+392-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\b2d515da6bf163603ba3a0802e5ec57b\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:36:13-84
+393            android:enabled="true"
+393-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\b2d515da6bf163603ba3a0802e5ec57b\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:37:13-35
+394            android:exported="false" />
+394-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\b2d515da6bf163603ba3a0802e5ec57b\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:38:13-37
+395        <service
+395-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\b2d515da6bf163603ba3a0802e5ec57b\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:39:9-43:72
+396            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+396-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\b2d515da6bf163603ba3a0802e5ec57b\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:40:13-87
+397            android:enabled="true"
+397-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\b2d515da6bf163603ba3a0802e5ec57b\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:41:13-35
+398            android:exported="false"
+398-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\b2d515da6bf163603ba3a0802e5ec57b\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:42:13-37
+399            android:permission="android.permission.BIND_JOB_SERVICE" />
+399-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\b2d515da6bf163603ba3a0802e5ec57b\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:43:13-69
+400
+401        <provider
+401-->[com.squareup.picasso:picasso:2.71828] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\3e2fb6e17b8d35b8dba3a1910ce8bf57\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+402            android:name="com.squareup.picasso.PicassoProvider"
+402-->[com.squareup.picasso:picasso:2.71828] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\3e2fb6e17b8d35b8dba3a1910ce8bf57\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+403            android:authorities="com.celex.rider.com.squareup.picasso"
+403-->[com.squareup.picasso:picasso:2.71828] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\3e2fb6e17b8d35b8dba3a1910ce8bf57\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+404            android:exported="false" />
+404-->[com.squareup.picasso:picasso:2.71828] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\3e2fb6e17b8d35b8dba3a1910ce8bf57\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+405
+406        <service
+406-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\51df5aa5509a81b5e7e7a2647b51ecf5\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:29:9-35:19
+407            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+407-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\51df5aa5509a81b5e7e7a2647b51ecf5\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:30:13-103
+408            android:exported="false" >
+408-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\51df5aa5509a81b5e7e7a2647b51ecf5\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:31:13-37
+409            <meta-data
+409-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\51df5aa5509a81b5e7e7a2647b51ecf5\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:32:13-34:39
+410                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+410-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\51df5aa5509a81b5e7e7a2647b51ecf5\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:33:17-94
+411                android:value="cct" />
+411-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\51df5aa5509a81b5e7e7a2647b51ecf5\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:34:17-36
+412        </service>
+413        <service
+413-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\b8dc1962fdce7b060dac555ec7db4b3e\jetified-transport-runtime-3.0.0\AndroidManifest.xml:26:9-30:19
+414            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+414-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\b8dc1962fdce7b060dac555ec7db4b3e\jetified-transport-runtime-3.0.0\AndroidManifest.xml:27:13-117
+415            android:exported="false"
+415-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\b8dc1962fdce7b060dac555ec7db4b3e\jetified-transport-runtime-3.0.0\AndroidManifest.xml:28:13-37
+416            android:permission="android.permission.BIND_JOB_SERVICE" >
+416-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\b8dc1962fdce7b060dac555ec7db4b3e\jetified-transport-runtime-3.0.0\AndroidManifest.xml:29:13-69
+417        </service>
+418
+419        <receiver
+419-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\b8dc1962fdce7b060dac555ec7db4b3e\jetified-transport-runtime-3.0.0\AndroidManifest.xml:32:9-34:40
+420            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+420-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\b8dc1962fdce7b060dac555ec7db4b3e\jetified-transport-runtime-3.0.0\AndroidManifest.xml:33:13-132
+421            android:exported="false" />
+421-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\sumit\.gradle\caches\transforms-2\files-2.1\b8dc1962fdce7b060dac555ec7db4b3e\jetified-transport-runtime-3.0.0\AndroidManifest.xml:34:13-37
+422    </application>
+423
+424</manifest>

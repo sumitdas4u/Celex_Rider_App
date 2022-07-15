@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.roam.sdk:roam-android:0.0.17@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/13380456e2a1282b8e436694427a252d/jetified-roam-android-0.0.17/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

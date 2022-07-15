@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\sumit\\Documents\\projects\\celex\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ka-rGE\\values-ka-rGE.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\sumit\\.gradle\\caches\\transforms-2\\files-2.1\\43168f464f4516a520e804f8aca03dad\\jetified-color-picker-0.0.4\\res\\values-ka-rGE\\values-ka-rGE.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "105,203,328",
+                        "endColumns": "97,124,142",
+                        "endOffsets": "198,323,466"
+                    }
+                }
+            ]
+        }
+    ]
+}
