@@ -3770,9 +3770,6 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
-id btnCreateTrip
-id btnTrip
-id btnTripStop
 id btn_Open_otp
 id btn_Open_photo_upload
 id btn_Open_signature
@@ -3789,7 +3786,6 @@ id btn_return
 id btn_start
 id btn_submit_doc
 id btn_submit_transfer
-id btn_test
 id btn_transfer
 id btn_undelivered
 id btn_verify_code
