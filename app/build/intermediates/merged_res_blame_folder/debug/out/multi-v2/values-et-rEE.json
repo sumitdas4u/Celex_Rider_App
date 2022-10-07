@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\sumit\\Documents\\projects\\celex\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-et-rEE\\values-et-rEE.xml",
+            "outputFile": "com.celex.rider.app-mergeDebugResources-54:/values-et-rEE/values-et-rEE.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sumit\\.gradle\\caches\\transforms-2\\files-2.1\\43168f464f4516a520e804f8aca03dad\\jetified-color-picker-0.0.4\\res\\values-et-rEE\\values-et-rEE.xml",
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-3\\83e7df92f5d8339f1aa8a5061d209474\\transformed\\jetified-color-picker-0.0.4\\res\\values-et-rEE\\values-et-rEE.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",

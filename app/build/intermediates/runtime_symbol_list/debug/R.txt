@@ -3769,9 +3769,6 @@ int id browser_actions_menu_item_icon 0x7f0a007f
 int id browser_actions_menu_item_text 0x7f0a0080
 int id browser_actions_menu_items 0x7f0a0081
 int id browser_actions_menu_view 0x7f0a0082
-int id btnCreateTrip 0x7f0a0083
-int id btnTrip 0x7f0a0084
-int id btnTripStop 0x7f0a0085
 int id btn_Open_otp 0x7f0a0086
 int id btn_Open_photo_upload 0x7f0a0087
 int id btn_Open_signature 0x7f0a0088
@@ -3788,7 +3785,6 @@ int id btn_return 0x7f0a0092
 int id btn_start 0x7f0a0093
 int id btn_submit_doc 0x7f0a0094
 int id btn_submit_transfer 0x7f0a0095
-int id btn_test 0x7f0a0096
 int id btn_transfer 0x7f0a0097
 int id btn_undelivered 0x7f0a0098
 int id btn_verify_code 0x7f0a0099

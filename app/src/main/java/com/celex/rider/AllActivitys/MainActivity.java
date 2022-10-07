@@ -301,9 +301,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
 
-
-
-
+//fake tripid is create
+        SharedPreferences.Editor editor = Variables.userDetails_pref.edit();
+        editor.putString(Variables.trip_roam_current_id, "trip_id");
+        editor.apply();
     }
 
     //Open chat frgment
@@ -361,10 +362,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tv_username_drawer = findViewById(R.id.tv_username_drawer);
         tv_online_txt = findViewById(R.id.tv_online_txt);
         progressBar = findViewById(R.id.progressbar);
-        btn_create_trip = findViewById(R.id.btnCreateTrip);
-        btn_start_pause_trip = findViewById(R.id.btnTrip);
-        btn_stop_trip = findViewById(R.id.btnTripStop);
-        btn_test_trip = findViewById(R.id.btn_test);
+
     }
 
     public void Initialize_click_listener() {
@@ -379,10 +377,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.history_btn).setOnClickListener(this);
         findViewById(R.id.return_btn).setOnClickListener(this);
         findViewById(R.id.home_btn).setOnClickListener(this);
-        findViewById(R.id.btnCreateTrip).setOnClickListener(this);
-        findViewById(R.id.btnTrip).setOnClickListener(this);
-        findViewById(R.id.btnTripStop).setOnClickListener(this);
-        findViewById(R.id.btn_test).setOnClickListener(this);
+
         findViewById(R.id.trip_btn).setOnClickListener(this);
 
 
@@ -465,7 +460,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.iv_menu:
                 drawer.openDrawer(GravityCompat.START);
                 break;
-            case R.id.btnCreateTrip:
+            /*case R.id.btnCreateTrip:
                 btn_create_trip.setEnabled(false);
                 createTrip();
                 break;
@@ -492,7 +487,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btnTrip:
                 startActivity(new Intent(this, TripActivity.class).putExtra("OFFLINE", false));
                 break;
-
+*/
             case R.id.home_btn:
                 if (fragment instanceof Home_F) {
                     drawer.closeDrawers();
@@ -1161,7 +1156,7 @@ private void stopTripAndSummary(String trip_id){
                 }
             });
 
-            checkActiveTrip();
+           // checkActiveTrip();
         }
 
 

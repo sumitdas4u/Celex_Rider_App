@@ -17,6 +17,10 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ce4b83266ce87704e8e81e3d56d8854d/jetified-rtlviewpager-1.0.1/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ce4b83266ce87704e8e81e3d56d8854d/jetified-rtlviewpager-1.0.1/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ce4b83266ce87704e8e81e3d56d8854d/jetified-rtlviewpager-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/065249ac45ea7b4c7ab70cbe9aba595d/jetified-rtlviewpager-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8f9a298aed57acff2ba626cd06e738f3/transformed/jetified-rtlviewpager-1.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8f9a298aed57acff2ba626cd06e738f3/transformed/jetified-rtlviewpager-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8f9a298aed57acff2ba626cd06e738f3/transformed/jetified-rtlviewpager-1.0.1/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.booking/rtlviewpager/1.0.1/4d32f101f0782d22883c85576d348303d6b4beab/rtlviewpager-1.0.1-javadoc.jar!/" />
